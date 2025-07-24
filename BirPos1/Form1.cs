@@ -101,16 +101,17 @@ namespace BirPos1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            services.ShowSplashScreen(splashScreen);
+            //services.ShowSplashScreen(splashScreen);
 
 
 
-            services.HideSplashScreen(splashScreen);
+            //services.HideSplashScreen(splashScreen);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            services.HideSplashScreen(splashScreen);
+            //services.HideSplashScreen(splashScreen);
+            CurrentTextBox.Text = CurrentTextBox.Text.Substring(0, CurrentTextBox.Text.Length - 1);
         }
 
         private void txtSifre_EditValueChanged(object sender, EventArgs e)
@@ -135,10 +136,54 @@ namespace BirPos1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            LoadingForm ll = new LoadingForm(CurrentTextBox);
-            ll.Show();
+            AddText("0");
+            //LoadingForm ll = new LoadingForm(CurrentTextBox);
+            //ll.Show();
         }
-       
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AddText("1");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AddText("2");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AddText("3");
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            AddText("4");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            AddText("5");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            AddText("6");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AddText("8");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AddText("9");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

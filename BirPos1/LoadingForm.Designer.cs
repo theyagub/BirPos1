@@ -40,7 +40,6 @@ namespace BirPos1
             this.simpleButton1.Size = new System.Drawing.Size(95, 79);
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "1";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
             // 
@@ -59,6 +58,7 @@ namespace BirPos1
             this.Controls.Add(this.simpleButton1);
             this.Name = "LoadingForm";
             this.Text = "XtraForm1";
+            this.Load += new System.EventHandler(this.LoadingForm_Load);
             this.ResumeLayout(false);
 
         }
