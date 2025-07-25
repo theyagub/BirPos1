@@ -862,7 +862,7 @@ namespace BirPos1
             this.splitContainer3.SplitterDistance = 114;
             this.splitContainer3.TabIndex = 0;
             // 
-            // XtraForm1
+            // LoginForm
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
             this.Appearance.Options.UseBackColor = true;
@@ -870,8 +870,9 @@ namespace BirPos1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1231, 738);
             this.Controls.Add(this.splitContainer1);
-            this.Name = "XtraForm1";
-            this.Text = "XtraForm1";
+            this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("LoginForm.IconOptions.Image")));
+            this.Name = "LoginForm";
+            this.Text = "Giriş pəncərəsi";
             this.Load += new System.EventHandler(this.XtraForm1_Load);
             this.Resize += new System.EventHandler(this.XtraForm1_Resize);
             this.splitContainer1.Panel1.ResumeLayout(false);
