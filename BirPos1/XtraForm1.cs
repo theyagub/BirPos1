@@ -124,6 +124,15 @@ namespace BirPos1
         private void button1_Click(object sender, EventArgs e)
         {
             services.ShowSplashScreen(splashScreen);
+
+            // Cari forma görə overlay göstər
+
+
+            // Gözləmə formunu aç
+            FormWait waitForm = new FormWait();
+            waitForm.ShowDialog();
+
+            overlay.Close();
         }
     }
 }
