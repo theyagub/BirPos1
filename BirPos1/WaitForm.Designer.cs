@@ -1,7 +1,7 @@
 ﻿
 namespace BirPos1
 {
-    partial class WaitForm1
+    partial class WaitForm
     {
         /// <summary>
         /// Required designer variable.

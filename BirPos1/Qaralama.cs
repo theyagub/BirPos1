@@ -12,14 +12,14 @@ using System.Windows.Forms;
 
 namespace BirPos1
 {
-    public partial class Form1 : DevExpress.XtraEditors.XtraForm
+    public partial class Qaralama : DevExpress.XtraEditors.XtraForm
     {
-        public Form1()
+        public Qaralama()
         {
             InitializeComponent();
 
 
-            splashScreen = new SplashScreenManager(this, typeof(WaitForm1), true, true);
+            splashScreen = new SplashScreenManager(this, typeof(WaitForm), true, true);
 
             CurrentTextBox = txtSifre;
         }

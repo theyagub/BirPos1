@@ -12,14 +12,14 @@ using System.Windows.Forms;
 
 namespace BirPos1
 {
-    public partial class XtraForm1 : DevExpress.XtraEditors.XtraForm
+    public partial class LoginForm : DevExpress.XtraEditors.XtraForm
     {
-        public XtraForm1()
+        public LoginForm()
         {
             InitializeComponent();
             CurrentTextBox = txtSifre;
 
-            splashScreen = new SplashScreenManager(this, typeof(WaitForm1), true, true);
+            splashScreen = new SplashScreenManager(this, typeof(WaitForm), true, true);
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)

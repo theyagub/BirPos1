@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace BirPos1
 {
-    public partial class WaitForm1 : WaitForm
+    public partial class WaitForm : DevExpress.XtraWaitForm.WaitForm
     {
-        public WaitForm1()
+        public WaitForm()
         {
             InitializeComponent();
             this.progressPanel1.AutoHeight = true;

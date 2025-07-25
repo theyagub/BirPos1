@@ -1,7 +1,7 @@
 ﻿
 namespace BirPos1
 {
-    partial class XtraForm1
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace BirPos1
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XtraForm1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
@@ -273,7 +273,8 @@ namespace BirPos1
             // 
             // label6
             // 
-            this.label6.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label6.Location = new System.Drawing.Point(12, 130);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(104, 20);
@@ -291,7 +292,8 @@ namespace BirPos1
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label5.Location = new System.Drawing.Point(12, 77);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 20);
