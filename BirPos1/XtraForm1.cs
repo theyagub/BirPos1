@@ -16,6 +16,7 @@ namespace BirPos1
         public XtraForm1()
         {
             InitializeComponent();
+            CurrentTextBox = txtSifre;
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
@@ -35,6 +36,71 @@ namespace BirPos1
 
         private void XtraForm1_Load(object sender, EventArgs e)
         {
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        TextEdit CurrentTextBox;
+        public void AddText(string text)
+        {
+            CurrentTextBox.Text += text;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AddText((sender as Button).Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CurrentTextBox.Text = CurrentTextBox.Text.Substring(0, CurrentTextBox.Text.Length - 1);
         }
     }
 }
