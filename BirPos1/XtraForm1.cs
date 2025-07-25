@@ -1,4 +1,5 @@
 ﻿using DevExpress.XtraEditors;
+using DevExpress.XtraSplashScreen;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +18,8 @@ namespace BirPos1
         {
             InitializeComponent();
             CurrentTextBox = txtSifre;
+
+            splashScreen = new SplashScreenManager(this, typeof(WaitForm1), true, true);
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
@@ -43,6 +46,8 @@ namespace BirPos1
 
         }
         TextEdit CurrentTextBox;
+        private SplashScreenManager splashScreen;
+
         public void AddText(string text)
         {
             CurrentTextBox.Text += text;
@@ -114,6 +119,11 @@ namespace BirPos1
         private void txtNo_Click(object sender, EventArgs e)
         {
             CurrentTextBox = txtNo;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            services.ShowSplashScreen(splashScreen);
         }
     }
 }

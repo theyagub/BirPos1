@@ -32,23 +32,6 @@ namespace BirPos1
             CurrentTextBox.Text += text;
         }
 
-        //private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
-        //{
-        //    Control panel = sender as Control;
-        //    if (panel == null) return;
-
-        //    Rectangle rect = panel.ClientRectangle;
-
-        //    using (LinearGradientBrush brush = new LinearGradientBrush(
-        //        rect,
-        //        Color.White,     // Sol tərəf
-        //        Color.Red,       // Sağ tərəf
-        //        LinearGradientMode.Horizontal)) // Soldan sağa keçid
-        //    {
-        //        e.Graphics.FillRectangle(brush, rect);
-        //    }
-        //}
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
