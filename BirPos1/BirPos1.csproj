@@ -42,6 +42,7 @@
     <Reference Include="DevExpress.Drawing.v24.2" />
     <Reference Include="DevExpress.XtraLayout.v24.2, Version=24.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,6 +54,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbModelEF\BaseObject.cs" />
+    <Compile Include="DbModelEF\Customer.cs" />
+    <Compile Include="DbModelEF\Enums.cs" />
+    <Compile Include="DbModelEF\Payment.cs" />
+    <Compile Include="DbModelEF\ProductStock.cs" />
+    <Compile Include="DbModelEF\Sale.cs" />
+    <Compile Include="DbModelEF\ProductCategory.cs" />
+    <Compile Include="DbModelEF\Product.cs" />
+    <Compile Include="DbModelEF\SaleItem.cs" />
+    <Compile Include="DbModelEF\Seller.cs" />
     <Compile Include="services.cs" />
     <Compile Include="Qaralama.cs">
       <SubType>Form</SubType>

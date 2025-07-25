@@ -50,10 +50,10 @@ namespace BirPos1
             this.progressPanel1.Description = "Yüklənir";
             this.progressPanel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.progressPanel1.ImageHorzOffset = 20;
-            this.progressPanel1.Location = new System.Drawing.Point(219, 0);
+            this.progressPanel1.Location = new System.Drawing.Point(192, 0);
             this.progressPanel1.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.progressPanel1.Name = "progressPanel1";
-            this.progressPanel1.Size = new System.Drawing.Size(434, 387);
+            this.progressPanel1.Size = new System.Drawing.Size(461, 387);
             this.progressPanel1.TabIndex = 0;
             this.progressPanel1.Text = "progressPanel1";
             this.progressPanel1.Click += new System.EventHandler(this.progressPanel1_Click);
@@ -75,7 +75,7 @@ namespace BirPos1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(80, 95);
+            this.button1.Location = new System.Drawing.Point(248, 251);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 23);
             this.button1.TabIndex = 2;
@@ -83,7 +83,7 @@ namespace BirPos1
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // WaitForm1
+            // WaitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -94,7 +94,7 @@ namespace BirPos1
             this.Controls.Add(this.progressPanel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
-            this.Name = "WaitForm1";
+            this.Name = "WaitForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             this.ResumeLayout(false);
