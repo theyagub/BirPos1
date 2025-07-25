@@ -36,6 +36,55 @@ namespace BirPos1
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.layoutControl4 = new DevExpress.XtraLayout.LayoutControl();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtNo = new DevExpress.XtraEditors.TextEdit();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtSifre = new DevExpress.XtraEditors.TextEdit();
+            this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem17 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem18 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem20 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem19 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem21 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem22 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControl3 = new DevExpress.XtraLayout.LayoutControl();
+            this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.lblCashNumber = new System.Windows.Forms.Label();
@@ -47,56 +96,7 @@ namespace BirPos1
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.layoutControl3 = new DevExpress.XtraLayout.LayoutControl();
-            this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.layoutControl4 = new DevExpress.XtraLayout.LayoutControl();
-            this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.txtSifre = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem17 = new DevExpress.XtraLayout.LayoutControlItem();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
-            this.label5 = new System.Windows.Forms.Label();
-            this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem19 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.label6 = new System.Windows.Forms.Label();
-            this.layoutControlItem18 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.layoutControlItem20 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.layoutControlItem21 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.layoutControlItem22 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -106,48 +106,48 @@ namespace BirPos1
             this.layoutControl1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl4)).BeginInit();
+            this.layoutControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSifre.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
+            this.layoutControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
             this.splitContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
-            this.layoutControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl4)).BeginInit();
-            this.layoutControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtSifre.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -210,6 +210,526 @@ namespace BirPos1
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(345, 473);
             this.panel5.TabIndex = 3;
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.BackColor = System.Drawing.Color.GhostWhite;
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.BackColor = System.Drawing.Color.GhostWhite;
+            this.splitContainer2.Panel1.Controls.Add(this.layoutControl4);
+            this.splitContainer2.Panel1.Controls.Add(this.layoutControl3);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.BackColor = System.Drawing.Color.White;
+            this.splitContainer2.Panel2.Controls.Add(this.layoutControl2);
+            this.splitContainer2.Size = new System.Drawing.Size(345, 473);
+            this.splitContainer2.SplitterDistance = 186;
+            this.splitContainer2.TabIndex = 0;
+            // 
+            // layoutControl4
+            // 
+            this.layoutControl4.Controls.Add(this.panel10);
+            this.layoutControl4.Controls.Add(this.panel9);
+            this.layoutControl4.Controls.Add(this.panel8);
+            this.layoutControl4.Controls.Add(this.label6);
+            this.layoutControl4.Controls.Add(this.txtNo);
+            this.layoutControl4.Controls.Add(this.label5);
+            this.layoutControl4.Controls.Add(this.txtSifre);
+            this.layoutControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutControl4.Location = new System.Drawing.Point(0, 0);
+            this.layoutControl4.Name = "layoutControl4";
+            this.layoutControl4.Root = this.layoutControlGroup3;
+            this.layoutControl4.Size = new System.Drawing.Size(345, 186);
+            this.layoutControl4.TabIndex = 1;
+            this.layoutControl4.Text = "layoutControl4";
+            // 
+            // panel10
+            // 
+            this.panel10.Location = new System.Drawing.Point(12, 12);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(321, 61);
+            this.panel10.TabIndex = 12;
+            // 
+            // panel9
+            // 
+            this.panel9.Location = new System.Drawing.Point(12, 101);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(321, 25);
+            this.panel9.TabIndex = 11;
+            // 
+            // panel8
+            // 
+            this.panel8.Location = new System.Drawing.Point(12, 154);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(321, 20);
+            this.panel8.TabIndex = 10;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(12, 130);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(104, 20);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Şifrə";
+            // 
+            // txtNo
+            // 
+            this.txtNo.Location = new System.Drawing.Point(120, 130);
+            this.txtNo.Name = "txtNo";
+            this.txtNo.Size = new System.Drawing.Size(213, 20);
+            this.txtNo.StyleController = this.layoutControl4;
+            this.txtNo.TabIndex = 8;
+            this.txtNo.Click += new System.EventHandler(this.txtNo_Click);
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(12, 77);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Kassir №";
+            // 
+            // txtSifre
+            // 
+            this.txtSifre.Location = new System.Drawing.Point(120, 77);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(213, 20);
+            this.txtSifre.StyleController = this.layoutControl4;
+            this.txtSifre.TabIndex = 4;
+            this.txtSifre.Click += new System.EventHandler(this.txtSifre_Click);
+            // 
+            // layoutControlGroup3
+            // 
+            this.layoutControlGroup3.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.layoutControlGroup3.GroupBordersVisible = false;
+            this.layoutControlGroup3.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem17,
+            this.layoutControlItem16,
+            this.layoutControlItem18,
+            this.layoutControlItem20,
+            this.layoutControlItem19,
+            this.layoutControlItem21,
+            this.layoutControlItem22});
+            this.layoutControlGroup3.Name = "layoutControlGroup3";
+            this.layoutControlGroup3.Size = new System.Drawing.Size(345, 186);
+            this.layoutControlGroup3.TextVisible = false;
+            // 
+            // layoutControlItem17
+            // 
+            this.layoutControlItem17.Control = this.txtSifre;
+            this.layoutControlItem17.Location = new System.Drawing.Point(108, 65);
+            this.layoutControlItem17.Name = "layoutControlItem17";
+            this.layoutControlItem17.Size = new System.Drawing.Size(217, 24);
+            this.layoutControlItem17.Text = "Şifrə";
+            this.layoutControlItem17.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem17.TextVisible = false;
+            // 
+            // layoutControlItem16
+            // 
+            this.layoutControlItem16.Control = this.label5;
+            this.layoutControlItem16.Location = new System.Drawing.Point(0, 65);
+            this.layoutControlItem16.Name = "layoutControlItem16";
+            this.layoutControlItem16.Size = new System.Drawing.Size(108, 24);
+            this.layoutControlItem16.TextVisible = false;
+            // 
+            // layoutControlItem18
+            // 
+            this.layoutControlItem18.Control = this.label6;
+            this.layoutControlItem18.Location = new System.Drawing.Point(0, 118);
+            this.layoutControlItem18.Name = "layoutControlItem18";
+            this.layoutControlItem18.Size = new System.Drawing.Size(108, 24);
+            this.layoutControlItem18.TextVisible = false;
+            // 
+            // layoutControlItem20
+            // 
+            this.layoutControlItem20.Control = this.panel8;
+            this.layoutControlItem20.Location = new System.Drawing.Point(0, 142);
+            this.layoutControlItem20.Name = "layoutControlItem20";
+            this.layoutControlItem20.Size = new System.Drawing.Size(325, 24);
+            this.layoutControlItem20.TextVisible = false;
+            // 
+            // layoutControlItem19
+            // 
+            this.layoutControlItem19.Control = this.txtNo;
+            this.layoutControlItem19.Location = new System.Drawing.Point(108, 118);
+            this.layoutControlItem19.Name = "layoutControlItem19";
+            this.layoutControlItem19.Size = new System.Drawing.Size(217, 24);
+            this.layoutControlItem19.Text = "Kassir №";
+            this.layoutControlItem19.TextVisible = false;
+            // 
+            // layoutControlItem21
+            // 
+            this.layoutControlItem21.Control = this.panel9;
+            this.layoutControlItem21.Location = new System.Drawing.Point(0, 89);
+            this.layoutControlItem21.Name = "layoutControlItem21";
+            this.layoutControlItem21.Size = new System.Drawing.Size(325, 29);
+            this.layoutControlItem21.TextVisible = false;
+            // 
+            // layoutControlItem22
+            // 
+            this.layoutControlItem22.Control = this.panel10;
+            this.layoutControlItem22.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem22.Name = "layoutControlItem22";
+            this.layoutControlItem22.Size = new System.Drawing.Size(325, 65);
+            this.layoutControlItem22.TextVisible = false;
+            // 
+            // layoutControl3
+            // 
+            this.layoutControl3.Location = new System.Drawing.Point(105, 70);
+            this.layoutControl3.Name = "layoutControl3";
+            this.layoutControl3.Root = this.layoutControlGroup2;
+            this.layoutControl3.Size = new System.Drawing.Size(8, 8);
+            this.layoutControl3.TabIndex = 0;
+            this.layoutControl3.Text = "layoutControl3";
+            // 
+            // layoutControlGroup2
+            // 
+            this.layoutControlGroup2.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.layoutControlGroup2.GroupBordersVisible = false;
+            this.layoutControlGroup2.Name = "layoutControlGroup2";
+            this.layoutControlGroup2.Size = new System.Drawing.Size(20, 20);
+            this.layoutControlGroup2.TextVisible = false;
+            // 
+            // layoutControl2
+            // 
+            this.layoutControl2.Controls.Add(this.panel7);
+            this.layoutControl2.Controls.Add(this.panel4);
+            this.layoutControl2.Controls.Add(this.button5);
+            this.layoutControl2.Controls.Add(this.button1);
+            this.layoutControl2.Controls.Add(this.button2);
+            this.layoutControl2.Controls.Add(this.button3);
+            this.layoutControl2.Controls.Add(this.button6);
+            this.layoutControl2.Controls.Add(this.button4);
+            this.layoutControl2.Controls.Add(this.button12);
+            this.layoutControl2.Controls.Add(this.button10);
+            this.layoutControl2.Controls.Add(this.button11);
+            this.layoutControl2.Controls.Add(this.button7);
+            this.layoutControl2.Controls.Add(this.button8);
+            this.layoutControl2.Controls.Add(this.button9);
+            this.layoutControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutControl2.Location = new System.Drawing.Point(0, 0);
+            this.layoutControl2.Name = "layoutControl2";
+            this.layoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1710, 226, 650, 400);
+            this.layoutControl2.Root = this.layoutControlGroup1;
+            this.layoutControl2.Size = new System.Drawing.Size(345, 283);
+            this.layoutControl2.TabIndex = 0;
+            this.layoutControl2.Text = "layoutControl2";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.Location = new System.Drawing.Point(12, 12);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(321, 40);
+            this.panel7.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(12, 249);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(321, 22);
+            this.panel4.TabIndex = 1;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Teal;
+            this.button5.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(110, 152);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(99, 44);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "2";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(12, 200);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 45);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Enter";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Teal;
+            this.button2.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(110, 200);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(99, 45);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "0";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Maroon;
+            this.button3.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(213, 200);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(120, 45);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Sil";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Teal;
+            this.button6.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(12, 152);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(94, 44);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "1";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(213, 152);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(120, 44);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "3";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.Teal;
+            this.button12.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Location = new System.Drawing.Point(12, 104);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(94, 44);
+            this.button12.TabIndex = 4;
+            this.button12.Text = "4";
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Teal;
+            this.button10.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(213, 104);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(120, 44);
+            this.button10.TabIndex = 6;
+            this.button10.Text = "6";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Teal;
+            this.button11.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(110, 104);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(99, 44);
+            this.button11.TabIndex = 5;
+            this.button11.Text = "5";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Teal;
+            this.button7.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(213, 56);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(120, 44);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "9";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Teal;
+            this.button8.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(110, 56);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(99, 44);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "8";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Teal;
+            this.button9.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(12, 56);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(94, 44);
+            this.button9.TabIndex = 0;
+            this.button9.Text = "7";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // layoutControlGroup1
+            // 
+            this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.layoutControlGroup1.GroupBordersVisible = false;
+            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem2,
+            this.layoutControlItem12,
+            this.layoutControlItem9,
+            this.layoutControlItem5,
+            this.layoutControlItem7,
+            this.layoutControlItem3,
+            this.layoutControlItem4,
+            this.layoutControlItem6,
+            this.layoutControlItem10,
+            this.layoutControlItem11,
+            this.layoutControlItem14,
+            this.layoutControlItem15,
+            this.layoutControlItem8,
+            this.layoutControlItem13});
+            this.layoutControlGroup1.Name = "Root";
+            this.layoutControlGroup1.Size = new System.Drawing.Size(345, 283);
+            this.layoutControlGroup1.TextVisible = false;
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.button9;
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 44);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(98, 48);
+            this.layoutControlItem2.TextVisible = false;
+            // 
+            // layoutControlItem12
+            // 
+            this.layoutControlItem12.Control = this.button6;
+            this.layoutControlItem12.Location = new System.Drawing.Point(0, 140);
+            this.layoutControlItem12.Name = "layoutControlItem12";
+            this.layoutControlItem12.Size = new System.Drawing.Size(98, 48);
+            this.layoutControlItem12.TextVisible = false;
+            // 
+            // layoutControlItem9
+            // 
+            this.layoutControlItem9.Control = this.button1;
+            this.layoutControlItem9.Location = new System.Drawing.Point(0, 188);
+            this.layoutControlItem9.Name = "layoutControlItem9";
+            this.layoutControlItem9.Size = new System.Drawing.Size(98, 49);
+            this.layoutControlItem9.TextVisible = false;
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.button12;
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 92);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(98, 48);
+            this.layoutControlItem5.TextVisible = false;
+            // 
+            // layoutControlItem7
+            // 
+            this.layoutControlItem7.Control = this.button11;
+            this.layoutControlItem7.Location = new System.Drawing.Point(98, 92);
+            this.layoutControlItem7.Name = "layoutControlItem7";
+            this.layoutControlItem7.Size = new System.Drawing.Size(103, 48);
+            this.layoutControlItem7.TextVisible = false;
+            // 
+            // layoutControlItem3
+            // 
+            this.layoutControlItem3.Control = this.button8;
+            this.layoutControlItem3.Location = new System.Drawing.Point(98, 44);
+            this.layoutControlItem3.Name = "layoutControlItem3";
+            this.layoutControlItem3.Size = new System.Drawing.Size(103, 48);
+            this.layoutControlItem3.TextVisible = false;
+            // 
+            // layoutControlItem4
+            // 
+            this.layoutControlItem4.Control = this.button7;
+            this.layoutControlItem4.Location = new System.Drawing.Point(201, 44);
+            this.layoutControlItem4.Name = "layoutControlItem4";
+            this.layoutControlItem4.Size = new System.Drawing.Size(124, 48);
+            this.layoutControlItem4.TextVisible = false;
+            // 
+            // layoutControlItem6
+            // 
+            this.layoutControlItem6.Control = this.button10;
+            this.layoutControlItem6.Location = new System.Drawing.Point(201, 92);
+            this.layoutControlItem6.Name = "layoutControlItem6";
+            this.layoutControlItem6.Size = new System.Drawing.Size(124, 48);
+            this.layoutControlItem6.TextVisible = false;
+            // 
+            // layoutControlItem10
+            // 
+            this.layoutControlItem10.Control = this.button2;
+            this.layoutControlItem10.Location = new System.Drawing.Point(98, 188);
+            this.layoutControlItem10.Name = "layoutControlItem10";
+            this.layoutControlItem10.Size = new System.Drawing.Size(103, 49);
+            this.layoutControlItem10.TextVisible = false;
+            // 
+            // layoutControlItem11
+            // 
+            this.layoutControlItem11.Control = this.button3;
+            this.layoutControlItem11.Location = new System.Drawing.Point(201, 188);
+            this.layoutControlItem11.Name = "layoutControlItem11";
+            this.layoutControlItem11.Size = new System.Drawing.Size(124, 49);
+            this.layoutControlItem11.TextVisible = false;
+            // 
+            // layoutControlItem14
+            // 
+            this.layoutControlItem14.Control = this.panel4;
+            this.layoutControlItem14.Location = new System.Drawing.Point(0, 237);
+            this.layoutControlItem14.MinSize = new System.Drawing.Size(104, 24);
+            this.layoutControlItem14.Name = "layoutControlItem14";
+            this.layoutControlItem14.Size = new System.Drawing.Size(325, 26);
+            this.layoutControlItem14.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            this.layoutControlItem14.TextVisible = false;
+            // 
+            // layoutControlItem15
+            // 
+            this.layoutControlItem15.Control = this.panel7;
+            this.layoutControlItem15.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem15.Name = "layoutControlItem15";
+            this.layoutControlItem15.Size = new System.Drawing.Size(325, 44);
+            this.layoutControlItem15.TextVisible = false;
+            // 
+            // layoutControlItem8
+            // 
+            this.layoutControlItem8.Control = this.button5;
+            this.layoutControlItem8.Location = new System.Drawing.Point(98, 140);
+            this.layoutControlItem8.Name = "layoutControlItem8";
+            this.layoutControlItem8.Size = new System.Drawing.Size(103, 48);
+            this.layoutControlItem8.TextVisible = false;
+            // 
+            // layoutControlItem13
+            // 
+            this.layoutControlItem13.Control = this.button4;
+            this.layoutControlItem13.Location = new System.Drawing.Point(201, 140);
+            this.layoutControlItem13.Name = "layoutControlItem13";
+            this.layoutControlItem13.Size = new System.Drawing.Size(124, 48);
+            this.layoutControlItem13.TextVisible = false;
             // 
             // panel2
             // 
@@ -327,524 +847,6 @@ namespace BirPos1
             this.splitContainer3.SplitterDistance = 114;
             this.splitContainer3.TabIndex = 0;
             // 
-            // layoutControl2
-            // 
-            this.layoutControl2.Controls.Add(this.panel7);
-            this.layoutControl2.Controls.Add(this.panel4);
-            this.layoutControl2.Controls.Add(this.button5);
-            this.layoutControl2.Controls.Add(this.button1);
-            this.layoutControl2.Controls.Add(this.button2);
-            this.layoutControl2.Controls.Add(this.button3);
-            this.layoutControl2.Controls.Add(this.button6);
-            this.layoutControl2.Controls.Add(this.button4);
-            this.layoutControl2.Controls.Add(this.button12);
-            this.layoutControl2.Controls.Add(this.button10);
-            this.layoutControl2.Controls.Add(this.button11);
-            this.layoutControl2.Controls.Add(this.button7);
-            this.layoutControl2.Controls.Add(this.button8);
-            this.layoutControl2.Controls.Add(this.button9);
-            this.layoutControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl2.Location = new System.Drawing.Point(0, 0);
-            this.layoutControl2.Name = "layoutControl2";
-            this.layoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1710, 226, 650, 400);
-            this.layoutControl2.Root = this.layoutControlGroup1;
-            this.layoutControl2.Size = new System.Drawing.Size(345, 283);
-            this.layoutControl2.TabIndex = 0;
-            this.layoutControl2.Text = "layoutControl2";
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Teal;
-            this.button9.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(12, 56);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(94, 44);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "7";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Teal;
-            this.button8.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(110, 56);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(99, 44);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "8";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Teal;
-            this.button7.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(213, 56);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(120, 44);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "9";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.Teal;
-            this.button11.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(110, 104);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(99, 44);
-            this.button11.TabIndex = 5;
-            this.button11.Text = "5";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.Teal;
-            this.button10.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(213, 104);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(120, 44);
-            this.button10.TabIndex = 6;
-            this.button10.Text = "6";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Teal;
-            this.button12.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(12, 104);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(94, 44);
-            this.button12.TabIndex = 4;
-            this.button12.Text = "4";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Teal;
-            this.button4.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(213, 152);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 44);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "3";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Teal;
-            this.button6.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(12, 152);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(94, 44);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "1";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Maroon;
-            this.button3.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(213, 200);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 45);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Sil";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Teal;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(110, 200);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 45);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "0";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 200);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 45);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Enter";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Teal;
-            this.button5.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(110, 152);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(99, 44);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "2";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(12, 249);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(321, 22);
-            this.panel4.TabIndex = 1;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Location = new System.Drawing.Point(12, 12);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(321, 40);
-            this.panel7.TabIndex = 1;
-            // 
-            // layoutControlGroup1
-            // 
-            this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup1.GroupBordersVisible = false;
-            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem2,
-            this.layoutControlItem12,
-            this.layoutControlItem9,
-            this.layoutControlItem5,
-            this.layoutControlItem7,
-            this.layoutControlItem3,
-            this.layoutControlItem4,
-            this.layoutControlItem6,
-            this.layoutControlItem10,
-            this.layoutControlItem11,
-            this.layoutControlItem14,
-            this.layoutControlItem15,
-            this.layoutControlItem8,
-            this.layoutControlItem13});
-            this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(345, 283);
-            this.layoutControlGroup1.TextVisible = false;
-            // 
-            // layoutControlItem13
-            // 
-            this.layoutControlItem13.Control = this.button4;
-            this.layoutControlItem13.Location = new System.Drawing.Point(201, 140);
-            this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(124, 48);
-            this.layoutControlItem13.TextVisible = false;
-            // 
-            // layoutControlItem8
-            // 
-            this.layoutControlItem8.Control = this.button5;
-            this.layoutControlItem8.Location = new System.Drawing.Point(98, 140);
-            this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(103, 48);
-            this.layoutControlItem8.TextVisible = false;
-            // 
-            // layoutControlItem15
-            // 
-            this.layoutControlItem15.Control = this.panel7;
-            this.layoutControlItem15.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(325, 44);
-            this.layoutControlItem15.TextVisible = false;
-            // 
-            // layoutControlItem14
-            // 
-            this.layoutControlItem14.Control = this.panel4;
-            this.layoutControlItem14.Location = new System.Drawing.Point(0, 237);
-            this.layoutControlItem14.MinSize = new System.Drawing.Size(104, 24);
-            this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(325, 26);
-            this.layoutControlItem14.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.layoutControlItem14.TextVisible = false;
-            // 
-            // layoutControlItem11
-            // 
-            this.layoutControlItem11.Control = this.button3;
-            this.layoutControlItem11.Location = new System.Drawing.Point(201, 188);
-            this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(124, 49);
-            this.layoutControlItem11.TextVisible = false;
-            // 
-            // layoutControlItem10
-            // 
-            this.layoutControlItem10.Control = this.button2;
-            this.layoutControlItem10.Location = new System.Drawing.Point(98, 188);
-            this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(103, 49);
-            this.layoutControlItem10.TextVisible = false;
-            // 
-            // layoutControlItem6
-            // 
-            this.layoutControlItem6.Control = this.button10;
-            this.layoutControlItem6.Location = new System.Drawing.Point(201, 92);
-            this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(124, 48);
-            this.layoutControlItem6.TextVisible = false;
-            // 
-            // layoutControlItem4
-            // 
-            this.layoutControlItem4.Control = this.button7;
-            this.layoutControlItem4.Location = new System.Drawing.Point(201, 44);
-            this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(124, 48);
-            this.layoutControlItem4.TextVisible = false;
-            // 
-            // layoutControlItem3
-            // 
-            this.layoutControlItem3.Control = this.button8;
-            this.layoutControlItem3.Location = new System.Drawing.Point(98, 44);
-            this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(103, 48);
-            this.layoutControlItem3.TextVisible = false;
-            // 
-            // layoutControlItem7
-            // 
-            this.layoutControlItem7.Control = this.button11;
-            this.layoutControlItem7.Location = new System.Drawing.Point(98, 92);
-            this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(103, 48);
-            this.layoutControlItem7.TextVisible = false;
-            // 
-            // layoutControlItem5
-            // 
-            this.layoutControlItem5.Control = this.button12;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 92);
-            this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(98, 48);
-            this.layoutControlItem5.TextVisible = false;
-            // 
-            // layoutControlItem9
-            // 
-            this.layoutControlItem9.Control = this.button1;
-            this.layoutControlItem9.Location = new System.Drawing.Point(0, 188);
-            this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(98, 49);
-            this.layoutControlItem9.TextVisible = false;
-            // 
-            // layoutControlItem12
-            // 
-            this.layoutControlItem12.Control = this.button6;
-            this.layoutControlItem12.Location = new System.Drawing.Point(0, 140);
-            this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(98, 48);
-            this.layoutControlItem12.TextVisible = false;
-            // 
-            // layoutControlItem2
-            // 
-            this.layoutControlItem2.Control = this.button9;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 44);
-            this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(98, 48);
-            this.layoutControlItem2.TextVisible = false;
-            // 
-            // splitContainer2
-            // 
-            this.splitContainer2.BackColor = System.Drawing.Color.GhostWhite;
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.BackColor = System.Drawing.Color.GhostWhite;
-            this.splitContainer2.Panel1.Controls.Add(this.layoutControl4);
-            this.splitContainer2.Panel1.Controls.Add(this.layoutControl3);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.BackColor = System.Drawing.Color.White;
-            this.splitContainer2.Panel2.Controls.Add(this.layoutControl2);
-            this.splitContainer2.Size = new System.Drawing.Size(345, 473);
-            this.splitContainer2.SplitterDistance = 186;
-            this.splitContainer2.TabIndex = 0;
-            // 
-            // layoutControl3
-            // 
-            this.layoutControl3.Location = new System.Drawing.Point(105, 70);
-            this.layoutControl3.Name = "layoutControl3";
-            this.layoutControl3.Root = this.layoutControlGroup2;
-            this.layoutControl3.Size = new System.Drawing.Size(8, 8);
-            this.layoutControl3.TabIndex = 0;
-            this.layoutControl3.Text = "layoutControl3";
-            // 
-            // layoutControlGroup2
-            // 
-            this.layoutControlGroup2.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup2.GroupBordersVisible = false;
-            this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(20, 20);
-            this.layoutControlGroup2.TextVisible = false;
-            // 
-            // layoutControl4
-            // 
-            this.layoutControl4.Controls.Add(this.panel10);
-            this.layoutControl4.Controls.Add(this.panel9);
-            this.layoutControl4.Controls.Add(this.panel8);
-            this.layoutControl4.Controls.Add(this.label6);
-            this.layoutControl4.Controls.Add(this.textEdit1);
-            this.layoutControl4.Controls.Add(this.label5);
-            this.layoutControl4.Controls.Add(this.txtSifre);
-            this.layoutControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl4.Location = new System.Drawing.Point(0, 0);
-            this.layoutControl4.Name = "layoutControl4";
-            this.layoutControl4.Root = this.layoutControlGroup3;
-            this.layoutControl4.Size = new System.Drawing.Size(345, 186);
-            this.layoutControl4.TabIndex = 1;
-            this.layoutControl4.Text = "layoutControl4";
-            // 
-            // layoutControlGroup3
-            // 
-            this.layoutControlGroup3.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup3.GroupBordersVisible = false;
-            this.layoutControlGroup3.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem17,
-            this.layoutControlItem16,
-            this.layoutControlItem18,
-            this.layoutControlItem20,
-            this.layoutControlItem19,
-            this.layoutControlItem21,
-            this.layoutControlItem22});
-            this.layoutControlGroup3.Name = "layoutControlGroup3";
-            this.layoutControlGroup3.Size = new System.Drawing.Size(345, 186);
-            this.layoutControlGroup3.TextVisible = false;
-            // 
-            // txtSifre
-            // 
-            this.txtSifre.Location = new System.Drawing.Point(120, 77);
-            this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(213, 20);
-            this.txtSifre.StyleController = this.layoutControl4;
-            this.txtSifre.TabIndex = 4;
-            // 
-            // layoutControlItem17
-            // 
-            this.layoutControlItem17.Control = this.txtSifre;
-            this.layoutControlItem17.Location = new System.Drawing.Point(108, 65);
-            this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(217, 24);
-            this.layoutControlItem17.Text = "Şifrə";
-            this.layoutControlItem17.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem17.TextVisible = false;
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(12, 77);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 20);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Kassir №";
-            // 
-            // layoutControlItem16
-            // 
-            this.layoutControlItem16.Control = this.label5;
-            this.layoutControlItem16.Location = new System.Drawing.Point(0, 65);
-            this.layoutControlItem16.Name = "layoutControlItem16";
-            this.layoutControlItem16.Size = new System.Drawing.Size(108, 24);
-            this.layoutControlItem16.TextVisible = false;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(120, 130);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(213, 20);
-            this.textEdit1.StyleController = this.layoutControl4;
-            this.textEdit1.TabIndex = 8;
-            // 
-            // layoutControlItem19
-            // 
-            this.layoutControlItem19.Control = this.textEdit1;
-            this.layoutControlItem19.Location = new System.Drawing.Point(108, 118);
-            this.layoutControlItem19.Name = "layoutControlItem19";
-            this.layoutControlItem19.Size = new System.Drawing.Size(217, 24);
-            this.layoutControlItem19.Text = "Kassir №";
-            this.layoutControlItem19.TextVisible = false;
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(12, 130);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 20);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Şifrə";
-            // 
-            // layoutControlItem18
-            // 
-            this.layoutControlItem18.Control = this.label6;
-            this.layoutControlItem18.Location = new System.Drawing.Point(0, 118);
-            this.layoutControlItem18.Name = "layoutControlItem18";
-            this.layoutControlItem18.Size = new System.Drawing.Size(108, 24);
-            this.layoutControlItem18.TextVisible = false;
-            // 
-            // panel8
-            // 
-            this.panel8.Location = new System.Drawing.Point(12, 154);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(321, 20);
-            this.panel8.TabIndex = 10;
-            // 
-            // layoutControlItem20
-            // 
-            this.layoutControlItem20.Control = this.panel8;
-            this.layoutControlItem20.Location = new System.Drawing.Point(0, 142);
-            this.layoutControlItem20.Name = "layoutControlItem20";
-            this.layoutControlItem20.Size = new System.Drawing.Size(325, 24);
-            this.layoutControlItem20.TextVisible = false;
-            // 
-            // panel9
-            // 
-            this.panel9.Location = new System.Drawing.Point(12, 101);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(321, 25);
-            this.panel9.TabIndex = 11;
-            // 
-            // layoutControlItem21
-            // 
-            this.layoutControlItem21.Control = this.panel9;
-            this.layoutControlItem21.Location = new System.Drawing.Point(0, 89);
-            this.layoutControlItem21.Name = "layoutControlItem21";
-            this.layoutControlItem21.Size = new System.Drawing.Size(325, 29);
-            this.layoutControlItem21.TextVisible = false;
-            // 
-            // panel10
-            // 
-            this.panel10.Location = new System.Drawing.Point(12, 12);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(321, 61);
-            this.panel10.TabIndex = 12;
-            // 
-            // layoutControlItem22
-            // 
-            this.layoutControlItem22.Control = this.panel10;
-            this.layoutControlItem22.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem22.Name = "layoutControlItem22";
-            this.layoutControlItem22.Size = new System.Drawing.Size(325, 65);
-            this.layoutControlItem22.TextVisible = false;
-            // 
             // XtraForm1
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -866,48 +868,48 @@ namespace BirPos1
             this.layoutControl1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.splitContainer2.Panel1.ResumeLayout(false);
+            this.splitContainer2.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
+            this.splitContainer2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl4)).EndInit();
+            this.layoutControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.txtNo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSifre.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
+            this.layoutControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
-            this.layoutControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl4)).EndInit();
-            this.layoutControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtSifre.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -974,7 +976,7 @@ namespace BirPos1
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label6;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit txtNo;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem18;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem20;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem19;

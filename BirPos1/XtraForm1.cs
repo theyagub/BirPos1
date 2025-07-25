@@ -100,7 +100,20 @@ namespace BirPos1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CurrentTextBox.Text = CurrentTextBox.Text.Substring(0, CurrentTextBox.Text.Length - 1);
+            if (CurrentTextBox.Text.Length > 0)
+            {
+                CurrentTextBox.Text = CurrentTextBox.Text.Substring(0, CurrentTextBox.Text.Length - 1);
+            }
+        }
+
+        private void txtSifre_Click(object sender, EventArgs e)
+        {
+            CurrentTextBox = txtSifre;
+        }
+
+        private void txtNo_Click(object sender, EventArgs e)
+        {
+            CurrentTextBox = txtNo;
         }
     }
 }
