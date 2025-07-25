@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,6 +8,7 @@ using static BirPos1.DbModelEF.Enums;
 
 namespace BirPos1.DbModelEF
 {
+    [Table("Payment")]
     public class Payment
     {
     public int Id { get; set; }

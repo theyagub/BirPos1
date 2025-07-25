@@ -56,14 +56,22 @@
   <ItemGroup>
     <Compile Include="DbModelEF\BaseObject.cs" />
     <Compile Include="DbModelEF\Customer.cs" />
+    <Compile Include="DbModelEF\Discount.cs" />
     <Compile Include="DbModelEF\Enums.cs" />
     <Compile Include="DbModelEF\Payment.cs" />
+    <Compile Include="DbModelEF\Permission.cs" />
     <Compile Include="DbModelEF\ProductStock.cs" />
+    <Compile Include="DbModelEF\Return.cs" />
+    <Compile Include="DbModelEF\Role.cs" />
+    <Compile Include="DbModelEF\RolePermission.cs" />
     <Compile Include="DbModelEF\Sale.cs" />
     <Compile Include="DbModelEF\ProductCategory.cs" />
     <Compile Include="DbModelEF\Product.cs" />
     <Compile Include="DbModelEF\SaleItem.cs" />
     <Compile Include="DbModelEF\Seller.cs" />
+    <Compile Include="DbModelEF\Settings.cs" />
+    <Compile Include="DbModelEF\User.cs" />
+    <Compile Include="DbModelEF\UserRole.cs" />
     <Compile Include="services.cs" />
     <Compile Include="Qaralama.cs">
       <SubType>Form</SubType>
