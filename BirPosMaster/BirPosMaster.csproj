@@ -53,14 +53,146 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Melumatlar\Barkodlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melumatlar\Barkodlar.Designer.cs">
+      <DependentUpon>Barkodlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Melumatlar\MelumatGonderilmesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melumatlar\MelumatGonderilmesi.Designer.cs">
+      <DependentUpon>MelumatGonderilmesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Melumatlar\ProgramVersiyasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melumatlar\DirectXForm2.Designer.cs">
+      <DependentUpon>ProgramVersiyasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Melumatlar\Musteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melumatlar\Musteriler.Designer.cs">
+      <DependentUpon>Musteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Melumatlar\Mehsullar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melumatlar\Mehsullar.Designer.cs">
+      <DependentUpon>Mehsullar.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Melumatlar\Saticilar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melumatlar\Saticilar.Designer.cs">
+      <DependentUpon>Saticilar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Melumatlar\SatisQiymetleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melumatlar\SatisQiymetleri.Designer.cs">
+      <DependentUpon>SatisQiymetleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\CapFormalari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\CapFormalari.Designer.cs">
+      <DependentUpon>CapFormalari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\Kassalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\Kassalar.Designer.cs">
+      <DependentUpon>Kassalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\KassirIcazeQruplari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\KassirIcazeQruplari.Designer.cs">
+      <DependentUpon>KassirIcazeQruplari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\Kassirler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\Kassirler.Designer.cs">
+      <DependentUpon>Kassirler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\Kompanyalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\Kompanyalar.Designer.cs">
+      <DependentUpon>Kompanyalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\MehsulXususiQiymetleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\MehsulXususiQiymetleri.Designer.cs">
+      <DependentUpon>MehsulXususiQiymetleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\Sirketler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\Sirketler.Designer.cs">
+      <DependentUpon>Sirketler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\Sobeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\Sobeler.Designer.cs">
+      <DependentUpon>Sobeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senedler\XususiQiymetler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senedler\XususiQiymetler.Designer.cs">
+      <DependentUpon>XususiQiymetler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem\DaxiliIstifadeAktlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem\DaxiliIstifadeAktlari.Designer.cs">
+      <DependentUpon>DaxiliIstifadeAktlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem\HFveQRPsenedleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem\HFveQRPsenedleri.Designer.cs">
+      <DependentUpon>HFveQRPsenedleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem\LegvEdilmisSenedler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem\LegvEdilmisSenedler.Designer.cs">
+      <DependentUpon>LegvEdilmisSenedler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem\QaytarmaSenedleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem\QaytarmaSenedleri.Designer.cs">
+      <DependentUpon>QaytarmaSenedleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistem\SatisSenedleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistem\SatisSenedleri.Designer.cs">
+      <DependentUpon>SatisSenedleri.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Melumatlar\Barkodlar.resx">
+      <DependentUpon>Barkodlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Melumatlar\Mehsullar.resx">
+      <DependentUpon>Mehsullar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +217,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

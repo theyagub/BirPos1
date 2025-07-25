@@ -6,13 +6,14 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BirPosMaster
+namespace BirPosMaster.Sistem
 {
-    public partial class MainForm : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
+    public partial class HFveQRPsenedleri : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public MainForm()
+        public HFveQRPsenedleri()
         {
             InitializeComponent();
         }
