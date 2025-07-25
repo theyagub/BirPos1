@@ -127,12 +127,6 @@ namespace BirPos1
 
             // Cari forma görə overlay göstər
 
-
-            // Gözləmə formunu aç
-            FormWait waitForm = new FormWait();
-            waitForm.ShowDialog();
-
-            overlay.Close();
         }
     }
 }

@@ -426,7 +426,7 @@ namespace BirPos1
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.BackColor = System.Drawing.Color.GhostWhite;
             this.panel7.Location = new System.Drawing.Point(12, 12);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(321, 40);
@@ -434,6 +434,7 @@ namespace BirPos1
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.GhostWhite;
             this.panel4.Location = new System.Drawing.Point(12, 249);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(321, 22);
@@ -597,6 +598,8 @@ namespace BirPos1
             // 
             // layoutControlGroup1
             // 
+            this.layoutControlGroup1.AppearanceGroup.BackColor = System.Drawing.Color.GhostWhite;
+            this.layoutControlGroup1.AppearanceGroup.Options.UseBackColor = true;
             this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
             this.layoutControlGroup1.GroupBordersVisible = false;
             this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
@@ -750,6 +753,7 @@ namespace BirPos1
             // 
             // panel6
             // 
+            this.panel6.BackColor = System.Drawing.Color.GhostWhite;
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 195);
             this.panel6.Name = "panel6";
@@ -758,6 +762,7 @@ namespace BirPos1
             // 
             // lblCashNumber
             // 
+            this.lblCashNumber.BackColor = System.Drawing.Color.GhostWhite;
             this.lblCashNumber.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblCashNumber.Font = new System.Drawing.Font("Tahoma", 15F);
             this.lblCashNumber.ForeColor = System.Drawing.Color.Red;
@@ -770,6 +775,7 @@ namespace BirPos1
             // 
             // label4
             // 
+            this.label4.BackColor = System.Drawing.Color.GhostWhite;
             this.label4.Dock = System.Windows.Forms.DockStyle.Top;
             this.label4.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
             this.label4.Location = new System.Drawing.Point(0, 131);
@@ -781,6 +787,7 @@ namespace BirPos1
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.GhostWhite;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 94);
             this.panel3.Name = "panel3";
@@ -789,6 +796,7 @@ namespace BirPos1
             // 
             // lblLoginDate
             // 
+            this.lblLoginDate.BackColor = System.Drawing.Color.GhostWhite;
             this.lblLoginDate.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblLoginDate.Font = new System.Drawing.Font("Tahoma", 15F);
             this.lblLoginDate.ForeColor = System.Drawing.Color.Red;
@@ -801,6 +809,7 @@ namespace BirPos1
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.GhostWhite;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(0, 0);
@@ -812,6 +821,7 @@ namespace BirPos1
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.GhostWhite;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(170, 0);
@@ -823,6 +833,8 @@ namespace BirPos1
             // 
             // Root
             // 
+            this.Root.AppearanceGroup.BackColor = System.Drawing.Color.GhostWhite;
+            this.Root.AppearanceGroup.Options.UseBackColor = true;
             this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
             this.Root.GroupBordersVisible = false;
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
