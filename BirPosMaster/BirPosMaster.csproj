@@ -103,88 +103,88 @@
     <Compile Include="Melumatlar\SatisQiymetleri.Designer.cs">
       <DependentUpon>SatisQiymetleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\CapFormalari.cs">
+    <Compile Include="Sistem\CapFormalari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\CapFormalari.Designer.cs">
+    <Compile Include="Sistem\CapFormalari.Designer.cs">
       <DependentUpon>CapFormalari.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\Kassalar.cs">
+    <Compile Include="Sistem\Kassalar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\Kassalar.Designer.cs">
+    <Compile Include="Sistem\Kassalar.Designer.cs">
       <DependentUpon>Kassalar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\KassirIcazeQruplari.cs">
+    <Compile Include="Sistem\KassirIcazeQruplari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\KassirIcazeQruplari.Designer.cs">
+    <Compile Include="Sistem\KassirIcazeQruplari.Designer.cs">
       <DependentUpon>KassirIcazeQruplari.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\Kassirler.cs">
+    <Compile Include="Sistem\Kassirler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\Kassirler.Designer.cs">
+    <Compile Include="Sistem\Kassirler.Designer.cs">
       <DependentUpon>Kassirler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\Kompanyalar.cs">
+    <Compile Include="Sistem\Kompanyalar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\Kompanyalar.Designer.cs">
+    <Compile Include="Sistem\Kompanyalar.Designer.cs">
       <DependentUpon>Kompanyalar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\MehsulXususiQiymetleri.cs">
+    <Compile Include="Sistem\MehsulXususiKodlari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\MehsulXususiQiymetleri.Designer.cs">
-      <DependentUpon>MehsulXususiQiymetleri.cs</DependentUpon>
+    <Compile Include="Sistem\MehsulXususiKodlari.Designer.cs">
+      <DependentUpon>MehsulXususiKodlari.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\Sirketler.cs">
+    <Compile Include="Sistem\Sirketler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\Sirketler.Designer.cs">
+    <Compile Include="Sistem\Sirketler.Designer.cs">
       <DependentUpon>Sirketler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\Sobeler.cs">
+    <Compile Include="Sistem\Sobeler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\Sobeler.Designer.cs">
+    <Compile Include="Sistem\Sobeler.Designer.cs">
       <DependentUpon>Sobeler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Senedler\XususiQiymetler.cs">
+    <Compile Include="Sistem\XususiQiymetler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Senedler\XususiQiymetler.Designer.cs">
+    <Compile Include="Sistem\XususiQiymetler.Designer.cs">
       <DependentUpon>XususiQiymetler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sistem\DaxiliIstifadeAktlari.cs">
+    <Compile Include="Senedler\DaxiliIstifadeAktlari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sistem\DaxiliIstifadeAktlari.Designer.cs">
+    <Compile Include="Senedler\DaxiliIstifadeAktlari.Designer.cs">
       <DependentUpon>DaxiliIstifadeAktlari.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sistem\HFveQRPsenedleri.cs">
+    <Compile Include="Senedler\HFveQRPsenedleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sistem\HFveQRPsenedleri.Designer.cs">
+    <Compile Include="Senedler\HFveQRPsenedleri.Designer.cs">
       <DependentUpon>HFveQRPsenedleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sistem\LegvEdilmisSenedler.cs">
+    <Compile Include="Senedler\LegvEdilmisSenedler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sistem\LegvEdilmisSenedler.Designer.cs">
+    <Compile Include="Senedler\LegvEdilmisSenedler.Designer.cs">
       <DependentUpon>LegvEdilmisSenedler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sistem\QaytarmaSenedleri.cs">
+    <Compile Include="Senedler\QaytarmaSenedleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sistem\QaytarmaSenedleri.Designer.cs">
+    <Compile Include="Senedler\QaytarmaSenedleri.Designer.cs">
       <DependentUpon>QaytarmaSenedleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sistem\SatisSenedleri.cs">
+    <Compile Include="Senedler\SatisSenedleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sistem\SatisSenedleri.Designer.cs">
+    <Compile Include="Senedler\SatisSenedleri.Designer.cs">
       <DependentUpon>SatisSenedleri.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Melumatlar\Barkodlar.resx">
@@ -205,7 +205,35 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Sistem\CapFormalari.resx">
+      <DependentUpon>CapFormalari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\Kassalar.resx">
+      <DependentUpon>Kassalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\KassirIcazeQruplari.resx">
+      <DependentUpon>KassirIcazeQruplari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\Kassirler.resx">
+      <DependentUpon>Kassirler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\Kompanyalar.resx">
+      <DependentUpon>Kompanyalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\MehsulXususiKodlari.resx">
+      <DependentUpon>MehsulXususiKodlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\Sirketler.resx">
+      <DependentUpon>Sirketler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\Sobeler.resx">
+      <DependentUpon>Sobeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistem\XususiQiymetler.resx">
+      <DependentUpon>XususiQiymetler.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -217,7 +245,42 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\addfile_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablecellmargins_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablecellmargins_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addnewdatasource_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addnewdatasource_16x16.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
