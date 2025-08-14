@@ -31,50 +31,51 @@ namespace BirPosMaster
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.fluentDesignFormContainer1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer();
             this.accordionControl1 = new DevExpress.XtraBars.Navigation.AccordionControl();
             this.accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement4 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement5 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement6 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement7 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement8 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement9 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement10 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnMusteriler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnMehsullar = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnBarkodlar = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnSatisQiymetleri = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnSaticilar = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnMelumatGonderilmesi = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnProqramVersiyasi = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlSeparator1 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.accordionControlElement2 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement11 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement12 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement13 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement14 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement15 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement16 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement17 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement18 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement19 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnSirketler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnSobeler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnKassalar = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnKassirler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnKassirIcazeQruplari = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnKompanyalar = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnCapFormalari = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnXususiQiymetler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnMehsulXususiKodlari = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlSeparator2 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.accordionControlSeparator4 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.accordionControlElement3 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement21 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement22 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement23 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement24 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement20 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
+            this.btnSatisSenedleri = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnQaytarmaSenedleri = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnHFveQRPsenedleri = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnLegvEdilmisSenedler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnDaxiliIstifadeAktlari = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.fluentFormDefaultManager1 = new DevExpress.XtraBars.FluentDesignSystem.FluentFormDefaultManager(this.components);
             this.accordionControlSeparator3 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
+            this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
+            this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel1_Container = new DevExpress.XtraBars.Docking.ControlContainer();
+            this.nativeMdiView1 = new DevExpress.XtraBars.Docking2010.Views.NativeMdi.NativeMdiView(this.components);
+            this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
+            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
+            this.dockPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nativeMdiView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // fluentDesignFormContainer1
-            // 
-            this.fluentDesignFormContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fluentDesignFormContainer1.Location = new System.Drawing.Point(260, 31);
-            this.fluentDesignFormContainer1.Name = "fluentDesignFormContainer1";
-            this.fluentDesignFormContainer1.Size = new System.Drawing.Size(1000, 674);
-            this.fluentDesignFormContainer1.TabIndex = 0;
             // 
             // accordionControl1
             // 
@@ -95,57 +96,66 @@ namespace BirPosMaster
             // accordionControlElement1
             // 
             this.accordionControlElement1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.accordionControlElement4,
-            this.accordionControlElement5,
-            this.accordionControlElement6,
-            this.accordionControlElement7,
-            this.accordionControlElement8,
-            this.accordionControlElement9,
-            this.accordionControlElement10});
+            this.btnMusteriler,
+            this.btnMehsullar,
+            this.btnBarkodlar,
+            this.btnSatisQiymetleri,
+            this.btnSaticilar,
+            this.btnMelumatGonderilmesi,
+            this.btnProqramVersiyasi});
+            this.accordionControlElement1.Expanded = true;
             this.accordionControlElement1.Name = "accordionControlElement1";
             this.accordionControlElement1.Text = "Məlumatlar";
+            this.accordionControlElement1.Click += new System.EventHandler(this.accordionControlElement1_Click);
             // 
-            // accordionControlElement4
+            // btnMusteriler
             // 
-            this.accordionControlElement4.Name = "accordionControlElement4";
-            this.accordionControlElement4.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement4.Text = "Müştərilər";
+            this.btnMusteriler.Name = "btnMusteriler";
+            this.btnMusteriler.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnMusteriler.Text = "Müştərilər";
+            this.btnMusteriler.Click += new System.EventHandler(this.btnMusteriler_Click);
             // 
-            // accordionControlElement5
+            // btnMehsullar
             // 
-            this.accordionControlElement5.Name = "accordionControlElement5";
-            this.accordionControlElement5.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement5.Text = "Məhsullar";
+            this.btnMehsullar.Name = "btnMehsullar";
+            this.btnMehsullar.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnMehsullar.Text = "Məhsullar";
+            this.btnMehsullar.Click += new System.EventHandler(this.btnMehsullar_Click);
             // 
-            // accordionControlElement6
+            // btnBarkodlar
             // 
-            this.accordionControlElement6.Name = "accordionControlElement6";
-            this.accordionControlElement6.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement6.Text = "Barkodlar";
+            this.btnBarkodlar.Name = "btnBarkodlar";
+            this.btnBarkodlar.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnBarkodlar.Text = "Barkodlar";
+            this.btnBarkodlar.Click += new System.EventHandler(this.btnBarkodlar_Click);
             // 
-            // accordionControlElement7
+            // btnSatisQiymetleri
             // 
-            this.accordionControlElement7.Name = "accordionControlElement7";
-            this.accordionControlElement7.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement7.Text = "Satış qiymətləri";
+            this.btnSatisQiymetleri.Name = "btnSatisQiymetleri";
+            this.btnSatisQiymetleri.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnSatisQiymetleri.Text = "Satış qiymətləri";
+            this.btnSatisQiymetleri.Click += new System.EventHandler(this.btnSatisQiymetleri_Click);
             // 
-            // accordionControlElement8
+            // btnSaticilar
             // 
-            this.accordionControlElement8.Name = "accordionControlElement8";
-            this.accordionControlElement8.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement8.Text = "Satıcılar";
+            this.btnSaticilar.Name = "btnSaticilar";
+            this.btnSaticilar.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnSaticilar.Text = "Satıcılar";
+            this.btnSaticilar.Click += new System.EventHandler(this.btnSaticilar_Click);
             // 
-            // accordionControlElement9
+            // btnMelumatGonderilmesi
             // 
-            this.accordionControlElement9.Name = "accordionControlElement9";
-            this.accordionControlElement9.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement9.Text = "Məlumat göndərilməsi";
+            this.btnMelumatGonderilmesi.Name = "btnMelumatGonderilmesi";
+            this.btnMelumatGonderilmesi.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnMelumatGonderilmesi.Text = "Məlumat göndərilməsi";
+            this.btnMelumatGonderilmesi.Click += new System.EventHandler(this.btnMelumatGonderilmesi_Click);
             // 
-            // accordionControlElement10
+            // btnProqramVersiyasi
             // 
-            this.accordionControlElement10.Name = "accordionControlElement10";
-            this.accordionControlElement10.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement10.Text = "Proqram versiyası";
+            this.btnProqramVersiyasi.Name = "btnProqramVersiyasi";
+            this.btnProqramVersiyasi.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnProqramVersiyasi.Text = "Proqram versiyası";
+            this.btnProqramVersiyasi.Click += new System.EventHandler(this.btnProqramVersiyasi_Click);
             // 
             // accordionControlSeparator1
             // 
@@ -155,72 +165,82 @@ namespace BirPosMaster
             // accordionControlElement2
             // 
             this.accordionControlElement2.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.accordionControlElement11,
-            this.accordionControlElement12,
-            this.accordionControlElement13,
-            this.accordionControlElement14,
-            this.accordionControlElement15,
-            this.accordionControlElement16,
-            this.accordionControlElement17,
-            this.accordionControlElement18,
-            this.accordionControlElement19,
+            this.btnSirketler,
+            this.btnSobeler,
+            this.btnKassalar,
+            this.btnKassirler,
+            this.btnKassirIcazeQruplari,
+            this.btnKompanyalar,
+            this.btnCapFormalari,
+            this.btnXususiQiymetler,
+            this.btnMehsulXususiKodlari,
             this.accordionControlSeparator2});
+            this.accordionControlElement2.Expanded = true;
             this.accordionControlElement2.Name = "accordionControlElement2";
             this.accordionControlElement2.Text = "Sistem";
             // 
-            // accordionControlElement11
+            // btnSirketler
             // 
-            this.accordionControlElement11.Name = "accordionControlElement11";
-            this.accordionControlElement11.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement11.Text = "Şirkətlər";
+            this.btnSirketler.Name = "btnSirketler";
+            this.btnSirketler.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnSirketler.Text = "Şirkətlər";
+            this.btnSirketler.Click += new System.EventHandler(this.btnSirketler_Click);
             // 
-            // accordionControlElement12
+            // btnSobeler
             // 
-            this.accordionControlElement12.Name = "accordionControlElement12";
-            this.accordionControlElement12.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement12.Text = "Şöbələr";
+            this.btnSobeler.Name = "btnSobeler";
+            this.btnSobeler.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnSobeler.Text = "Şöbələr";
+            this.btnSobeler.Click += new System.EventHandler(this.btnSobeler_Click);
             // 
-            // accordionControlElement13
+            // btnKassalar
             // 
-            this.accordionControlElement13.Name = "accordionControlElement13";
-            this.accordionControlElement13.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement13.Text = "Kassalar";
+            this.btnKassalar.Name = "btnKassalar";
+            this.btnKassalar.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnKassalar.Text = "Kassalar";
+            this.btnKassalar.Click += new System.EventHandler(this.btnKassalar_Click);
             // 
-            // accordionControlElement14
+            // btnKassirler
             // 
-            this.accordionControlElement14.Name = "accordionControlElement14";
-            this.accordionControlElement14.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement14.Text = "Kassirlər";
+            this.btnKassirler.Name = "btnKassirler";
+            this.btnKassirler.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnKassirler.Text = "Kassirlər";
+            this.btnKassirler.Click += new System.EventHandler(this.btnKassirler_Click);
             // 
-            // accordionControlElement15
+            // btnKassirIcazeQruplari
             // 
-            this.accordionControlElement15.Name = "accordionControlElement15";
-            this.accordionControlElement15.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement15.Text = "Kassir icazə qrupları";
+            this.btnKassirIcazeQruplari.Name = "btnKassirIcazeQruplari";
+            this.btnKassirIcazeQruplari.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnKassirIcazeQruplari.Text = "Kassir icazə qrupları";
+            this.btnKassirIcazeQruplari.Click += new System.EventHandler(this.btnKassirIcazeQruplari_Click);
             // 
-            // accordionControlElement16
+            // btnKompanyalar
             // 
-            this.accordionControlElement16.Name = "accordionControlElement16";
-            this.accordionControlElement16.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement16.Text = "Kompaniyalar";
+            this.btnKompanyalar.Name = "btnKompanyalar";
+            this.btnKompanyalar.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnKompanyalar.Text = "Kompaniyalar";
+            this.btnKompanyalar.Click += new System.EventHandler(this.btnKompanyalar_Click);
             // 
-            // accordionControlElement17
+            // btnCapFormalari
             // 
-            this.accordionControlElement17.Name = "accordionControlElement17";
-            this.accordionControlElement17.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement17.Text = "Çap formatları";
+            this.btnCapFormalari.Name = "btnCapFormalari";
+            this.btnCapFormalari.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnCapFormalari.Text = "Çap formatları";
+            this.btnCapFormalari.Click += new System.EventHandler(this.btnCapFormalari_Click);
             // 
-            // accordionControlElement18
+            // btnXususiQiymetler
             // 
-            this.accordionControlElement18.Name = "accordionControlElement18";
-            this.accordionControlElement18.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement18.Text = "Xüsusi qiymətlər";
+            this.btnXususiQiymetler.Name = "btnXususiQiymetler";
+            this.btnXususiQiymetler.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnXususiQiymetler.Text = "Xüsusi qiymətlər";
+            this.btnXususiQiymetler.Click += new System.EventHandler(this.btnXususiQiymetler_Click);
             // 
-            // accordionControlElement19
+            // btnMehsulXususiKodlari
             // 
-            this.accordionControlElement19.Name = "accordionControlElement19";
-            this.accordionControlElement19.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement19.Text = "Məhsul xüsusi kodları";
+            this.btnMehsulXususiKodlari.Name = "btnMehsulXususiKodlari";
+            this.btnMehsulXususiKodlari.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnMehsulXususiKodlari.Text = "Məhsul xüsusi kodları";
+            this.btnMehsulXususiKodlari.Click += new System.EventHandler(this.btnMehsulXususiKodlari_Click);
             // 
             // accordionControlSeparator2
             // 
@@ -234,53 +254,49 @@ namespace BirPosMaster
             // accordionControlElement3
             // 
             this.accordionControlElement3.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.accordionControlElement21,
-            this.accordionControlElement22,
-            this.accordionControlElement23,
-            this.accordionControlElement24,
-            this.accordionControlElement20});
+            this.btnSatisSenedleri,
+            this.btnQaytarmaSenedleri,
+            this.btnHFveQRPsenedleri,
+            this.btnLegvEdilmisSenedler,
+            this.btnDaxiliIstifadeAktlari});
+            this.accordionControlElement3.Expanded = true;
             this.accordionControlElement3.Name = "accordionControlElement3";
             this.accordionControlElement3.Text = "Sənədlər";
             // 
-            // accordionControlElement21
+            // btnSatisSenedleri
             // 
-            this.accordionControlElement21.Name = "accordionControlElement21";
-            this.accordionControlElement21.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement21.Text = "Satış sənədləri";
+            this.btnSatisSenedleri.Name = "btnSatisSenedleri";
+            this.btnSatisSenedleri.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnSatisSenedleri.Text = "Satış sənədləri";
+            this.btnSatisSenedleri.Click += new System.EventHandler(this.btnSatisSenedleri_Click);
             // 
-            // accordionControlElement22
+            // btnQaytarmaSenedleri
             // 
-            this.accordionControlElement22.Name = "accordionControlElement22";
-            this.accordionControlElement22.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement22.Text = "Qaytarma sənədləri";
+            this.btnQaytarmaSenedleri.Name = "btnQaytarmaSenedleri";
+            this.btnQaytarmaSenedleri.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnQaytarmaSenedleri.Text = "Qaytarma sənədləri";
+            this.btnQaytarmaSenedleri.Click += new System.EventHandler(this.btnQaytarmaSenedleri_Click);
             // 
-            // accordionControlElement23
+            // btnHFveQRPsenedleri
             // 
-            this.accordionControlElement23.Name = "accordionControlElement23";
-            this.accordionControlElement23.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement23.Text = "HF və QRP sənədləri";
+            this.btnHFveQRPsenedleri.Name = "btnHFveQRPsenedleri";
+            this.btnHFveQRPsenedleri.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnHFveQRPsenedleri.Text = "HF və QRP sənədləri";
+            this.btnHFveQRPsenedleri.Click += new System.EventHandler(this.btnHFveQRPsenedleri_Click);
             // 
-            // accordionControlElement24
+            // btnLegvEdilmisSenedler
             // 
-            this.accordionControlElement24.Name = "accordionControlElement24";
-            this.accordionControlElement24.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement24.Text = "Ləğv edilmiş sənədlər";
+            this.btnLegvEdilmisSenedler.Name = "btnLegvEdilmisSenedler";
+            this.btnLegvEdilmisSenedler.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnLegvEdilmisSenedler.Text = "Ləğv edilmiş sənədlər";
+            this.btnLegvEdilmisSenedler.Click += new System.EventHandler(this.btnLegvEdilmisSenedler_Click);
             // 
-            // accordionControlElement20
+            // btnDaxiliIstifadeAktlari
             // 
-            this.accordionControlElement20.Name = "accordionControlElement20";
-            this.accordionControlElement20.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement20.Text = "Daxili istifadə aktları";
-            // 
-            // fluentDesignFormControl1
-            // 
-            this.fluentDesignFormControl1.FluentDesignForm = this;
-            this.fluentDesignFormControl1.Location = new System.Drawing.Point(0, 0);
-            this.fluentDesignFormControl1.Manager = this.fluentFormDefaultManager1;
-            this.fluentDesignFormControl1.Name = "fluentDesignFormControl1";
-            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1260, 31);
-            this.fluentDesignFormControl1.TabIndex = 2;
-            this.fluentDesignFormControl1.TabStop = false;
+            this.btnDaxiliIstifadeAktlari.Name = "btnDaxiliIstifadeAktlari";
+            this.btnDaxiliIstifadeAktlari.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnDaxiliIstifadeAktlari.Text = "Daxili istifadə aktları";
+            this.btnDaxiliIstifadeAktlari.Click += new System.EventHandler(this.btnDaxiliIstifadeAktlari_Click);
             // 
             // fluentFormDefaultManager1
             // 
@@ -290,60 +306,130 @@ namespace BirPosMaster
             // 
             this.accordionControlSeparator3.Name = "accordionControlSeparator3";
             // 
+            // dockManager1
+            // 
+            this.dockManager1.Form = this;
+            this.dockManager1.HiddenPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
+            this.dockPanel1});
+            this.dockManager1.TopZIndexControls.AddRange(new string[] {
+            "DevExpress.XtraBars.BarDockControl",
+            "DevExpress.XtraBars.StandaloneBarDockControl",
+            "System.Windows.Forms.MenuStrip",
+            "System.Windows.Forms.StatusStrip",
+            "System.Windows.Forms.StatusBar",
+            "DevExpress.XtraBars.Ribbon.RibbonStatusBar",
+            "DevExpress.XtraBars.Ribbon.RibbonControl",
+            "DevExpress.XtraBars.Navigation.OfficeNavigationBar",
+            "DevExpress.XtraBars.Navigation.TileNavPane",
+            "DevExpress.XtraBars.TabFormControl",
+            "DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl",
+            "DevExpress.XtraBars.ToolbarForm.ToolbarFormControl"});
+            // 
+            // dockPanel1
+            // 
+            this.dockPanel1.Controls.Add(this.dockPanel1_Container);
+            this.dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Left;
+            this.dockPanel1.ID = new System.Guid("fe39a9b4-b984-4aab-b5e1-8e03f04cfd4a");
+            this.dockPanel1.Location = new System.Drawing.Point(0, 31);
+            this.dockPanel1.Name = "dockPanel1";
+            this.dockPanel1.OriginalSize = new System.Drawing.Size(200, 200);
+            this.dockPanel1.SavedDock = DevExpress.XtraBars.Docking.DockingStyle.Left;
+            this.dockPanel1.SavedIndex = 0;
+            this.dockPanel1.Size = new System.Drawing.Size(200, 674);
+            this.dockPanel1.Text = "dockPanel1";
+            this.dockPanel1.Visibility = DevExpress.XtraBars.Docking.DockVisibility.Hidden;
+            // 
+            // dockPanel1_Container
+            // 
+            this.dockPanel1_Container.Location = new System.Drawing.Point(3, 46);
+            this.dockPanel1_Container.Name = "dockPanel1_Container";
+            this.dockPanel1_Container.Size = new System.Drawing.Size(193, 625);
+            this.dockPanel1_Container.TabIndex = 0;
+            // 
+            // documentManager1
+            // 
+            this.documentManager1.MdiParent = this;
+            this.documentManager1.View = this.nativeMdiView1;
+            this.documentManager1.ViewCollection.AddRange(new DevExpress.XtraBars.Docking2010.Views.BaseView[] {
+            this.nativeMdiView1});
+            // 
+            // ribbonPage2
+            // 
+            this.ribbonPage2.Name = "ribbonPage2";
+            this.ribbonPage2.Text = "ribbonPage2";
+            // 
+            // fluentDesignFormControl1
+            // 
+            this.fluentDesignFormControl1.FluentDesignForm = this;
+            this.fluentDesignFormControl1.Location = new System.Drawing.Point(0, 0);
+            this.fluentDesignFormControl1.Name = "fluentDesignFormControl1";
+            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1260, 31);
+            this.fluentDesignFormControl1.TabIndex = 5;
+            this.fluentDesignFormControl1.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 705);
-            this.ControlContainer = this.fluentDesignFormContainer1;
-            this.Controls.Add(this.fluentDesignFormContainer1);
             this.Controls.Add(this.accordionControl1);
             this.Controls.Add(this.fluentDesignFormControl1);
             this.FluentDesignFormControl = this.fluentDesignFormControl1;
+            this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm.IconOptions.Image")));
             this.Name = "MainForm";
             this.NavigationControl = this.accordionControl1;
             this.Text = "BirPos Master";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).EndInit();
+            this.dockPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nativeMdiView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer fluentDesignFormContainer1;
         private DevExpress.XtraBars.Navigation.AccordionControl accordionControl1;
-        private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl fluentDesignFormControl1;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
         private DevExpress.XtraBars.FluentDesignSystem.FluentFormDefaultManager fluentFormDefaultManager1;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement4;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement5;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement6;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement7;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement8;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement9;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement10;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnMusteriler;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnMehsullar;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnBarkodlar;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnSatisQiymetleri;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnSaticilar;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnMelumatGonderilmesi;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnProqramVersiyasi;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement2;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement11;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement12;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement13;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement14;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement15;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement16;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement17;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement18;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement19;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnSirketler;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnSobeler;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnKassalar;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnKassirler;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnKassirIcazeQruplari;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnKompanyalar;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnCapFormalari;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnXususiQiymetler;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnMehsulXususiKodlari;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement3;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement21;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement22;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement23;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement24;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement20;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnSatisSenedleri;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnQaytarmaSenedleri;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnHFveQRPsenedleri;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnLegvEdilmisSenedler;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnDaxiliIstifadeAktlari;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator1;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator2;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator4;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator3;
+        private DevExpress.XtraBars.Docking.DockManager dockManager1;
+        private DevExpress.XtraBars.Docking.DockPanel dockPanel1;
+        private DevExpress.XtraBars.Docking.ControlContainer dockPanel1_Container;
+        private DevExpress.XtraBars.Docking2010.Views.NativeMdi.NativeMdiView nativeMdiView1;
+        private DevExpress.XtraBars.Docking2010.DocumentManager documentManager1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
+        private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl fluentDesignFormControl1;
     }
 }
 

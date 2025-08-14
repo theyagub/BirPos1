@@ -1,11 +1,14 @@
-﻿using DevExpress.XtraEditors;
+﻿using BirPos1.DbModelEF;
+using DevExpress.XtraEditors;
 using DevExpress.XtraSplashScreen;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,30 +23,6 @@ namespace BirPos1
             CurrentTextBox = txtSifre;
 
             splashScreen = new SplashScreenManager(this, typeof(WaitForm), true, true);
-        }
-
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void XtraForm1_Resize(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void XtraForm1_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
         }
         TextEdit CurrentTextBox;
         private SplashScreenManager splashScreen;
@@ -126,6 +105,11 @@ namespace BirPos1
             services.ShowSplashScreen(splashScreen);
 
             // Cari forma görə overlay göstər
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }

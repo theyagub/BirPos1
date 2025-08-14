@@ -36,16 +36,20 @@ namespace BirPosMaster.Melumatlar
             // 
             this.directXFormContainerControl1.Location = new System.Drawing.Point(1, 31);
             this.directXFormContainerControl1.Name = "directXFormContainerControl1";
-            this.directXFormContainerControl1.Size = new System.Drawing.Size(630, 246);
+            this.directXFormContainerControl1.Size = new System.Drawing.Size(731, 388);
             this.directXFormContainerControl1.TabIndex = 0;
+            this.directXFormContainerControl1.Click += new System.EventHandler(this.directXFormContainerControl1_Click);
             // 
             // DirectXForm2
             // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 278);
-            this.Controls.Add(this.directXFormContainerControl1);
+            this.ChildControls.Add(this.directXFormContainerControl1);
+            this.ClientSize = new System.Drawing.Size(733, 420);
+            this.Name = "DirectXForm2";
             this.Text = "DirectXForm2";
             this.ResumeLayout(false);
+
         }
 
         #endregion

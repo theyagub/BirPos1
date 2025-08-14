@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace BirPosMaster
 {
-    public partial class Musteriler : DevExpress.XtraEditors.XtraForm
+    public partial class Musteriler : DevExpress.XtraEditors.DirectXForm
     {
         public Musteriler()
         {

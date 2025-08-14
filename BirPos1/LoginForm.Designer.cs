@@ -32,6 +32,8 @@ namespace BirPos1
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.Table_Yarat = new DevExpress.XtraEditors.SimpleButton();
+            this.Baza_Yarat = new DevExpress.XtraEditors.SimpleButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -158,6 +160,8 @@ namespace BirPos1
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.Table_Yarat);
+            this.splitContainer1.Panel1.Controls.Add(this.Baza_Yarat);
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
             // 
             // splitContainer1.Panel2
@@ -167,6 +171,26 @@ namespace BirPos1
             this.splitContainer1.Size = new System.Drawing.Size(1231, 738);
             this.splitContainer1.SplitterDistance = 858;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // Table_Yarat
+            // 
+            this.Table_Yarat.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Table_Yarat.Appearance.Options.UseForeColor = true;
+            this.Table_Yarat.Location = new System.Drawing.Point(381, 136);
+            this.Table_Yarat.Name = "Table_Yarat";
+            this.Table_Yarat.Size = new System.Drawing.Size(185, 72);
+            this.Table_Yarat.TabIndex = 2;
+            this.Table_Yarat.Text = "Table yarat";
+            // 
+            // Baza_Yarat
+            // 
+            this.Baza_Yarat.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Baza_Yarat.Appearance.Options.UseForeColor = true;
+            this.Baza_Yarat.Location = new System.Drawing.Point(149, 136);
+            this.Baza_Yarat.Name = "Baza_Yarat";
+            this.Baza_Yarat.Size = new System.Drawing.Size(185, 72);
+            this.Baza_Yarat.TabIndex = 1;
+            this.Baza_Yarat.Text = "Baza yarat";
             // 
             // pictureBox1
             // 
@@ -179,7 +203,7 @@ namespace BirPos1
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // layoutControl1
             // 
@@ -873,8 +897,6 @@ namespace BirPos1
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("LoginForm.IconOptions.Image")));
             this.Name = "LoginForm";
             this.Text = "Giriş pəncərəsi";
-            this.Load += new System.EventHandler(this.XtraForm1_Load);
-            this.Resize += new System.EventHandler(this.XtraForm1_Resize);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -998,5 +1020,7 @@ namespace BirPos1
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem19;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem21;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem22;
+        private DevExpress.XtraEditors.SimpleButton Baza_Yarat;
+        private DevExpress.XtraEditors.SimpleButton Table_Yarat;
     }
 }
