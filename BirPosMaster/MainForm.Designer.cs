@@ -67,9 +67,21 @@ namespace BirPosMaster
             this.nativeMdiView1 = new DevExpress.XtraBars.Docking2010.Views.NativeMdi.NativeMdiView(this.components);
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.applicationMenu1 = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
+            this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
+            this.defaultBarAndDockingController1 = new DevExpress.XtraBars.DefaultBarAndDockingController(this.components);
+            this.toolbarFormManager1 = new DevExpress.XtraBars.ToolbarForm.ToolbarFormManager(this.components);
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.toolbarFormControl1 = new DevExpress.XtraBars.ToolbarForm.ToolbarFormControl();
+            this.toolbarFormManager2 = new DevExpress.XtraBars.ToolbarForm.ToolbarFormManager(this.components);
+            this.barDockControl1 = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControl4 = new DevExpress.XtraBars.BarDockControl();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
@@ -77,6 +89,11 @@ namespace BirPosMaster
             ((System.ComponentModel.ISupportInitialize)(this.nativeMdiView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.defaultBarAndDockingController1.Controller)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toolbarFormManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toolbarFormControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toolbarFormManager2)).BeginInit();
             this.SuspendLayout();
             // 
             // accordionControl1
@@ -86,10 +103,10 @@ namespace BirPosMaster
             this.accordionControlElement1,
             this.accordionControlElement2,
             this.accordionControlElement3});
-            this.accordionControl1.Location = new System.Drawing.Point(0, 0);
+            this.accordionControl1.Location = new System.Drawing.Point(0, 31);
             this.accordionControl1.Name = "accordionControl1";
             this.accordionControl1.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.accordionControl1.Size = new System.Drawing.Size(260, 728);
+            this.accordionControl1.Size = new System.Drawing.Size(260, 717);
             this.accordionControl1.TabIndex = 1;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -355,12 +372,6 @@ namespace BirPosMaster
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
-            // ribbonStatusBar1
-            // 
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 728);
-            this.ribbonStatusBar1.Name = "ribbonStatusBar1";
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1260, 20);
-            // 
             // ribbonPage3
             // 
             this.ribbonPage3.Name = "ribbonPage3";
@@ -371,18 +382,116 @@ namespace BirPosMaster
             this.applicationMenu1.MenuDrawMode = DevExpress.XtraBars.MenuDrawMode.LargeImagesText;
             this.applicationMenu1.Name = "applicationMenu1";
             // 
+            // defaultBarAndDockingController1
+            // 
+            // 
+            // toolbarFormManager1
+            // 
+            this.toolbarFormManager1.DockControls.Add(this.barDockControlTop);
+            this.toolbarFormManager1.DockControls.Add(this.barDockControlBottom);
+            this.toolbarFormManager1.DockControls.Add(this.barDockControlLeft);
+            this.toolbarFormManager1.DockControls.Add(this.barDockControlRight);
+            this.toolbarFormManager1.Form = this;
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 31);
+            this.barDockControlTop.Manager = this.toolbarFormManager1;
+            this.barDockControlTop.Size = new System.Drawing.Size(1260, 0);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 748);
+            this.barDockControlBottom.Manager = this.toolbarFormManager1;
+            this.barDockControlBottom.Size = new System.Drawing.Size(1260, 0);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 31);
+            this.barDockControlLeft.Manager = this.toolbarFormManager1;
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 717);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(1260, 31);
+            this.barDockControlRight.Manager = this.toolbarFormManager1;
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 717);
+            // 
+            // toolbarFormControl1
+            // 
+            this.toolbarFormControl1.Location = new System.Drawing.Point(0, 0);
+            this.toolbarFormControl1.Manager = this.toolbarFormManager2;
+            this.toolbarFormControl1.Name = "toolbarFormControl1";
+            this.toolbarFormControl1.Size = new System.Drawing.Size(1260, 31);
+            this.toolbarFormControl1.TabIndex = 7;
+            this.toolbarFormControl1.TabStop = false;
+            this.toolbarFormControl1.ToolbarForm = this;
+            // 
+            // toolbarFormManager2
+            // 
+            this.toolbarFormManager2.DockControls.Add(this.barDockControl1);
+            this.toolbarFormManager2.DockControls.Add(this.barDockControl2);
+            this.toolbarFormManager2.DockControls.Add(this.barDockControl3);
+            this.toolbarFormManager2.DockControls.Add(this.barDockControl4);
+            this.toolbarFormManager2.Form = this;
+            // 
+            // barDockControl1
+            // 
+            this.barDockControl1.CausesValidation = false;
+            this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControl1.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl1.Manager = this.toolbarFormManager2;
+            this.barDockControl1.Size = new System.Drawing.Size(0, 0);
+            // 
+            // barDockControl2
+            // 
+            this.barDockControl2.CausesValidation = false;
+            this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControl2.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl2.Manager = this.toolbarFormManager2;
+            this.barDockControl2.Size = new System.Drawing.Size(0, 0);
+            // 
+            // barDockControl3
+            // 
+            this.barDockControl3.CausesValidation = false;
+            this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControl3.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl3.Manager = this.toolbarFormManager2;
+            this.barDockControl3.Size = new System.Drawing.Size(0, 0);
+            // 
+            // barDockControl4
+            // 
+            this.barDockControl4.CausesValidation = false;
+            this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControl4.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl4.Manager = this.toolbarFormManager2;
+            this.barDockControl4.Size = new System.Drawing.Size(0, 0);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 748);
             this.Controls.Add(this.accordionControl1);
-            this.Controls.Add(this.ribbonStatusBar1);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
+            this.Controls.Add(this.toolbarFormControl1);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm.IconOptions.Image")));
+            this.IsMdiContainer = true;
             this.Name = "MainForm";
-            this.NavigationControl = this.accordionControl1;
             this.Text = "BirPos Master";
+            this.ToolbarFormControl = this.toolbarFormControl1;
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).EndInit();
@@ -391,7 +500,13 @@ namespace BirPosMaster
             ((System.ComponentModel.ISupportInitialize)(this.nativeMdiView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.defaultBarAndDockingController1.Controller)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toolbarFormManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toolbarFormControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toolbarFormManager2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -432,9 +547,21 @@ namespace BirPosMaster
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator1;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator2;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator4;
-        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar1;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
         private DevExpress.XtraBars.Ribbon.ApplicationMenu applicationMenu1;
+        private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
+        private DevExpress.XtraBars.DefaultBarAndDockingController defaultBarAndDockingController1;
+        private DevExpress.XtraBars.ToolbarForm.ToolbarFormManager toolbarFormManager1;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
+        private DevExpress.XtraBars.ToolbarForm.ToolbarFormControl toolbarFormControl1;
+        private DevExpress.XtraBars.ToolbarForm.ToolbarFormManager toolbarFormManager2;
+        private DevExpress.XtraBars.BarDockControl barDockControl1;
+        private DevExpress.XtraBars.BarDockControl barDockControl2;
+        private DevExpress.XtraBars.BarDockControl barDockControl3;
+        private DevExpress.XtraBars.BarDockControl barDockControl4;
     }
 }
 

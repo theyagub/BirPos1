@@ -15,7 +15,7 @@ using System.Xml.Linq;
 
 namespace BirPosMaster
 {
-    public partial class MainForm : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
+    public partial class MainForm : DevExpress.XtraBars.ToolbarForm.ToolbarForm
     {
         private ContainerControl fluentDesignFormContainer1;
 
@@ -174,6 +174,11 @@ namespace BirPosMaster
         }
 
         private void groupAndSortDockPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabFormContentContainer1_Click(object sender, EventArgs e)
         {
 
         }
