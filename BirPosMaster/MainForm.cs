@@ -17,6 +17,8 @@ namespace BirPosMaster
 {
     public partial class MainForm : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
+        private ContainerControl fluentDesignFormContainer1;
+
         public MainForm()
         {
             InitializeComponent();
@@ -56,7 +58,9 @@ namespace BirPosMaster
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            documentManager1.MdiParent = this;
+            documentManager1.View = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView();
+            documentManager1.ContainerControl = fluentDesignFormContainer1; // ✅ Düzgün host control
         }
 
         private void btnKassirler_Click(object sender, EventArgs e)
@@ -165,6 +169,11 @@ namespace BirPosMaster
         }
 
         private void fluentDesignFormContainer1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupAndSortDockPanel1_Click(object sender, EventArgs e)
         {
 
         }

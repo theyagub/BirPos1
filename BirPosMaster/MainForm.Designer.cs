@@ -52,13 +52,13 @@ namespace BirPosMaster
             this.btnXususiQiymetler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnMehsulXususiKodlari = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlSeparator2 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
-            this.accordionControlSeparator4 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.accordionControlElement3 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnSatisSenedleri = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnQaytarmaSenedleri = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnHFveQRPsenedleri = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnLegvEdilmisSenedler = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnDaxiliIstifadeAktlari = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlSeparator4 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.fluentFormDefaultManager1 = new DevExpress.XtraBars.FluentDesignSystem.FluentFormDefaultManager(this.components);
             this.accordionControlSeparator3 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
@@ -67,14 +67,16 @@ namespace BirPosMaster
             this.nativeMdiView1 = new DevExpress.XtraBars.Docking2010.Views.NativeMdi.NativeMdiView(this.components);
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
+            this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
+            this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.applicationMenu1 = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             this.dockPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nativeMdiView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).BeginInit();
             this.SuspendLayout();
             // 
             // accordionControl1
@@ -82,14 +84,12 @@ namespace BirPosMaster
             this.accordionControl1.Dock = System.Windows.Forms.DockStyle.Left;
             this.accordionControl1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.accordionControlElement1,
-            this.accordionControlSeparator1,
             this.accordionControlElement2,
-            this.accordionControlSeparator4,
             this.accordionControlElement3});
-            this.accordionControl1.Location = new System.Drawing.Point(0, 31);
+            this.accordionControl1.Location = new System.Drawing.Point(0, 0);
             this.accordionControl1.Name = "accordionControl1";
             this.accordionControl1.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.accordionControl1.Size = new System.Drawing.Size(260, 674);
+            this.accordionControl1.Size = new System.Drawing.Size(260, 728);
             this.accordionControl1.TabIndex = 1;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -102,8 +102,8 @@ namespace BirPosMaster
             this.btnSatisQiymetleri,
             this.btnSaticilar,
             this.btnMelumatGonderilmesi,
-            this.btnProqramVersiyasi});
-            this.accordionControlElement1.Expanded = true;
+            this.btnProqramVersiyasi,
+            this.accordionControlSeparator1});
             this.accordionControlElement1.Name = "accordionControlElement1";
             this.accordionControlElement1.Text = "Məlumatlar";
             this.accordionControlElement1.Click += new System.EventHandler(this.accordionControlElement1_Click);
@@ -159,7 +159,6 @@ namespace BirPosMaster
             // 
             // accordionControlSeparator1
             // 
-            this.accordionControlSeparator1.Height = 20;
             this.accordionControlSeparator1.Name = "accordionControlSeparator1";
             // 
             // accordionControlElement2
@@ -175,7 +174,6 @@ namespace BirPosMaster
             this.btnXususiQiymetler,
             this.btnMehsulXususiKodlari,
             this.accordionControlSeparator2});
-            this.accordionControlElement2.Expanded = true;
             this.accordionControlElement2.Name = "accordionControlElement2";
             this.accordionControlElement2.Text = "Sistem";
             // 
@@ -246,11 +244,6 @@ namespace BirPosMaster
             // 
             this.accordionControlSeparator2.Name = "accordionControlSeparator2";
             // 
-            // accordionControlSeparator4
-            // 
-            this.accordionControlSeparator4.Height = 20;
-            this.accordionControlSeparator4.Name = "accordionControlSeparator4";
-            // 
             // accordionControlElement3
             // 
             this.accordionControlElement3.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
@@ -258,8 +251,8 @@ namespace BirPosMaster
             this.btnQaytarmaSenedleri,
             this.btnHFveQRPsenedleri,
             this.btnLegvEdilmisSenedler,
-            this.btnDaxiliIstifadeAktlari});
-            this.accordionControlElement3.Expanded = true;
+            this.btnDaxiliIstifadeAktlari,
+            this.accordionControlSeparator4});
             this.accordionControlElement3.Name = "accordionControlElement3";
             this.accordionControlElement3.Text = "Sənədlər";
             // 
@@ -297,6 +290,10 @@ namespace BirPosMaster
             this.btnDaxiliIstifadeAktlari.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.btnDaxiliIstifadeAktlari.Text = "Daxili istifadə aktları";
             this.btnDaxiliIstifadeAktlari.Click += new System.EventHandler(this.btnDaxiliIstifadeAktlari_Click);
+            // 
+            // accordionControlSeparator4
+            // 
+            this.accordionControlSeparator4.Name = "accordionControlSeparator4";
             // 
             // fluentFormDefaultManager1
             // 
@@ -358,23 +355,29 @@ namespace BirPosMaster
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
-            // fluentDesignFormControl1
+            // ribbonStatusBar1
             // 
-            this.fluentDesignFormControl1.FluentDesignForm = this;
-            this.fluentDesignFormControl1.Location = new System.Drawing.Point(0, 0);
-            this.fluentDesignFormControl1.Name = "fluentDesignFormControl1";
-            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1260, 31);
-            this.fluentDesignFormControl1.TabIndex = 5;
-            this.fluentDesignFormControl1.TabStop = false;
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 728);
+            this.ribbonStatusBar1.Name = "ribbonStatusBar1";
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1260, 20);
+            // 
+            // ribbonPage3
+            // 
+            this.ribbonPage3.Name = "ribbonPage3";
+            this.ribbonPage3.Text = "ribbonPage3";
+            // 
+            // applicationMenu1
+            // 
+            this.applicationMenu1.MenuDrawMode = DevExpress.XtraBars.MenuDrawMode.LargeImagesText;
+            this.applicationMenu1.Name = "applicationMenu1";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1260, 705);
+            this.ClientSize = new System.Drawing.Size(1260, 748);
             this.Controls.Add(this.accordionControl1);
-            this.Controls.Add(this.fluentDesignFormControl1);
-            this.FluentDesignFormControl = this.fluentDesignFormControl1;
+            this.Controls.Add(this.ribbonStatusBar1);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm.IconOptions.Image")));
             this.Name = "MainForm";
@@ -387,7 +390,7 @@ namespace BirPosMaster
             this.dockPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nativeMdiView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -419,9 +422,6 @@ namespace BirPosMaster
         private DevExpress.XtraBars.Navigation.AccordionControlElement btnHFveQRPsenedleri;
         private DevExpress.XtraBars.Navigation.AccordionControlElement btnLegvEdilmisSenedler;
         private DevExpress.XtraBars.Navigation.AccordionControlElement btnDaxiliIstifadeAktlari;
-        private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator1;
-        private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator2;
-        private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator4;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator3;
         private DevExpress.XtraBars.Docking.DockManager dockManager1;
         private DevExpress.XtraBars.Docking.DockPanel dockPanel1;
@@ -429,7 +429,12 @@ namespace BirPosMaster
         private DevExpress.XtraBars.Docking2010.Views.NativeMdi.NativeMdiView nativeMdiView1;
         private DevExpress.XtraBars.Docking2010.DocumentManager documentManager1;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
-        private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl fluentDesignFormControl1;
+        private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator1;
+        private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator2;
+        private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator4;
+        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
+        private DevExpress.XtraBars.Ribbon.ApplicationMenu applicationMenu1;
     }
 }
 
