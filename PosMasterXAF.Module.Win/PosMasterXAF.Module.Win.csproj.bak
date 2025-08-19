@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PosMasterXAF.Module.Win</RootNamespace>
     <AssemblyName>PosMasterXAF.Module.Win</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -39,246 +39,250 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.2.7" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="25.1.3" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.Desktop.v24.2">
+    <Reference Include="DevExpress.Data.Desktop.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Data.v24.2">
+    <Reference Include="DevExpress.Data.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v24.2">
+    <Reference Include="DevExpress.DataAccess.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v24.2.UI">
+    <Reference Include="DevExpress.DataAccess.v25.1.UI">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Drawing.v24.2">
+    <Reference Include="DevExpress.Drawing.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.AuditTrail.Xpo.v24.2">
+    <Reference Include="DevExpress.ExpressApp.AuditTrail.Xpo.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.CloneObject.Xpo.v24.2">
+    <Reference Include="DevExpress.ExpressApp.CloneObject.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v24.2">
+    <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.FileAttachment.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.FileAttachment.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Notifications.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Notifications.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Notifications.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Notifications.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Objects.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Objects.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Office.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Office.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Office.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Office.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.PivotChart.v24.2">
+    <Reference Include="DevExpress.ExpressApp.PivotChart.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.PivotChart.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.PivotChart.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.PivotGrid.v24.2">
+    <Reference Include="DevExpress.ExpressApp.PivotGrid.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.PivotGrid.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.PivotGrid.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.ReportsV2.v24.2">
+    <Reference Include="DevExpress.ExpressApp.ReportsV2.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.ReportsV2.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.ReportsV2.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Security.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Security.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Security.Xpo.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Security.Xpo.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.TreeListEditors.v24.2">
+    <Reference Include="DevExpress.ExpressApp.TreeListEditors.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.TreeListEditors.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.TreeListEditors.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.v24.2">
+    <Reference Include="DevExpress.ExpressApp.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Validation.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Validation.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v24.2">
+    <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Workflow.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Workflow.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Workflow.Win.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Workflow.Win.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Xpo.v24.2">
+    <Reference Include="DevExpress.ExpressApp.Xpo.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Images.v24.2">
+    <Reference Include="DevExpress.Images.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Office.v24.2.Core">
+    <Reference Include="DevExpress.Office.v25.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Persistent.Base.v24.2">
+    <Reference Include="DevExpress.Persistent.Base.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Persistent.BaseImpl.Xpo.v24.2">
+    <Reference Include="DevExpress.Persistent.BaseImpl.Xpo.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v24.2.Core">
+    <Reference Include="DevExpress.PivotGrid.v25.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Printing.v24.2.Core">
+    <Reference Include="DevExpress.Printing.v25.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v24.2.Core">
+    <Reference Include="DevExpress.RichEdit.v25.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Spreadsheet.v24.2.Core">
+    <Reference Include="DevExpress.Spreadsheet.v25.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Utils.v24.2">
+    <Reference Include="DevExpress.Utils.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Utils.v24.2.UI">
+    <Reference Include="DevExpress.Utils.v25.1.UI">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Workflow.Activities.v24.2">
+    <Reference Include="DevExpress.Workflow.Activities.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Workflow.Activities.v24.2.Design">
+    <Reference Include="DevExpress.Workflow.Activities.v25.1.Design">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v24.2">
+    <Reference Include="DevExpress.Xpo.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraBars.v24.2">
+    <Reference Include="DevExpress.XtraBars.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v24.2">
+    <Reference Include="DevExpress.Charts.v25.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v24.2.UI">
+    <Reference Include="DevExpress.XtraCharts.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v24.2.Wizard">
+    <Reference Include="DevExpress.XtraCharts.v25.1.UI">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v24.2">
+    <Reference Include="DevExpress.XtraCharts.v25.1.Wizard">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v24.2">
+    <Reference Include="DevExpress.XtraEditors.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v24.2">
+    <Reference Include="DevExpress.XtraGrid.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraNavBar.v24.2">
+    <Reference Include="DevExpress.XtraLayout.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraPivotGrid.v24.2">
+    <Reference Include="DevExpress.XtraNavBar.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v24.2">
+    <Reference Include="DevExpress.XtraPivotGrid.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v24.2">
+    <Reference Include="DevExpress.XtraPrinting.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v24.2.Extensions">
+    <Reference Include="DevExpress.XtraReports.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v24.2">
+    <Reference Include="DevExpress.XtraReports.v25.1.Extensions">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraSpreadsheet.v24.2">
+    <Reference Include="DevExpress.XtraRichEdit.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v24.2">
+    <Reference Include="DevExpress.XtraSpreadsheet.v25.1">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v25.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>

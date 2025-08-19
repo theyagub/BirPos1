@@ -447,33 +447,33 @@ namespace BirPosMaster
             // 
             this.barDockControl1.CausesValidation = false;
             this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.barDockControl1.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl1.Location = new System.Drawing.Point(0, 31);
             this.barDockControl1.Manager = this.toolbarFormManager2;
-            this.barDockControl1.Size = new System.Drawing.Size(0, 0);
+            this.barDockControl1.Size = new System.Drawing.Size(1260, 0);
             // 
             // barDockControl2
             // 
             this.barDockControl2.CausesValidation = false;
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControl2.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl2.Location = new System.Drawing.Point(0, 748);
             this.barDockControl2.Manager = this.toolbarFormManager2;
-            this.barDockControl2.Size = new System.Drawing.Size(0, 0);
+            this.barDockControl2.Size = new System.Drawing.Size(1260, 0);
             // 
             // barDockControl3
             // 
             this.barDockControl3.CausesValidation = false;
             this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControl3.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl3.Location = new System.Drawing.Point(0, 31);
             this.barDockControl3.Manager = this.toolbarFormManager2;
-            this.barDockControl3.Size = new System.Drawing.Size(0, 0);
+            this.barDockControl3.Size = new System.Drawing.Size(0, 717);
             // 
             // barDockControl4
             // 
             this.barDockControl4.CausesValidation = false;
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControl4.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl4.Location = new System.Drawing.Point(1260, 31);
             this.barDockControl4.Manager = this.toolbarFormManager2;
-            this.barDockControl4.Size = new System.Drawing.Size(0, 0);
+            this.barDockControl4.Size = new System.Drawing.Size(0, 717);
             // 
             // MainForm
             // 
@@ -485,6 +485,10 @@ namespace BirPosMaster
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
+            this.Controls.Add(this.barDockControl3);
+            this.Controls.Add(this.barDockControl4);
+            this.Controls.Add(this.barDockControl2);
+            this.Controls.Add(this.barDockControl1);
             this.Controls.Add(this.toolbarFormControl1);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm.IconOptions.Image")));

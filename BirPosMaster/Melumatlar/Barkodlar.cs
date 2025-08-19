@@ -17,5 +17,10 @@ namespace BirPosMaster
         {
             InitializeComponent();
         }
+
+        private void directXFormContainerControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

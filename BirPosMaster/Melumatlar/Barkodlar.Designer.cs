@@ -41,6 +41,7 @@ namespace BirPosMaster
             this.directXFormContainerControl1.Name = "directXFormContainerControl1";
             this.directXFormContainerControl1.Size = new System.Drawing.Size(1246, 618);
             this.directXFormContainerControl1.TabIndex = 0;
+            this.directXFormContainerControl1.Click += new System.EventHandler(this.directXFormContainerControl1_Click);
             // 
             // dockManager1
             // 
