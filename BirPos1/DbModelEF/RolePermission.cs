@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BirPos1.DbModelEF
 {
     [Table("RolePermission")]
-    public class RolePermission
+    public class RolePermission : BaseObject
     {
         public int RoleId { get; set; }
         public Role Role { get; set; }

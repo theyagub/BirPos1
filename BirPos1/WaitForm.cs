@@ -49,5 +49,10 @@ namespace BirPos1
         {
             this.Close();
         }
+
+        private void WaitForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

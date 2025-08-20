@@ -50,10 +50,10 @@ namespace BirPos1
             this.progressPanel1.Description = "Yüklənir";
             this.progressPanel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.progressPanel1.ImageHorzOffset = 20;
-            this.progressPanel1.Location = new System.Drawing.Point(192, 0);
+            this.progressPanel1.Location = new System.Drawing.Point(108, 0);
             this.progressPanel1.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.progressPanel1.Name = "progressPanel1";
-            this.progressPanel1.Size = new System.Drawing.Size(461, 387);
+            this.progressPanel1.Size = new System.Drawing.Size(465, 287);
             this.progressPanel1.TabIndex = 0;
             this.progressPanel1.Text = "progressPanel1";
             this.progressPanel1.Click += new System.EventHandler(this.progressPanel1_Click);
@@ -89,7 +89,7 @@ namespace BirPos1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(653, 387);
+            this.ClientSize = new System.Drawing.Size(573, 287);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.progressPanel1);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -97,6 +97,7 @@ namespace BirPos1
             this.Name = "WaitForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.WaitForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

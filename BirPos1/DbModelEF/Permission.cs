@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BirPos1.DbModelEF
 {
     [Table("Permission")]
-    public class Permission
+    public class Permission : BaseObject
     {
         public int Id { get; set; }
         public string Name { get; set; } // Məsələn: "CanMakeSale", "CanAccessSettings"

@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace BirPos1.DbModelEF
 {
-    [Table("Role")]
-    public class User
+    [Table("User")]
+    public class User : BaseObject
     {
         public int Id { get; set; }
         public string Username { get; set; }
         public string PasswordHash { get; set; }
 
-        public ICollection<UserRole> UserRoles { get; set; }
+        //public ICollection<UserRole> UserRoles { get; set; }
     }
 
 }

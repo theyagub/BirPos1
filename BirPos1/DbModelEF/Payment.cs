@@ -9,7 +9,7 @@ using static BirPos1.DbModelEF.Enums;
 namespace BirPos1.DbModelEF
 {
     [Table("Payment")]
-    public class Payment
+    public class Payment : BaseObject
     {
     public int Id { get; set; }
 

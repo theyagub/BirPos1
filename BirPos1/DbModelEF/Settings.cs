@@ -7,14 +7,12 @@ using System.Threading.Tasks;
 
 namespace BirPos1.DbModelEF
 {
-    class Settings
+    [Table("Setting")]
+
+    public class Settings : BaseObject
     {
-        [Table("Setting")]
-        public class Setting
-        {
-            public int Id { get; set; }
-            public string Key { get; set; }      // Parametr adı, məsələn "TaxRate"
-            public string Value { get; set; }    // Parametr dəyəri, məsələn "18"
-        }
+        public int Id { get; set; }
+        public string Key { get; set; }      // Parametr adı, məsələn "TaxRate"
+        public string Value { get; set; }    // Parametr dəyəri, məsələn "18"
     }
 }

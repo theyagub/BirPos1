@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BirPos1.DbModelEF
 {
     [Table("ProductStock")]
-    class ProductStock
+    public class ProductStock : BaseObject
     {
         public int ProductId { get; set; }
         public Product Product { get; set; }

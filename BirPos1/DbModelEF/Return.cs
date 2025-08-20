@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BirPos1.DbModelEF
 {
     [Table("Return")]
-    public class Return
+    public class Return : BaseObject
     {
         public int Id { get; set; }
         public int SaleId { get; set; }         // Hansı satışdan qaytarılır

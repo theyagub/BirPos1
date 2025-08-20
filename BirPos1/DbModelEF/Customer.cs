@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BirPos1.DbModelEF
 {
     [Table("Customer")]
-    public class Customer
+    public class Customer : BaseObject
     {
         public string Name { get; set; }
         public string Surname { get; set; }

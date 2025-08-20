@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BirPos1.DbModelEF
 {
     [Table("Discount")]
-    public class Discount
+    public class Discount : BaseObject
     {
         public int Id { get; set; }
         public string Name { get; set; }           // Endirimin adı, məsələn "Yaz endirimi"

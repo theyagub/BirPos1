@@ -9,7 +9,7 @@ namespace BirPos1.DbModelEF
 {
     [Table("SellerItem")]
 
-    public class SaleItem
+    public class SaleItem : BaseObject
     {
         public int SaleId { get; set; }
         public Sale Sale { get; set; }

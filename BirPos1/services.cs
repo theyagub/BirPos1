@@ -2,6 +2,7 @@
 using DevExpress.XtraSplashScreen;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,25 @@ namespace BirPos1
         public static void SetText(TextEdit text, string val)
         {
             text.Text += val;
+        }
+
+        public static string GetConnectionString()
+        {
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+
+            builder.DataSource = @".\SQLExpress";
+
+            builder.InitialCatalog = "YaqubTEST";
+
+            builder.UserID = "Yaqub21";
+
+            builder.Password = "123456789";
+
+            builder.Pooling = true;
+
+            builder.ApplicationName = "1POS";
+
+            return builder.ConnectionString;
         }
     }
 }

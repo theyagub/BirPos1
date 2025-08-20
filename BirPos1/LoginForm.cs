@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Migrations;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
@@ -21,8 +22,12 @@ namespace BirPos1
         {
             InitializeComponent();
             CurrentTextBox = txtSifre;
-
+            this.WindowState = FormWindowState.Maximized;
             splashScreen = new SplashScreenManager(this, typeof(WaitForm), true, true);
+            Timer timer = new Timer();
+            timer.Interval = 1000; // 1 saniyə
+            timer.Tick += timer1_Tick;
+            timer.Start();
         }
         TextEdit CurrentTextBox;
         private SplashScreenManager splashScreen;
@@ -82,12 +87,43 @@ namespace BirPos1
             AddText((sender as Button).Text);
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private async void button3_Click(object sender, EventArgs e)
         {
-            if (CurrentTextBox.Text.Length > 0)
+
+            //if (CurrentTextBox.Text.Length > 0)
+            //{
+            //    CurrentTextBox.Text = CurrentTextBox.Text.Substring(0, CurrentTextBox.Text.Length - 1);
+            //}
+
+
+
+
+
+
+
+            try
             {
-                CurrentTextBox.Text = CurrentTextBox.Text.Substring(0, CurrentTextBox.Text.Length - 1);
+                //KOD ile DATABASE yaratmaq!!!!!!!!!!!!!!!!!!!!
+                using (var context = new DataContext())
+                {
+                    var configuration = new Migrations.Configuration
+                    {
+                        AutomaticMigrationsEnabled = true,
+                        AutomaticMigrationDataLossAllowed = true
+                    };
+                    var migrator = new DbMigrator(configuration);
+
+                    await Task.Run(() => migrator.Update());
+                    MessageBox.Show("Database ugurla yaradildi.");
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                MessageBox.Show("Database yaradilmadi.");
+            }
+
+
         }
 
         private void txtSifre_Click(object sender, EventArgs e)
@@ -103,14 +139,37 @@ namespace BirPos1
         private void button1_Click(object sender, EventArgs e)
         {
             services.ShowSplashScreen(splashScreen);
-
-            // Cari forma görə overlay göstər
-
+            if (txtSifre.Text == "Yaqub" && txtNo.Text == "1234")
+            {
+                this.DialogResult = DialogResult.OK;
+                MainForm mainForm = new MainForm();
+                mainForm.Show();
+                services.HideSplashScreen(splashScreen);
+                this.Hide();
+            }
+            else if (txtSifre.Text == "1" && txtNo.Text == "1")
+            {
+                CreatePOS createPOS = new CreatePOS();
+                createPOS.Show();
+                services.HideSplashScreen(splashScreen);
+                this.Hide();
+            }
+            else
+            {
+                services.HideSplashScreen(splashScreen);
+                XtraMessageBox.Show("İstifadəçi adı və ya şifrə yanlışdır.", "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblLoginDate.Text = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
         }
     }
 }

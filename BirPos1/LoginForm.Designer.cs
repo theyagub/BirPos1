@@ -97,6 +97,7 @@ namespace BirPos1
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -164,8 +165,8 @@ namespace BirPos1
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.GhostWhite;
             this.splitContainer1.Panel2.Controls.Add(this.layoutControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(1231, 738);
-            this.splitContainer1.SplitterDistance = 858;
+            this.splitContainer1.Size = new System.Drawing.Size(1237, 736);
+            this.splitContainer1.SplitterDistance = 862;
             this.splitContainer1.TabIndex = 0;
             // 
             // pictureBox1
@@ -175,7 +176,7 @@ namespace BirPos1
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(858, 738);
+            this.pictureBox1.Size = new System.Drawing.Size(862, 736);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -188,7 +189,7 @@ namespace BirPos1
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(369, 738);
+            this.layoutControl1.Size = new System.Drawing.Size(371, 736);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -198,7 +199,7 @@ namespace BirPos1
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(345, 714);
+            this.panel1.Size = new System.Drawing.Size(347, 712);
             this.panel1.TabIndex = 4;
             // 
             // panel5
@@ -208,7 +209,7 @@ namespace BirPos1
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(345, 473);
+            this.panel5.Size = new System.Drawing.Size(347, 471);
             this.panel5.TabIndex = 3;
             // 
             // splitContainer2
@@ -229,8 +230,8 @@ namespace BirPos1
             // 
             this.splitContainer2.Panel2.BackColor = System.Drawing.Color.White;
             this.splitContainer2.Panel2.Controls.Add(this.layoutControl2);
-            this.splitContainer2.Size = new System.Drawing.Size(345, 473);
-            this.splitContainer2.SplitterDistance = 186;
+            this.splitContainer2.Size = new System.Drawing.Size(347, 471);
+            this.splitContainer2.SplitterDistance = 184;
             this.splitContainer2.TabIndex = 0;
             // 
             // layoutControl4
@@ -246,7 +247,7 @@ namespace BirPos1
             this.layoutControl4.Location = new System.Drawing.Point(0, 0);
             this.layoutControl4.Name = "layoutControl4";
             this.layoutControl4.Root = this.layoutControlGroup3;
-            this.layoutControl4.Size = new System.Drawing.Size(345, 186);
+            this.layoutControl4.Size = new System.Drawing.Size(347, 184);
             this.layoutControl4.TabIndex = 1;
             this.layoutControl4.Text = "layoutControl4";
             // 
@@ -254,38 +255,38 @@ namespace BirPos1
             // 
             this.panel10.Location = new System.Drawing.Point(12, 12);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(321, 61);
+            this.panel10.Size = new System.Drawing.Size(323, 60);
             this.panel10.TabIndex = 12;
             // 
             // panel9
             // 
-            this.panel9.Location = new System.Drawing.Point(12, 101);
+            this.panel9.Location = new System.Drawing.Point(12, 102);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(321, 25);
+            this.panel9.Size = new System.Drawing.Size(323, 20);
             this.panel9.TabIndex = 11;
             // 
             // panel8
             // 
-            this.panel8.Location = new System.Drawing.Point(12, 154);
+            this.panel8.Location = new System.Drawing.Point(12, 152);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(321, 20);
+            this.panel8.Size = new System.Drawing.Size(323, 20);
             this.panel8.TabIndex = 10;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(12, 130);
+            this.label6.Location = new System.Drawing.Point(12, 126);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 20);
+            this.label6.Size = new System.Drawing.Size(105, 22);
             this.label6.TabIndex = 9;
             this.label6.Text = "Şifrə";
             // 
             // txtNo
             // 
-            this.txtNo.Location = new System.Drawing.Point(120, 130);
+            this.txtNo.Location = new System.Drawing.Point(121, 126);
             this.txtNo.Name = "txtNo";
-            this.txtNo.Size = new System.Drawing.Size(213, 20);
+            this.txtNo.Size = new System.Drawing.Size(214, 22);
             this.txtNo.StyleController = this.layoutControl4;
             this.txtNo.TabIndex = 8;
             this.txtNo.Click += new System.EventHandler(this.txtNo_Click);
@@ -294,17 +295,17 @@ namespace BirPos1
             // 
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(12, 77);
+            this.label5.Location = new System.Drawing.Point(12, 76);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.Size = new System.Drawing.Size(105, 22);
             this.label5.TabIndex = 7;
             this.label5.Text = "Kassir №";
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(120, 77);
+            this.txtSifre.Location = new System.Drawing.Point(121, 76);
             this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(213, 20);
+            this.txtSifre.Size = new System.Drawing.Size(214, 22);
             this.txtSifre.StyleController = this.layoutControl4;
             this.txtSifre.TabIndex = 4;
             this.txtSifre.Click += new System.EventHandler(this.txtSifre_Click);
@@ -322,15 +323,15 @@ namespace BirPos1
             this.layoutControlItem21,
             this.layoutControlItem22});
             this.layoutControlGroup3.Name = "layoutControlGroup3";
-            this.layoutControlGroup3.Size = new System.Drawing.Size(345, 186);
+            this.layoutControlGroup3.Size = new System.Drawing.Size(347, 184);
             this.layoutControlGroup3.TextVisible = false;
             // 
             // layoutControlItem17
             // 
             this.layoutControlItem17.Control = this.txtSifre;
-            this.layoutControlItem17.Location = new System.Drawing.Point(108, 65);
+            this.layoutControlItem17.Location = new System.Drawing.Point(109, 64);
             this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(217, 24);
+            this.layoutControlItem17.Size = new System.Drawing.Size(218, 26);
             this.layoutControlItem17.Text = "Şifrə";
             this.layoutControlItem17.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem17.TextVisible = false;
@@ -338,42 +339,42 @@ namespace BirPos1
             // layoutControlItem16
             // 
             this.layoutControlItem16.Control = this.label5;
-            this.layoutControlItem16.Location = new System.Drawing.Point(0, 65);
+            this.layoutControlItem16.Location = new System.Drawing.Point(0, 64);
             this.layoutControlItem16.Name = "layoutControlItem16";
-            this.layoutControlItem16.Size = new System.Drawing.Size(108, 24);
+            this.layoutControlItem16.Size = new System.Drawing.Size(109, 26);
             this.layoutControlItem16.TextVisible = false;
             // 
             // layoutControlItem18
             // 
             this.layoutControlItem18.Control = this.label6;
-            this.layoutControlItem18.Location = new System.Drawing.Point(0, 118);
+            this.layoutControlItem18.Location = new System.Drawing.Point(0, 114);
             this.layoutControlItem18.Name = "layoutControlItem18";
-            this.layoutControlItem18.Size = new System.Drawing.Size(108, 24);
+            this.layoutControlItem18.Size = new System.Drawing.Size(109, 26);
             this.layoutControlItem18.TextVisible = false;
             // 
             // layoutControlItem20
             // 
             this.layoutControlItem20.Control = this.panel8;
-            this.layoutControlItem20.Location = new System.Drawing.Point(0, 142);
+            this.layoutControlItem20.Location = new System.Drawing.Point(0, 140);
             this.layoutControlItem20.Name = "layoutControlItem20";
-            this.layoutControlItem20.Size = new System.Drawing.Size(325, 24);
+            this.layoutControlItem20.Size = new System.Drawing.Size(327, 24);
             this.layoutControlItem20.TextVisible = false;
             // 
             // layoutControlItem19
             // 
             this.layoutControlItem19.Control = this.txtNo;
-            this.layoutControlItem19.Location = new System.Drawing.Point(108, 118);
+            this.layoutControlItem19.Location = new System.Drawing.Point(109, 114);
             this.layoutControlItem19.Name = "layoutControlItem19";
-            this.layoutControlItem19.Size = new System.Drawing.Size(217, 24);
+            this.layoutControlItem19.Size = new System.Drawing.Size(218, 26);
             this.layoutControlItem19.Text = "Kassir №";
             this.layoutControlItem19.TextVisible = false;
             // 
             // layoutControlItem21
             // 
             this.layoutControlItem21.Control = this.panel9;
-            this.layoutControlItem21.Location = new System.Drawing.Point(0, 89);
+            this.layoutControlItem21.Location = new System.Drawing.Point(0, 90);
             this.layoutControlItem21.Name = "layoutControlItem21";
-            this.layoutControlItem21.Size = new System.Drawing.Size(325, 29);
+            this.layoutControlItem21.Size = new System.Drawing.Size(327, 24);
             this.layoutControlItem21.TextVisible = false;
             // 
             // layoutControlItem22
@@ -381,7 +382,7 @@ namespace BirPos1
             this.layoutControlItem22.Control = this.panel10;
             this.layoutControlItem22.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem22.Name = "layoutControlItem22";
-            this.layoutControlItem22.Size = new System.Drawing.Size(325, 65);
+            this.layoutControlItem22.Size = new System.Drawing.Size(327, 64);
             this.layoutControlItem22.TextVisible = false;
             // 
             // layoutControl3
@@ -422,7 +423,7 @@ namespace BirPos1
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1710, 226, 650, 400);
             this.layoutControl2.Root = this.layoutControlGroup1;
-            this.layoutControl2.Size = new System.Drawing.Size(345, 283);
+            this.layoutControl2.Size = new System.Drawing.Size(347, 283);
             this.layoutControl2.TabIndex = 0;
             this.layoutControl2.Text = "layoutControl2";
             // 
@@ -431,7 +432,7 @@ namespace BirPos1
             this.panel7.BackColor = System.Drawing.Color.GhostWhite;
             this.panel7.Location = new System.Drawing.Point(12, 12);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(321, 40);
+            this.panel7.Size = new System.Drawing.Size(323, 40);
             this.panel7.TabIndex = 1;
             // 
             // panel4
@@ -439,7 +440,7 @@ namespace BirPos1
             this.panel4.BackColor = System.Drawing.Color.GhostWhite;
             this.panel4.Location = new System.Drawing.Point(12, 249);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(321, 22);
+            this.panel4.Size = new System.Drawing.Size(323, 22);
             this.panel4.TabIndex = 1;
             // 
             // button5
@@ -447,9 +448,9 @@ namespace BirPos1
             this.button5.BackColor = System.Drawing.Color.Teal;
             this.button5.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(110, 152);
+            this.button5.Location = new System.Drawing.Point(111, 152);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(99, 44);
+            this.button5.Size = new System.Drawing.Size(99, 43);
             this.button5.TabIndex = 8;
             this.button5.Text = "2";
             this.button5.UseVisualStyleBackColor = false;
@@ -460,9 +461,9 @@ namespace BirPos1
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 200);
+            this.button1.Location = new System.Drawing.Point(12, 199);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 45);
+            this.button1.Size = new System.Drawing.Size(95, 46);
             this.button1.TabIndex = 10;
             this.button1.Text = "Enter";
             this.button1.UseVisualStyleBackColor = false;
@@ -473,9 +474,9 @@ namespace BirPos1
             this.button2.BackColor = System.Drawing.Color.Teal;
             this.button2.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(110, 200);
+            this.button2.Location = new System.Drawing.Point(111, 199);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 45);
+            this.button2.Size = new System.Drawing.Size(99, 46);
             this.button2.TabIndex = 11;
             this.button2.Text = "0";
             this.button2.UseVisualStyleBackColor = false;
@@ -486,9 +487,9 @@ namespace BirPos1
             this.button3.BackColor = System.Drawing.Color.Maroon;
             this.button3.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(213, 200);
+            this.button3.Location = new System.Drawing.Point(214, 199);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 45);
+            this.button3.Size = new System.Drawing.Size(121, 46);
             this.button3.TabIndex = 12;
             this.button3.Text = "Sil";
             this.button3.UseVisualStyleBackColor = false;
@@ -501,7 +502,7 @@ namespace BirPos1
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(12, 152);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(94, 44);
+            this.button6.Size = new System.Drawing.Size(95, 43);
             this.button6.TabIndex = 7;
             this.button6.Text = "1";
             this.button6.UseVisualStyleBackColor = false;
@@ -512,9 +513,9 @@ namespace BirPos1
             this.button4.BackColor = System.Drawing.Color.Teal;
             this.button4.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(213, 152);
+            this.button4.Location = new System.Drawing.Point(214, 152);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 44);
+            this.button4.Size = new System.Drawing.Size(121, 43);
             this.button4.TabIndex = 9;
             this.button4.Text = "3";
             this.button4.UseVisualStyleBackColor = false;
@@ -527,7 +528,7 @@ namespace BirPos1
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Location = new System.Drawing.Point(12, 104);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(94, 44);
+            this.button12.Size = new System.Drawing.Size(95, 44);
             this.button12.TabIndex = 4;
             this.button12.Text = "4";
             this.button12.UseVisualStyleBackColor = false;
@@ -538,9 +539,9 @@ namespace BirPos1
             this.button10.BackColor = System.Drawing.Color.Teal;
             this.button10.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(213, 104);
+            this.button10.Location = new System.Drawing.Point(214, 104);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(120, 44);
+            this.button10.Size = new System.Drawing.Size(121, 44);
             this.button10.TabIndex = 6;
             this.button10.Text = "6";
             this.button10.UseVisualStyleBackColor = false;
@@ -551,7 +552,7 @@ namespace BirPos1
             this.button11.BackColor = System.Drawing.Color.Teal;
             this.button11.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(110, 104);
+            this.button11.Location = new System.Drawing.Point(111, 104);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(99, 44);
             this.button11.TabIndex = 5;
@@ -564,9 +565,9 @@ namespace BirPos1
             this.button7.BackColor = System.Drawing.Color.Teal;
             this.button7.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(213, 56);
+            this.button7.Location = new System.Drawing.Point(214, 56);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(120, 44);
+            this.button7.Size = new System.Drawing.Size(121, 44);
             this.button7.TabIndex = 3;
             this.button7.Text = "9";
             this.button7.UseVisualStyleBackColor = false;
@@ -577,7 +578,7 @@ namespace BirPos1
             this.button8.BackColor = System.Drawing.Color.Teal;
             this.button8.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(110, 56);
+            this.button8.Location = new System.Drawing.Point(111, 56);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(99, 44);
             this.button8.TabIndex = 2;
@@ -592,7 +593,7 @@ namespace BirPos1
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Location = new System.Drawing.Point(12, 56);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(94, 44);
+            this.button9.Size = new System.Drawing.Size(95, 44);
             this.button9.TabIndex = 0;
             this.button9.Text = "7";
             this.button9.UseVisualStyleBackColor = false;
@@ -620,7 +621,7 @@ namespace BirPos1
             this.layoutControlItem8,
             this.layoutControlItem13});
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(345, 283);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(347, 283);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem2
@@ -628,7 +629,7 @@ namespace BirPos1
             this.layoutControlItem2.Control = this.button9;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 44);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(98, 48);
+            this.layoutControlItem2.Size = new System.Drawing.Size(99, 48);
             this.layoutControlItem2.TextVisible = false;
             // 
             // layoutControlItem12
@@ -636,15 +637,15 @@ namespace BirPos1
             this.layoutControlItem12.Control = this.button6;
             this.layoutControlItem12.Location = new System.Drawing.Point(0, 140);
             this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(98, 48);
+            this.layoutControlItem12.Size = new System.Drawing.Size(99, 47);
             this.layoutControlItem12.TextVisible = false;
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.button1;
-            this.layoutControlItem9.Location = new System.Drawing.Point(0, 188);
+            this.layoutControlItem9.Location = new System.Drawing.Point(0, 187);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(98, 49);
+            this.layoutControlItem9.Size = new System.Drawing.Size(99, 50);
             this.layoutControlItem9.TextVisible = false;
             // 
             // layoutControlItem5
@@ -652,13 +653,13 @@ namespace BirPos1
             this.layoutControlItem5.Control = this.button12;
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 92);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(98, 48);
+            this.layoutControlItem5.Size = new System.Drawing.Size(99, 48);
             this.layoutControlItem5.TextVisible = false;
             // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.button11;
-            this.layoutControlItem7.Location = new System.Drawing.Point(98, 92);
+            this.layoutControlItem7.Location = new System.Drawing.Point(99, 92);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Size = new System.Drawing.Size(103, 48);
             this.layoutControlItem7.TextVisible = false;
@@ -666,7 +667,7 @@ namespace BirPos1
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.button8;
-            this.layoutControlItem3.Location = new System.Drawing.Point(98, 44);
+            this.layoutControlItem3.Location = new System.Drawing.Point(99, 44);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(103, 48);
             this.layoutControlItem3.TextVisible = false;
@@ -674,33 +675,33 @@ namespace BirPos1
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.button7;
-            this.layoutControlItem4.Location = new System.Drawing.Point(201, 44);
+            this.layoutControlItem4.Location = new System.Drawing.Point(202, 44);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(124, 48);
+            this.layoutControlItem4.Size = new System.Drawing.Size(125, 48);
             this.layoutControlItem4.TextVisible = false;
             // 
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.button10;
-            this.layoutControlItem6.Location = new System.Drawing.Point(201, 92);
+            this.layoutControlItem6.Location = new System.Drawing.Point(202, 92);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(124, 48);
+            this.layoutControlItem6.Size = new System.Drawing.Size(125, 48);
             this.layoutControlItem6.TextVisible = false;
             // 
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.button2;
-            this.layoutControlItem10.Location = new System.Drawing.Point(98, 188);
+            this.layoutControlItem10.Location = new System.Drawing.Point(99, 187);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(103, 49);
+            this.layoutControlItem10.Size = new System.Drawing.Size(103, 50);
             this.layoutControlItem10.TextVisible = false;
             // 
             // layoutControlItem11
             // 
             this.layoutControlItem11.Control = this.button3;
-            this.layoutControlItem11.Location = new System.Drawing.Point(201, 188);
+            this.layoutControlItem11.Location = new System.Drawing.Point(202, 187);
             this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(124, 49);
+            this.layoutControlItem11.Size = new System.Drawing.Size(125, 50);
             this.layoutControlItem11.TextVisible = false;
             // 
             // layoutControlItem14
@@ -709,7 +710,7 @@ namespace BirPos1
             this.layoutControlItem14.Location = new System.Drawing.Point(0, 237);
             this.layoutControlItem14.MinSize = new System.Drawing.Size(104, 24);
             this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(325, 26);
+            this.layoutControlItem14.Size = new System.Drawing.Size(327, 26);
             this.layoutControlItem14.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem14.TextVisible = false;
             // 
@@ -718,23 +719,23 @@ namespace BirPos1
             this.layoutControlItem15.Control = this.panel7;
             this.layoutControlItem15.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(325, 44);
+            this.layoutControlItem15.Size = new System.Drawing.Size(327, 44);
             this.layoutControlItem15.TextVisible = false;
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.button5;
-            this.layoutControlItem8.Location = new System.Drawing.Point(98, 140);
+            this.layoutControlItem8.Location = new System.Drawing.Point(99, 140);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(103, 48);
+            this.layoutControlItem8.Size = new System.Drawing.Size(103, 47);
             this.layoutControlItem8.TextVisible = false;
             // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.button4;
-            this.layoutControlItem13.Location = new System.Drawing.Point(201, 140);
+            this.layoutControlItem13.Location = new System.Drawing.Point(202, 140);
             this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(124, 48);
+            this.layoutControlItem13.Size = new System.Drawing.Size(125, 47);
             this.layoutControlItem13.TextVisible = false;
             // 
             // panel2
@@ -748,9 +749,9 @@ namespace BirPos1
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 473);
+            this.panel2.Location = new System.Drawing.Point(0, 471);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(345, 241);
+            this.panel2.Size = new System.Drawing.Size(347, 241);
             this.panel2.TabIndex = 1;
             // 
             // panel6
@@ -759,7 +760,7 @@ namespace BirPos1
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 195);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(170, 46);
+            this.panel6.Size = new System.Drawing.Size(172, 46);
             this.panel6.TabIndex = 7;
             // 
             // lblCashNumber
@@ -770,7 +771,7 @@ namespace BirPos1
             this.lblCashNumber.ForeColor = System.Drawing.Color.Red;
             this.lblCashNumber.Location = new System.Drawing.Point(0, 162);
             this.lblCashNumber.Name = "lblCashNumber";
-            this.lblCashNumber.Size = new System.Drawing.Size(170, 33);
+            this.lblCashNumber.Size = new System.Drawing.Size(172, 33);
             this.lblCashNumber.TabIndex = 6;
             this.lblCashNumber.Text = "№";
             this.lblCashNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -782,7 +783,7 @@ namespace BirPos1
             this.label4.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
             this.label4.Location = new System.Drawing.Point(0, 131);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(170, 31);
+            this.label4.Size = new System.Drawing.Size(172, 31);
             this.label4.TabIndex = 5;
             this.label4.Text = "Kassa nömrəsi";
             this.label4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -793,7 +794,7 @@ namespace BirPos1
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 94);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(170, 37);
+            this.panel3.Size = new System.Drawing.Size(172, 37);
             this.panel3.TabIndex = 4;
             // 
             // lblLoginDate
@@ -804,7 +805,7 @@ namespace BirPos1
             this.lblLoginDate.ForeColor = System.Drawing.Color.Red;
             this.lblLoginDate.Location = new System.Drawing.Point(0, 61);
             this.lblLoginDate.Name = "lblLoginDate";
-            this.lblLoginDate.Size = new System.Drawing.Size(170, 33);
+            this.lblLoginDate.Size = new System.Drawing.Size(172, 33);
             this.lblLoginDate.TabIndex = 3;
             this.lblLoginDate.Text = "19.01.2003 06:00:00";
             this.lblLoginDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -816,7 +817,7 @@ namespace BirPos1
             this.label1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 61);
+            this.label1.Size = new System.Drawing.Size(172, 61);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tarix";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -826,7 +827,7 @@ namespace BirPos1
             this.pictureBox2.BackColor = System.Drawing.Color.GhostWhite;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(170, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(172, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(175, 241);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -842,7 +843,7 @@ namespace BirPos1
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem1});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(369, 738);
+            this.Root.Size = new System.Drawing.Size(371, 736);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -850,7 +851,7 @@ namespace BirPos1
             this.layoutControlItem1.Control = this.panel1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(349, 718);
+            this.layoutControlItem1.Size = new System.Drawing.Size(351, 716);
             this.layoutControlItem1.TextVisible = false;
             // 
             // splitContainer3
@@ -862,13 +863,17 @@ namespace BirPos1
             this.splitContainer3.SplitterDistance = 114;
             this.splitContainer3.TabIndex = 0;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // LoginForm
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
             this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1231, 738);
+            this.ClientSize = new System.Drawing.Size(1237, 736);
             this.Controls.Add(this.splitContainer1);
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("LoginForm.IconOptions.Image")));
             this.Name = "LoginForm";
@@ -996,5 +1001,6 @@ namespace BirPos1
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem19;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem21;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem22;
+        private System.Windows.Forms.Timer timer1;
     }
 }
