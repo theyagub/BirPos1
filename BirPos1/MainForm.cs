@@ -22,5 +22,15 @@ namespace BirPos1
         {
             Application.Exit();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
