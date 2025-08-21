@@ -18,24 +18,9 @@ namespace BirPos1
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
         }
-
-        private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
-        {
-
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-                    }
-
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
