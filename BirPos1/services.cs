@@ -50,5 +50,13 @@ namespace BirPos1
 
             return builder.ConnectionString;
         }
+        public static string RemoveLastChar(string text)
+        {
+            if (!string.IsNullOrEmpty(text))
+            {
+                return text.Substring(0, text.Length - 1);
+            }
+            return text; // boşdursa eyni qaytar
+        }
     }
 }

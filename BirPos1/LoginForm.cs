@@ -29,8 +29,9 @@ namespace BirPos1
             timer.Tick += timer1_Tick;
             timer.Start();
         }
-        TextEdit CurrentTextBox;
         private SplashScreenManager splashScreen;
+
+        TextEdit CurrentTextBox;
 
         public void AddText(string text)
         {
@@ -94,34 +95,32 @@ namespace BirPos1
             //{
             //    CurrentTextBox.Text = CurrentTextBox.Text.Substring(0, CurrentTextBox.Text.Length - 1);
             //}
+            // bunu services.cs-e yazdim RemoveLastChar adinda
 
 
+            CurrentTextBox.Text = services.RemoveLastChar(CurrentTextBox.Text);
 
+            //DATABASE YARATMAQ BELEDIR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            //try
+            //{
+            //    using (var context = new DataContext())
+            //    {
+            //        var configuration = new Migrations.Configuration
+            //        {
+            //            AutomaticMigrationsEnabled = true,
+            //            AutomaticMigrationDataLossAllowed = true
+            //        };
+            //        var migrator = new DbMigrator(configuration);
 
-
-
-
-            try
-            {
-                //KOD ile DATABASE yaratmaq!!!!!!!!!!!!!!!!!!!!
-                using (var context = new DataContext())
-                {
-                    var configuration = new Migrations.Configuration
-                    {
-                        AutomaticMigrationsEnabled = true,
-                        AutomaticMigrationDataLossAllowed = true
-                    };
-                    var migrator = new DbMigrator(configuration);
-
-                    await Task.Run(() => migrator.Update());
-                    MessageBox.Show("Database ugurla yaradildi.");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                MessageBox.Show("Database yaradilmadi.");
-            }
+            //        await Task.Run(() => migrator.Update());
+            //        MessageBox.Show("Database ugurla yaradildi.");
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //    MessageBox.Show("Database yaradilmadi.");
+            //}
 
 
         }

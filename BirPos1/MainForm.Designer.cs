@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             DevExpress.XtraGrid.Views.Tile.ItemTemplate ıtemTemplate1 = new DevExpress.XtraGrid.Views.Tile.ItemTemplate();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition1 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
@@ -286,20 +287,20 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.stackPanel2 = new DevExpress.Utils.Layout.StackPanel();
             this.layoutControl6 = new DevExpress.XtraLayout.LayoutControl();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnVur = new System.Windows.Forms.Button();
+            this.btnEnter = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btnDot = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
             this.layoutControlGroup8 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -337,8 +338,8 @@
             this.layoutControlItem26 = new DevExpress.XtraLayout.LayoutControlItem();
             this.label1 = new System.Windows.Forms.Label();
             this.layoutControl3 = new DevExpress.XtraLayout.LayoutControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.txtQuantity = new DevExpress.XtraEditors.TextEdit();
+            this.txtBarcode = new DevExpress.XtraEditors.TextEdit();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.tileView1 = new DevExpress.XtraGrid.Views.Tile.TileView();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -348,6 +349,8 @@
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup5 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.toastNotificationsManager1 = new DevExpress.XtraBars.ToastNotifications.ToastNotificationsManager(this.components);
+            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
@@ -402,8 +405,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).BeginInit();
             this.layoutControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtQuantity.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBarcode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -413,6 +416,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toastNotificationsManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbon
@@ -1051,15 +1055,15 @@
             // 
             this.panel2.Location = new System.Drawing.Point(12, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(304, 57);
+            this.panel2.Size = new System.Drawing.Size(304, 20);
             this.panel2.TabIndex = 1;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.stackPanel2);
-            this.panel3.Location = new System.Drawing.Point(12, 73);
+            this.panel3.Location = new System.Drawing.Point(12, 36);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(304, 427);
+            this.panel3.Size = new System.Drawing.Size(304, 464);
             this.panel3.TabIndex = 5;
             // 
             // stackPanel2
@@ -1074,20 +1078,20 @@
             // 
             // layoutControl6
             // 
-            this.layoutControl6.Controls.Add(this.button13);
-            this.layoutControl6.Controls.Add(this.button14);
-            this.layoutControl6.Controls.Add(this.button12);
-            this.layoutControl6.Controls.Add(this.button11);
-            this.layoutControl6.Controls.Add(this.button10);
-            this.layoutControl6.Controls.Add(this.button9);
-            this.layoutControl6.Controls.Add(this.button8);
-            this.layoutControl6.Controls.Add(this.button7);
-            this.layoutControl6.Controls.Add(this.button6);
-            this.layoutControl6.Controls.Add(this.button5);
-            this.layoutControl6.Controls.Add(this.button4);
-            this.layoutControl6.Controls.Add(this.button3);
-            this.layoutControl6.Controls.Add(this.button2);
-            this.layoutControl6.Controls.Add(this.button1);
+            this.layoutControl6.Controls.Add(this.btnVur);
+            this.layoutControl6.Controls.Add(this.btnEnter);
+            this.layoutControl6.Controls.Add(this.btnDelete);
+            this.layoutControl6.Controls.Add(this.btn0);
+            this.layoutControl6.Controls.Add(this.btn8);
+            this.layoutControl6.Controls.Add(this.btn9);
+            this.layoutControl6.Controls.Add(this.btn3);
+            this.layoutControl6.Controls.Add(this.btnDot);
+            this.layoutControl6.Controls.Add(this.btn1);
+            this.layoutControl6.Controls.Add(this.btn5);
+            this.layoutControl6.Controls.Add(this.btn2);
+            this.layoutControl6.Controls.Add(this.btn7);
+            this.layoutControl6.Controls.Add(this.btn4);
+            this.layoutControl6.Controls.Add(this.btn6);
             this.layoutControl6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl6.Location = new System.Drawing.Point(13, -2);
             this.layoutControl6.Name = "layoutControl6";
@@ -1097,160 +1101,172 @@
             this.layoutControl6.TabIndex = 0;
             this.layoutControl6.Text = "layoutControl6";
             // 
-            // button13
+            // btnVur
             // 
-            this.button13.BackColor = System.Drawing.Color.MintCream;
-            this.button13.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button13.Location = new System.Drawing.Point(12, 199);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 44);
-            this.button13.TabIndex = 18;
-            this.button13.Text = "x";
-            this.button13.UseVisualStyleBackColor = false;
+            this.btnVur.BackColor = System.Drawing.Color.MintCream;
+            this.btnVur.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btnVur.Location = new System.Drawing.Point(12, 199);
+            this.btnVur.Name = "btnVur";
+            this.btnVur.Size = new System.Drawing.Size(75, 44);
+            this.btnVur.TabIndex = 18;
+            this.btnVur.Text = "x";
+            this.btnVur.UseVisualStyleBackColor = false;
+            this.btnVur.Click += new System.EventHandler(this.btnVur_Click);
             // 
-            // button14
+            // btnEnter
             // 
-            this.button14.BackColor = System.Drawing.Color.MintCream;
-            this.button14.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button14.Location = new System.Drawing.Point(124, 199);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(139, 44);
-            this.button14.TabIndex = 17;
-            this.button14.Text = "Daxil ol";
-            this.button14.UseVisualStyleBackColor = false;
+            this.btnEnter.BackColor = System.Drawing.Color.MintCream;
+            this.btnEnter.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btnEnter.Location = new System.Drawing.Point(124, 199);
+            this.btnEnter.Name = "btnEnter";
+            this.btnEnter.Size = new System.Drawing.Size(139, 44);
+            this.btnEnter.TabIndex = 17;
+            this.btnEnter.Text = "Enter";
+            this.btnEnter.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // btnDelete
             // 
-            this.button12.BackColor = System.Drawing.Color.MintCream;
-            this.button12.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button12.Location = new System.Drawing.Point(182, 142);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(81, 41);
-            this.button12.TabIndex = 15;
-            this.button12.Text = "sil";
-            this.button12.UseVisualStyleBackColor = false;
+            this.btnDelete.BackColor = System.Drawing.Color.MintCream;
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btnDelete.Location = new System.Drawing.Point(182, 142);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(81, 41);
+            this.btnDelete.TabIndex = 15;
+            this.btnDelete.Text = "sil";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.button12_Click);
             // 
-            // button11
+            // btn0
             // 
-            this.button11.BackColor = System.Drawing.Color.MintCream;
-            this.button11.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button11.Location = new System.Drawing.Point(97, 142);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(81, 41);
-            this.button11.TabIndex = 14;
-            this.button11.Text = "0";
-            this.button11.UseVisualStyleBackColor = false;
+            this.btn0.BackColor = System.Drawing.Color.MintCream;
+            this.btn0.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn0.Location = new System.Drawing.Point(97, 142);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(81, 41);
+            this.btn0.TabIndex = 14;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = false;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
-            // button10
+            // btn8
             // 
-            this.button10.BackColor = System.Drawing.Color.MintCream;
-            this.button10.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button10.Location = new System.Drawing.Point(97, 12);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(81, 42);
-            this.button10.TabIndex = 13;
-            this.button10.Text = "8";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btn8.BackColor = System.Drawing.Color.MintCream;
+            this.btn8.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn8.Location = new System.Drawing.Point(97, 12);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(81, 42);
+            this.btn8.TabIndex = 13;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = false;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
-            // button9
+            // btn9
             // 
-            this.button9.BackColor = System.Drawing.Color.MintCream;
-            this.button9.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button9.Location = new System.Drawing.Point(182, 12);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(81, 42);
-            this.button9.TabIndex = 12;
-            this.button9.Text = "9";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.btn9.BackColor = System.Drawing.Color.MintCream;
+            this.btn9.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn9.Location = new System.Drawing.Point(182, 12);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(81, 42);
+            this.btn9.TabIndex = 12;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
-            // button8
+            // btn3
             // 
-            this.button8.BackColor = System.Drawing.Color.MintCream;
-            this.button8.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button8.Location = new System.Drawing.Point(182, 100);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(81, 38);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "3";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btn3.BackColor = System.Drawing.Color.MintCream;
+            this.btn3.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn3.Location = new System.Drawing.Point(182, 100);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(81, 38);
+            this.btn3.TabIndex = 11;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
-            // button7
+            // btnDot
             // 
-            this.button7.BackColor = System.Drawing.Color.MintCream;
-            this.button7.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button7.Location = new System.Drawing.Point(12, 142);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(81, 41);
-            this.button7.TabIndex = 10;
-            this.button7.Text = ",";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnDot.BackColor = System.Drawing.Color.MintCream;
+            this.btnDot.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btnDot.Location = new System.Drawing.Point(12, 142);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(81, 41);
+            this.btnDot.TabIndex = 10;
+            this.btnDot.Text = ".";
+            this.btnDot.UseVisualStyleBackColor = false;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
             // 
-            // button6
+            // btn1
             // 
-            this.button6.BackColor = System.Drawing.Color.MintCream;
-            this.button6.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(12, 100);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(81, 38);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "1";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn1.BackColor = System.Drawing.Color.MintCream;
+            this.btn1.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn1.Location = new System.Drawing.Point(12, 100);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(81, 38);
+            this.btn1.TabIndex = 9;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // button5
+            // btn5
             // 
-            this.button5.BackColor = System.Drawing.Color.MintCream;
-            this.button5.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(97, 58);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(81, 38);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn5.BackColor = System.Drawing.Color.MintCream;
+            this.btn5.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn5.Location = new System.Drawing.Point(97, 58);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(81, 38);
+            this.btn5.TabIndex = 8;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
-            // button4
+            // btn2
             // 
-            this.button4.BackColor = System.Drawing.Color.MintCream;
-            this.button4.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(97, 100);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(81, 38);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "2";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn2.BackColor = System.Drawing.Color.MintCream;
+            this.btn2.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn2.Location = new System.Drawing.Point(97, 100);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(81, 38);
+            this.btn2.TabIndex = 7;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // button3
+            // btn7
             // 
-            this.button3.BackColor = System.Drawing.Color.MintCream;
-            this.button3.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(12, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(81, 42);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "7";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn7.BackColor = System.Drawing.Color.MintCream;
+            this.btn7.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn7.Location = new System.Drawing.Point(12, 12);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(81, 42);
+            this.btn7.TabIndex = 6;
+            this.btn7.Text = "7";
+            this.btn7.UseVisualStyleBackColor = false;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
-            // button2
+            // btn4
             // 
-            this.button2.BackColor = System.Drawing.Color.MintCream;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(12, 58);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(81, 38);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "4";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn4.BackColor = System.Drawing.Color.MintCream;
+            this.btn4.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn4.Location = new System.Drawing.Point(12, 58);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(81, 38);
+            this.btn4.TabIndex = 5;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
-            // button1
+            // btn6
             // 
-            this.button1.BackColor = System.Drawing.Color.MintCream;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(182, 58);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 38);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "6";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn6.BackColor = System.Drawing.Color.MintCream;
+            this.btn6.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.btn6.Location = new System.Drawing.Point(182, 58);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(81, 38);
+            this.btn6.TabIndex = 4;
+            this.btn6.Text = "6";
+            this.btn6.UseVisualStyleBackColor = false;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // layoutControlGroup8
             // 
@@ -1279,7 +1295,7 @@
             // 
             // layoutControlItem11
             // 
-            this.layoutControlItem11.Control = this.button3;
+            this.layoutControlItem11.Control = this.btn7;
             this.layoutControlItem11.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Size = new System.Drawing.Size(85, 46);
@@ -1287,7 +1303,7 @@
             // 
             // layoutControlItem13
             // 
-            this.layoutControlItem13.Control = this.button5;
+            this.layoutControlItem13.Control = this.btn5;
             this.layoutControlItem13.Location = new System.Drawing.Point(85, 46);
             this.layoutControlItem13.Name = "layoutControlItem13";
             this.layoutControlItem13.Size = new System.Drawing.Size(85, 42);
@@ -1295,7 +1311,7 @@
             // 
             // layoutControlItem14
             // 
-            this.layoutControlItem14.Control = this.button6;
+            this.layoutControlItem14.Control = this.btn1;
             this.layoutControlItem14.Location = new System.Drawing.Point(0, 88);
             this.layoutControlItem14.Name = "layoutControlItem14";
             this.layoutControlItem14.Size = new System.Drawing.Size(85, 42);
@@ -1303,7 +1319,7 @@
             // 
             // layoutControlItem10
             // 
-            this.layoutControlItem10.Control = this.button2;
+            this.layoutControlItem10.Control = this.btn4;
             this.layoutControlItem10.Location = new System.Drawing.Point(0, 46);
             this.layoutControlItem10.Name = "layoutControlItem10";
             this.layoutControlItem10.Size = new System.Drawing.Size(85, 42);
@@ -1311,7 +1327,7 @@
             // 
             // layoutControlItem12
             // 
-            this.layoutControlItem12.Control = this.button4;
+            this.layoutControlItem12.Control = this.btn2;
             this.layoutControlItem12.Location = new System.Drawing.Point(85, 88);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(85, 42);
@@ -1319,7 +1335,7 @@
             // 
             // layoutControlItem15
             // 
-            this.layoutControlItem15.Control = this.button7;
+            this.layoutControlItem15.Control = this.btnDot;
             this.layoutControlItem15.Location = new System.Drawing.Point(0, 130);
             this.layoutControlItem15.Name = "layoutControlItem15";
             this.layoutControlItem15.Size = new System.Drawing.Size(85, 45);
@@ -1327,7 +1343,7 @@
             // 
             // layoutControlItem18
             // 
-            this.layoutControlItem18.Control = this.button10;
+            this.layoutControlItem18.Control = this.btn8;
             this.layoutControlItem18.Location = new System.Drawing.Point(85, 0);
             this.layoutControlItem18.Name = "layoutControlItem18";
             this.layoutControlItem18.Size = new System.Drawing.Size(85, 46);
@@ -1335,7 +1351,7 @@
             // 
             // layoutControlItem17
             // 
-            this.layoutControlItem17.Control = this.button9;
+            this.layoutControlItem17.Control = this.btn9;
             this.layoutControlItem17.Location = new System.Drawing.Point(170, 0);
             this.layoutControlItem17.Name = "layoutControlItem17";
             this.layoutControlItem17.Size = new System.Drawing.Size(85, 46);
@@ -1343,7 +1359,7 @@
             // 
             // layoutControlItem9
             // 
-            this.layoutControlItem9.Control = this.button1;
+            this.layoutControlItem9.Control = this.btn6;
             this.layoutControlItem9.Location = new System.Drawing.Point(170, 46);
             this.layoutControlItem9.Name = "layoutControlItem9";
             this.layoutControlItem9.Size = new System.Drawing.Size(85, 42);
@@ -1351,7 +1367,7 @@
             // 
             // layoutControlItem16
             // 
-            this.layoutControlItem16.Control = this.button8;
+            this.layoutControlItem16.Control = this.btn3;
             this.layoutControlItem16.Location = new System.Drawing.Point(170, 88);
             this.layoutControlItem16.Name = "layoutControlItem16";
             this.layoutControlItem16.Size = new System.Drawing.Size(85, 42);
@@ -1359,7 +1375,7 @@
             // 
             // layoutControlItem19
             // 
-            this.layoutControlItem19.Control = this.button11;
+            this.layoutControlItem19.Control = this.btn0;
             this.layoutControlItem19.Location = new System.Drawing.Point(85, 130);
             this.layoutControlItem19.Name = "layoutControlItem19";
             this.layoutControlItem19.Size = new System.Drawing.Size(85, 45);
@@ -1367,7 +1383,7 @@
             // 
             // layoutControlItem20
             // 
-            this.layoutControlItem20.Control = this.button12;
+            this.layoutControlItem20.Control = this.btnDelete;
             this.layoutControlItem20.Location = new System.Drawing.Point(170, 130);
             this.layoutControlItem20.Name = "layoutControlItem20";
             this.layoutControlItem20.Size = new System.Drawing.Size(85, 45);
@@ -1384,7 +1400,7 @@
             // 
             // layoutControlItem7
             // 
-            this.layoutControlItem7.Control = this.button14;
+            this.layoutControlItem7.Control = this.btnEnter;
             this.layoutControlItem7.Location = new System.Drawing.Point(112, 187);
             this.layoutControlItem7.MaxSize = new System.Drawing.Size(143, 48);
             this.layoutControlItem7.MinSize = new System.Drawing.Size(143, 48);
@@ -1404,7 +1420,7 @@
             // 
             // layoutControlItem21
             // 
-            this.layoutControlItem21.Control = this.button13;
+            this.layoutControlItem21.Control = this.btnVur;
             this.layoutControlItem21.Location = new System.Drawing.Point(0, 187);
             this.layoutControlItem21.Name = "layoutControlItem21";
             this.layoutControlItem21.Size = new System.Drawing.Size(79, 48);
@@ -1424,9 +1440,9 @@
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.panel3;
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 61);
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(308, 431);
+            this.layoutControlItem8.Size = new System.Drawing.Size(308, 468);
             this.layoutControlItem8.TextVisible = false;
             // 
             // layoutControlItem1
@@ -1434,7 +1450,7 @@
             this.layoutControlItem1.Control = this.panel2;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(308, 61);
+            this.layoutControlItem1.Size = new System.Drawing.Size(308, 24);
             this.layoutControlItem1.TextVisible = false;
             // 
             // stackPanel3
@@ -1590,8 +1606,8 @@
             // 
             // layoutControl3
             // 
-            this.layoutControl3.Controls.Add(this.textEdit2);
-            this.layoutControl3.Controls.Add(this.textEdit1);
+            this.layoutControl3.Controls.Add(this.txtQuantity);
+            this.layoutControl3.Controls.Add(this.txtBarcode);
             this.layoutControl3.Controls.Add(this.gridControl1);
             this.layoutControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl3.Location = new System.Drawing.Point(0, 174);
@@ -1601,29 +1617,34 @@
             this.layoutControl3.TabIndex = 11;
             this.layoutControl3.Text = "layoutControl3";
             // 
-            // textEdit2
+            // txtQuantity
             // 
-            this.textEdit2.Location = new System.Drawing.Point(775, 44);
-            this.textEdit2.MenuManager = this.ribbon;
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
-            this.textEdit2.Properties.Appearance.Options.UseFont = true;
-            this.textEdit2.Properties.Padding = new System.Windows.Forms.Padding(2);
-            this.textEdit2.Size = new System.Drawing.Size(122, 36);
-            this.textEdit2.StyleController = this.layoutControl3;
-            this.textEdit2.TabIndex = 8;
+            this.txtQuantity.Enabled = false;
+            this.txtQuantity.Location = new System.Drawing.Point(775, 44);
+            this.txtQuantity.MenuManager = this.ribbon;
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
+            this.txtQuantity.Properties.Appearance.Options.UseFont = true;
+            this.txtQuantity.Properties.Padding = new System.Windows.Forms.Padding(2);
+            this.txtQuantity.Properties.ReadOnly = true;
+            this.txtQuantity.Size = new System.Drawing.Size(122, 36);
+            this.txtQuantity.StyleController = this.layoutControl3;
+            this.txtQuantity.TabIndex = 8;
+            this.txtQuantity.Click += new System.EventHandler(this.txtQuantity_Click);
             // 
-            // textEdit1
+            // txtBarcode
             // 
-            this.textEdit1.Location = new System.Drawing.Point(24, 44);
-            this.textEdit1.MenuManager = this.ribbon;
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
-            this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Properties.Padding = new System.Windows.Forms.Padding(2);
-            this.textEdit1.Size = new System.Drawing.Size(723, 36);
-            this.textEdit1.StyleController = this.layoutControl3;
-            this.textEdit1.TabIndex = 7;
+            this.txtBarcode.Location = new System.Drawing.Point(24, 44);
+            this.txtBarcode.MenuManager = this.ribbon;
+            this.txtBarcode.Name = "txtBarcode";
+            this.txtBarcode.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold);
+            this.txtBarcode.Properties.Appearance.Options.UseFont = true;
+            this.txtBarcode.Properties.Padding = new System.Windows.Forms.Padding(2);
+            this.txtBarcode.Size = new System.Drawing.Size(723, 36);
+            this.txtBarcode.StyleController = this.layoutControl3;
+            this.txtBarcode.TabIndex = 7;
+            this.txtBarcode.Click += new System.EventHandler(this.txtBarcode_Click);
+            this.txtBarcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBarcode_KeyDown);
             // 
             // gridControl1
             // 
@@ -1635,6 +1656,7 @@
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tileView1,
             this.gridView1});
+            this.gridControl1.Click += new System.EventHandler(this.gridControl1_Click);
             // 
             // tileView1
             // 
@@ -2485,7 +2507,7 @@
             // 
             // layoutControlItem2
             // 
-            this.layoutControlItem2.Control = this.textEdit1;
+            this.layoutControlItem2.Control = this.txtBarcode;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(727, 40);
@@ -2504,11 +2526,17 @@
             // 
             // layoutControlItem3
             // 
-            this.layoutControlItem3.Control = this.textEdit2;
+            this.layoutControlItem3.Control = this.txtQuantity;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(126, 40);
             this.layoutControlItem3.TextVisible = false;
+            // 
+            // toastNotificationsManager1
+            // 
+            this.toastNotificationsManager1.ApplicationId = "d04c9c09-e399-489a-8ef8-988ba3d97905";
+            this.toastNotificationsManager1.Notifications.AddRange(new DevExpress.XtraBars.ToastNotifications.IToastNotificationProperties[] {
+            new DevExpress.XtraBars.ToastNotifications.ToastNotification("62080403-ce84-4a14-bf2d-c7927322ff01", ((System.Drawing.Image)(resources.GetObject("toastNotificationsManager1.Notifications"))), "header hissesi", "body hissesi", "body2 hissesi", DevExpress.XtraBars.ToastNotifications.ToastNotificationTemplate.Text01)});
             // 
             // MainForm
             // 
@@ -2522,6 +2550,7 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.ribbon);
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm.IconOptions.Image")));
+            this.KeyPreview = true;
             this.Name = "MainForm";
             this.Ribbon = this.ribbon;
             this.Text = "RibbonForm1";
@@ -2580,8 +2609,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).EndInit();
             this.layoutControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtQuantity.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBarcode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
@@ -2591,6 +2620,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toastNotificationsManager1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2674,18 +2704,18 @@
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup8;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup7;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btnDot;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn7;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn6;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem13;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem14;
@@ -2698,12 +2728,12 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem16;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem19;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem20;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button btnEnter;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem8;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
         private DevExpress.Utils.Layout.StackPanel stackPanel3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btnVur;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem10;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem21;
         private System.Windows.Forms.Panel panel5;
@@ -2729,10 +2759,12 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem26;
         private System.Windows.Forms.Panel panel2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit txtQuantity;
+        private DevExpress.XtraEditors.TextEdit txtBarcode;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup5;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
+        private DevExpress.XtraBars.ToastNotifications.ToastNotificationsManager toastNotificationsManager1;
+        private DevExpress.XtraBars.Alerter.AlertControl alertControl1;
     }
 }
