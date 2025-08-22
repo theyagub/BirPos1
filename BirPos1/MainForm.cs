@@ -32,5 +32,10 @@ namespace BirPos1
         {
 
         }
+
+        private void windowsUIButtonPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
