@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace BirPos1
 {
@@ -27,9 +28,15 @@ namespace BirPos1
             }
         }
 
-        public static void SetText(TextEdit text, string val)
+        public static void SetText(TextEdit text, TextBox box, string val)
         {
-            text.Text += val;
+            //if (text == null || box == null || val == null) return;
+
+            if(text != null)
+                text.Text += val;
+
+            if(box != null)
+                box.Text += val;
         }
 
         public static string GetConnectionString()

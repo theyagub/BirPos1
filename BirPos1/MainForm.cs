@@ -167,5 +167,11 @@ namespace BirPos1
                 txtBarcode.Text = "";
             }
         }
+
+        private void windowsUIButtonPanel1_Click(object sender, EventArgs e)
+        {
+            XtraForm1 x = new XtraForm1(CurrentTextBox);
+            x.ShowDialog();
+        }
     }
 }

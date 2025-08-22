@@ -238,7 +238,7 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(2636, 218, 650, 400);
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(1254, 393);
+            this.layoutControl1.Size = new System.Drawing.Size(867, 228);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -314,271 +314,271 @@
             this.emptySpaceItem34,
             this.emptySpaceItem12});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(1254, 393);
+            this.Root.Size = new System.Drawing.Size(867, 228);
             this.Root.TextVisible = false;
             // 
             // button1
             // 
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button1.Location = new System.Drawing.Point(113, 12);
+            this.button1.Location = new System.Drawing.Point(84, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 89);
+            this.button1.Size = new System.Drawing.Size(67, 48);
             this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
+            this.button1.Text = "W";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.button1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(101, 0);
+            this.layoutControlItem1.Location = new System.Drawing.Point(72, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(103, 93);
+            this.layoutControlItem1.Size = new System.Drawing.Size(71, 52);
             this.layoutControlItem1.TextVisible = false;
             // 
             // button2
             // 
             this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button2.Location = new System.Drawing.Point(641, 12);
+            this.button2.Location = new System.Drawing.Point(458, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 89);
+            this.button2.Size = new System.Drawing.Size(61, 48);
             this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
+            this.button2.Text = "U";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.button2;
-            this.layoutControlItem2.Location = new System.Drawing.Point(629, 0);
+            this.layoutControlItem2.Location = new System.Drawing.Point(446, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(99, 93);
+            this.layoutControlItem2.Size = new System.Drawing.Size(65, 52);
             this.layoutControlItem2.TextVisible = false;
             // 
             // button4
             // 
             this.button4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button4.Location = new System.Drawing.Point(691, 115);
+            this.button4.Location = new System.Drawing.Point(496, 74);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(101, 84);
+            this.button4.Size = new System.Drawing.Size(64, 44);
             this.button4.TabIndex = 7;
-            this.button4.Text = "button4";
+            this.button4.Text = "H";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.button4;
-            this.layoutControlItem4.Location = new System.Drawing.Point(679, 103);
+            this.layoutControlItem4.Location = new System.Drawing.Point(484, 62);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(105, 88);
+            this.layoutControlItem4.Size = new System.Drawing.Size(68, 48);
             this.layoutControlItem4.TextVisible = false;
             // 
             // button5
             // 
             this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button5.Location = new System.Drawing.Point(912, 213);
+            this.button5.Location = new System.Drawing.Point(643, 132);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 81);
+            this.button5.Size = new System.Drawing.Size(68, 39);
             this.button5.TabIndex = 8;
-            this.button5.Text = "button5";
+            this.button5.Text = ":";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.button5;
-            this.layoutControlItem5.Location = new System.Drawing.Point(900, 201);
+            this.layoutControlItem5.Location = new System.Drawing.Point(631, 120);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(111, 85);
+            this.layoutControlItem5.Size = new System.Drawing.Size(72, 43);
             this.layoutControlItem5.TextVisible = false;
             // 
             // button7
             // 
             this.button7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button7.Location = new System.Drawing.Point(1033, 213);
+            this.button7.Location = new System.Drawing.Point(725, 132);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(102, 81);
+            this.button7.Size = new System.Drawing.Size(63, 39);
             this.button7.TabIndex = 11;
-            this.button7.Text = "button7";
+            this.button7.Text = ";";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
             this.button8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button8.Location = new System.Drawing.Point(536, 213);
+            this.button8.Location = new System.Drawing.Point(383, 132);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(113, 81);
+            this.button8.Size = new System.Drawing.Size(75, 39);
             this.button8.TabIndex = 10;
-            this.button8.Text = "button8";
+            this.button8.Text = "B";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.button7;
-            this.layoutControlItem7.Location = new System.Drawing.Point(1021, 201);
+            this.layoutControlItem7.Location = new System.Drawing.Point(713, 120);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(106, 85);
+            this.layoutControlItem7.Size = new System.Drawing.Size(67, 43);
             this.layoutControlItem7.TextVisible = false;
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.button8;
-            this.layoutControlItem8.Location = new System.Drawing.Point(524, 201);
+            this.layoutControlItem8.Location = new System.Drawing.Point(371, 120);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(117, 85);
+            this.layoutControlItem8.Size = new System.Drawing.Size(79, 43);
             this.layoutControlItem8.TextVisible = false;
             // 
             // button9
             // 
             this.button9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button9.Location = new System.Drawing.Point(1119, 115);
+            this.button9.Location = new System.Drawing.Point(784, 74);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(123, 84);
+            this.button9.Size = new System.Drawing.Size(71, 44);
             this.button9.TabIndex = 13;
-            this.button9.Text = "button9";
+            this.button9.Text = "Enter";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
             this.button10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button10.Location = new System.Drawing.Point(806, 115);
+            this.button10.Location = new System.Drawing.Point(574, 74);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(93, 84);
+            this.button10.Size = new System.Drawing.Size(59, 44);
             this.button10.TabIndex = 12;
-            this.button10.Text = "button10";
+            this.button10.Text = "J";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.button9;
-            this.layoutControlItem9.Location = new System.Drawing.Point(1107, 103);
+            this.layoutControlItem9.Location = new System.Drawing.Point(772, 62);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(127, 88);
+            this.layoutControlItem9.Size = new System.Drawing.Size(75, 48);
             this.layoutControlItem9.TextVisible = false;
             // 
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.button10;
-            this.layoutControlItem10.Location = new System.Drawing.Point(794, 103);
+            this.layoutControlItem10.Location = new System.Drawing.Point(562, 62);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(97, 88);
+            this.layoutControlItem10.Size = new System.Drawing.Size(63, 48);
             this.layoutControlItem10.TextVisible = false;
             // 
             // button11
             // 
             this.button11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button11.Location = new System.Drawing.Point(532, 12);
+            this.button11.Location = new System.Drawing.Point(382, 12);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(95, 89);
+            this.button11.Size = new System.Drawing.Size(62, 48);
             this.button11.TabIndex = 14;
-            this.button11.Text = "button11";
+            this.button11.Text = "Y";
             this.button11.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem11
             // 
             this.layoutControlItem11.Control = this.button11;
-            this.layoutControlItem11.Location = new System.Drawing.Point(520, 0);
+            this.layoutControlItem11.Location = new System.Drawing.Point(370, 0);
             this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(99, 93);
+            this.layoutControlItem11.Size = new System.Drawing.Size(66, 52);
             this.layoutControlItem11.TextVisible = false;
             // 
             // button12
             // 
             this.button12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button12.Location = new System.Drawing.Point(324, 12);
+            this.button12.Location = new System.Drawing.Point(235, 12);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(86, 89);
+            this.button12.Size = new System.Drawing.Size(57, 48);
             this.button12.TabIndex = 15;
-            this.button12.Text = "button12";
+            this.button12.Text = "R";
             this.button12.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem12
             // 
             this.layoutControlItem12.Control = this.button12;
-            this.layoutControlItem12.Location = new System.Drawing.Point(312, 0);
+            this.layoutControlItem12.Location = new System.Drawing.Point(223, 0);
             this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(90, 93);
+            this.layoutControlItem12.Size = new System.Drawing.Size(61, 52);
             this.layoutControlItem12.TextVisible = false;
             // 
             // button13
             // 
             this.button13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button13.Location = new System.Drawing.Point(570, 115);
+            this.button13.Location = new System.Drawing.Point(412, 74);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(107, 84);
+            this.button13.Size = new System.Drawing.Size(70, 44);
             this.button13.TabIndex = 16;
-            this.button13.Text = "button13";
+            this.button13.Text = "G";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.button13;
-            this.layoutControlItem13.Location = new System.Drawing.Point(558, 103);
+            this.layoutControlItem13.Location = new System.Drawing.Point(400, 62);
             this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(111, 88);
+            this.layoutControlItem13.Size = new System.Drawing.Size(74, 48);
             this.layoutControlItem13.TextVisible = false;
             // 
             // button14
             // 
             this.button14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button14.Location = new System.Drawing.Point(1149, 213);
+            this.button14.Location = new System.Drawing.Point(802, 132);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(93, 81);
+            this.button14.Size = new System.Drawing.Size(53, 39);
             this.button14.TabIndex = 17;
-            this.button14.Text = "button14";
+            this.button14.Text = "UP";
             this.button14.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem14
             // 
             this.layoutControlItem14.Control = this.button14;
-            this.layoutControlItem14.Location = new System.Drawing.Point(1137, 201);
+            this.layoutControlItem14.Location = new System.Drawing.Point(790, 120);
             this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(97, 85);
+            this.layoutControlItem14.Size = new System.Drawing.Size(57, 43);
             this.layoutControlItem14.TextVisible = false;
             // 
             // button15
             // 
             this.button15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button15.Location = new System.Drawing.Point(424, 12);
+            this.button15.Location = new System.Drawing.Point(306, 12);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(94, 89);
+            this.button15.Size = new System.Drawing.Size(62, 48);
             this.button15.TabIndex = 18;
-            this.button15.Text = "button15";
+            this.button15.Text = "T";
             this.button15.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem15
             // 
             this.layoutControlItem15.Control = this.button15;
-            this.layoutControlItem15.Location = new System.Drawing.Point(412, 0);
+            this.layoutControlItem15.Location = new System.Drawing.Point(294, 0);
             this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(98, 93);
+            this.layoutControlItem15.Size = new System.Drawing.Size(66, 52);
             this.layoutControlItem15.TextVisible = false;
             // 
             // button16
             // 
             this.button16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button16.Location = new System.Drawing.Point(789, 213);
+            this.button16.Location = new System.Drawing.Point(559, 132);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(109, 81);
+            this.button16.Size = new System.Drawing.Size(70, 39);
             this.button16.TabIndex = 23;
-            this.button16.Text = "button16";
+            this.button16.Text = "M";
             this.button16.UseVisualStyleBackColor = true;
             // 
             // button17
             // 
             this.button17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button17.Location = new System.Drawing.Point(47, 115);
+            this.button17.Location = new System.Drawing.Point(47, 74);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(115, 84);
+            this.button17.Size = new System.Drawing.Size(77, 44);
             this.button17.TabIndex = 22;
-            this.button17.Text = "button17";
+            this.button17.Text = "A";
             this.button17.UseVisualStyleBackColor = true;
             // 
             // button18
             // 
             this.button18.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button18.Location = new System.Drawing.Point(311, 115);
+            this.button18.Location = new System.Drawing.Point(232, 74);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(119, 84);
+            this.button18.Size = new System.Drawing.Size(79, 44);
             this.button18.TabIndex = 21;
-            this.button18.Text = "button18";
+            this.button18.Text = "D";
             this.button18.UseVisualStyleBackColor = true;
             // 
             // button19
@@ -586,43 +586,44 @@
             this.button19.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button19.Location = new System.Drawing.Point(12, 12);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(87, 89);
+            this.button19.Size = new System.Drawing.Size(58, 48);
             this.button19.TabIndex = 20;
-            this.button19.Text = "button19";
+            this.button19.Text = "Q";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
             this.button20.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button20.Location = new System.Drawing.Point(226, 12);
+            this.button20.Location = new System.Drawing.Point(165, 12);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(84, 89);
+            this.button20.Size = new System.Drawing.Size(56, 48);
             this.button20.TabIndex = 19;
-            this.button20.Text = "button20";
+            this.button20.Text = "E";
             this.button20.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem16
             // 
             this.layoutControlItem16.Control = this.button16;
-            this.layoutControlItem16.Location = new System.Drawing.Point(777, 201);
+            this.layoutControlItem16.Location = new System.Drawing.Point(547, 120);
             this.layoutControlItem16.Name = "layoutControlItem16";
-            this.layoutControlItem16.Size = new System.Drawing.Size(113, 85);
+            this.layoutControlItem16.Size = new System.Drawing.Size(74, 43);
             this.layoutControlItem16.TextVisible = false;
             // 
             // layoutControlItem17
             // 
             this.layoutControlItem17.Control = this.button17;
-            this.layoutControlItem17.Location = new System.Drawing.Point(35, 103);
+            this.layoutControlItem17.Location = new System.Drawing.Point(35, 62);
             this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(119, 88);
+            this.layoutControlItem17.Size = new System.Drawing.Size(81, 48);
             this.layoutControlItem17.TextVisible = false;
             // 
             // layoutControlItem18
             // 
             this.layoutControlItem18.Control = this.button18;
-            this.layoutControlItem18.Location = new System.Drawing.Point(299, 103);
+            this.layoutControlItem18.Location = new System.Drawing.Point(220, 62);
             this.layoutControlItem18.Name = "layoutControlItem18";
-            this.layoutControlItem18.Size = new System.Drawing.Size(123, 88);
+            this.layoutControlItem18.Size = new System.Drawing.Size(83, 48);
             this.layoutControlItem18.TextVisible = false;
             // 
             // layoutControlItem19
@@ -630,490 +631,487 @@
             this.layoutControlItem19.Control = this.button19;
             this.layoutControlItem19.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem19.Name = "layoutControlItem19";
-            this.layoutControlItem19.Size = new System.Drawing.Size(91, 93);
+            this.layoutControlItem19.Size = new System.Drawing.Size(62, 52);
             this.layoutControlItem19.TextVisible = false;
             // 
             // layoutControlItem20
             // 
             this.layoutControlItem20.Control = this.button20;
-            this.layoutControlItem20.Location = new System.Drawing.Point(214, 0);
+            this.layoutControlItem20.Location = new System.Drawing.Point(153, 0);
             this.layoutControlItem20.Name = "layoutControlItem20";
-            this.layoutControlItem20.Size = new System.Drawing.Size(88, 93);
+            this.layoutControlItem20.Size = new System.Drawing.Size(60, 52);
             this.layoutControlItem20.TextVisible = false;
             // 
             // button21
             // 
             this.button21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button21.Location = new System.Drawing.Point(12, 213);
+            this.button21.Location = new System.Drawing.Point(12, 132);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(119, 81);
+            this.button21.Size = new System.Drawing.Size(81, 39);
             this.button21.TabIndex = 24;
-            this.button21.Text = "button21";
+            this.button21.Text = "Z";
             this.button21.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem21
             // 
             this.layoutControlItem21.Control = this.button21;
-            this.layoutControlItem21.Location = new System.Drawing.Point(0, 201);
+            this.layoutControlItem21.Location = new System.Drawing.Point(0, 120);
             this.layoutControlItem21.Name = "layoutControlItem21";
-            this.layoutControlItem21.Size = new System.Drawing.Size(123, 85);
+            this.layoutControlItem21.Size = new System.Drawing.Size(85, 43);
             this.layoutControlItem21.TextVisible = false;
             // 
             // button22
             // 
             this.button22.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button22.Location = new System.Drawing.Point(863, 12);
+            this.button22.Location = new System.Drawing.Point(611, 12);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(101, 89);
+            this.button22.Size = new System.Drawing.Size(64, 48);
             this.button22.TabIndex = 25;
-            this.button22.Text = "button22";
+            this.button22.Text = "O";
             this.button22.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem22
             // 
             this.layoutControlItem22.Control = this.button22;
-            this.layoutControlItem22.Location = new System.Drawing.Point(851, 0);
+            this.layoutControlItem22.Location = new System.Drawing.Point(599, 0);
             this.layoutControlItem22.Name = "layoutControlItem22";
-            this.layoutControlItem22.Size = new System.Drawing.Size(105, 93);
+            this.layoutControlItem22.Size = new System.Drawing.Size(68, 52);
             this.layoutControlItem22.TextVisible = false;
             // 
             // button23
             // 
             this.button23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button23.Location = new System.Drawing.Point(978, 12);
+            this.button23.Location = new System.Drawing.Point(689, 12);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(96, 89);
+            this.button23.Size = new System.Drawing.Size(59, 48);
             this.button23.TabIndex = 26;
-            this.button23.Text = "button23";
+            this.button23.Text = "P";
             this.button23.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem23
             // 
             this.layoutControlItem23.Control = this.button23;
-            this.layoutControlItem23.Location = new System.Drawing.Point(966, 0);
+            this.layoutControlItem23.Location = new System.Drawing.Point(677, 0);
             this.layoutControlItem23.Name = "layoutControlItem23";
-            this.layoutControlItem23.Size = new System.Drawing.Size(100, 93);
+            this.layoutControlItem23.Size = new System.Drawing.Size(63, 52);
             this.layoutControlItem23.TextVisible = false;
             // 
             // button25
             // 
             this.button25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button25.Location = new System.Drawing.Point(1018, 115);
+            this.button25.Location = new System.Drawing.Point(718, 74);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(87, 84);
+            this.button25.Size = new System.Drawing.Size(52, 44);
             this.button25.TabIndex = 28;
-            this.button25.Text = "button25";
+            this.button25.Text = "L";
             this.button25.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem25
             // 
             this.layoutControlItem25.Control = this.button25;
-            this.layoutControlItem25.Location = new System.Drawing.Point(1006, 103);
+            this.layoutControlItem25.Location = new System.Drawing.Point(706, 62);
             this.layoutControlItem25.Name = "layoutControlItem25";
-            this.layoutControlItem25.Size = new System.Drawing.Size(91, 88);
+            this.layoutControlItem25.Size = new System.Drawing.Size(56, 48);
             this.layoutControlItem25.TextVisible = false;
             // 
             // button26
             // 
             this.button26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button26.Location = new System.Drawing.Point(913, 115);
+            this.button26.Location = new System.Drawing.Point(647, 74);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(91, 84);
+            this.button26.Size = new System.Drawing.Size(57, 44);
             this.button26.TabIndex = 29;
-            this.button26.Text = "button26";
+            this.button26.Text = "K";
             this.button26.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem26
             // 
             this.layoutControlItem26.Control = this.button26;
-            this.layoutControlItem26.Location = new System.Drawing.Point(901, 103);
+            this.layoutControlItem26.Location = new System.Drawing.Point(635, 62);
             this.layoutControlItem26.Name = "layoutControlItem26";
-            this.layoutControlItem26.Size = new System.Drawing.Size(95, 88);
+            this.layoutControlItem26.Size = new System.Drawing.Size(61, 48);
             this.layoutControlItem26.TextVisible = false;
             // 
             // button27
             // 
             this.button27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button27.Location = new System.Drawing.Point(176, 115);
+            this.button27.Location = new System.Drawing.Point(138, 74);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(121, 84);
+            this.button27.Size = new System.Drawing.Size(80, 44);
             this.button27.TabIndex = 30;
-            this.button27.Text = "button27";
+            this.button27.Text = "S";
             this.button27.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem27
             // 
             this.layoutControlItem27.Control = this.button27;
-            this.layoutControlItem27.Location = new System.Drawing.Point(164, 103);
+            this.layoutControlItem27.Location = new System.Drawing.Point(126, 62);
             this.layoutControlItem27.Name = "layoutControlItem27";
-            this.layoutControlItem27.Size = new System.Drawing.Size(125, 88);
+            this.layoutControlItem27.Size = new System.Drawing.Size(84, 48);
             this.layoutControlItem27.TextVisible = false;
             // 
             // button28
             // 
             this.button28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button28.Location = new System.Drawing.Point(444, 115);
+            this.button28.Location = new System.Drawing.Point(325, 74);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(112, 84);
+            this.button28.Size = new System.Drawing.Size(73, 44);
             this.button28.TabIndex = 31;
-            this.button28.Text = "button28";
+            this.button28.Text = "F";
             this.button28.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem28
             // 
             this.layoutControlItem28.Control = this.button28;
-            this.layoutControlItem28.Location = new System.Drawing.Point(432, 103);
+            this.layoutControlItem28.Location = new System.Drawing.Point(313, 62);
             this.layoutControlItem28.Name = "layoutControlItem28";
-            this.layoutControlItem28.Size = new System.Drawing.Size(116, 88);
+            this.layoutControlItem28.Size = new System.Drawing.Size(77, 48);
             this.layoutControlItem28.TextVisible = false;
             // 
             // button29
             // 
             this.button29.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button29.Location = new System.Drawing.Point(145, 213);
+            this.button29.Location = new System.Drawing.Point(107, 132);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(117, 81);
+            this.button29.Size = new System.Drawing.Size(79, 39);
             this.button29.TabIndex = 32;
-            this.button29.Text = "button29";
+            this.button29.Text = "X";
             this.button29.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem29
             // 
             this.layoutControlItem29.Control = this.button29;
-            this.layoutControlItem29.Location = new System.Drawing.Point(133, 201);
+            this.layoutControlItem29.Location = new System.Drawing.Point(95, 120);
             this.layoutControlItem29.Name = "layoutControlItem29";
-            this.layoutControlItem29.Size = new System.Drawing.Size(121, 85);
+            this.layoutControlItem29.Size = new System.Drawing.Size(83, 43);
             this.layoutControlItem29.TextVisible = false;
             // 
             // button30
             // 
             this.button30.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button30.Location = new System.Drawing.Point(663, 213);
+            this.button30.Location = new System.Drawing.Point(472, 132);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(112, 81);
+            this.button30.Size = new System.Drawing.Size(73, 39);
             this.button30.TabIndex = 33;
-            this.button30.Text = "button30";
+            this.button30.Text = "N";
             this.button30.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem30
             // 
             this.layoutControlItem30.Control = this.button30;
-            this.layoutControlItem30.Location = new System.Drawing.Point(651, 201);
+            this.layoutControlItem30.Location = new System.Drawing.Point(460, 120);
             this.layoutControlItem30.Name = "layoutControlItem30";
-            this.layoutControlItem30.Size = new System.Drawing.Size(116, 85);
+            this.layoutControlItem30.Size = new System.Drawing.Size(77, 43);
             this.layoutControlItem30.TextVisible = false;
             // 
             // button31
             // 
             this.button31.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button31.Location = new System.Drawing.Point(276, 213);
+            this.button31.Location = new System.Drawing.Point(200, 132);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(116, 81);
+            this.button31.Size = new System.Drawing.Size(78, 39);
             this.button31.TabIndex = 34;
-            this.button31.Text = "button31";
+            this.button31.Text = "C";
             this.button31.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem31
             // 
             this.layoutControlItem31.Control = this.button31;
-            this.layoutControlItem31.Location = new System.Drawing.Point(264, 201);
+            this.layoutControlItem31.Location = new System.Drawing.Point(188, 120);
             this.layoutControlItem31.Name = "layoutControlItem31";
-            this.layoutControlItem31.Size = new System.Drawing.Size(120, 85);
+            this.layoutControlItem31.Size = new System.Drawing.Size(82, 43);
             this.layoutControlItem31.TextVisible = false;
             // 
             // emptySpaceItem1
             // 
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 296);
-            this.emptySpaceItem1.MaxSize = new System.Drawing.Size(364, 0);
-            this.emptySpaceItem1.MinSize = new System.Drawing.Size(364, 10);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 173);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(364, 77);
-            this.emptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            this.emptySpaceItem1.Size = new System.Drawing.Size(249, 35);
             // 
             // button33
             // 
             this.button33.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button33.Location = new System.Drawing.Point(376, 308);
+            this.button33.Location = new System.Drawing.Point(261, 185);
             this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(501, 73);
+            this.button33.Size = new System.Drawing.Size(345, 31);
             this.button33.TabIndex = 36;
-            this.button33.Text = "button33";
+            this.button33.Text = "  ";
             this.button33.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem33
             // 
             this.layoutControlItem33.Control = this.button33;
-            this.layoutControlItem33.Location = new System.Drawing.Point(364, 296);
+            this.layoutControlItem33.Location = new System.Drawing.Point(249, 173);
             this.layoutControlItem33.Name = "layoutControlItem33";
-            this.layoutControlItem33.Size = new System.Drawing.Size(505, 77);
+            this.layoutControlItem33.Size = new System.Drawing.Size(349, 35);
             this.layoutControlItem33.TextVisible = false;
             // 
             // emptySpaceItem2
             // 
-            this.emptySpaceItem2.Location = new System.Drawing.Point(869, 296);
-            this.emptySpaceItem2.MaxSize = new System.Drawing.Size(365, 0);
-            this.emptySpaceItem2.MinSize = new System.Drawing.Size(365, 10);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(598, 173);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(365, 77);
-            this.emptySpaceItem2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            this.emptySpaceItem2.Size = new System.Drawing.Size(249, 35);
             // 
             // button34
             // 
             this.button34.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button34.Location = new System.Drawing.Point(1088, 12);
+            this.button34.Location = new System.Drawing.Point(762, 12);
             this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(154, 89);
+            this.button34.Size = new System.Drawing.Size(93, 48);
             this.button34.TabIndex = 37;
-            this.button34.Text = "button34";
+            this.button34.Text = "Sil";
             this.button34.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem34
             // 
             this.layoutControlItem34.Control = this.button34;
-            this.layoutControlItem34.Location = new System.Drawing.Point(1076, 0);
+            this.layoutControlItem34.Location = new System.Drawing.Point(750, 0);
             this.layoutControlItem34.Name = "layoutControlItem34";
-            this.layoutControlItem34.Size = new System.Drawing.Size(158, 93);
+            this.layoutControlItem34.Size = new System.Drawing.Size(97, 52);
             this.layoutControlItem34.TextVisible = false;
             // 
             // button35
             // 
             this.button35.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button35.Location = new System.Drawing.Point(750, 12);
+            this.button35.Location = new System.Drawing.Point(533, 12);
             this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(99, 89);
+            this.button35.Size = new System.Drawing.Size(64, 48);
             this.button35.TabIndex = 38;
-            this.button35.Text = "button35";
+            this.button35.Text = "I";
             this.button35.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem35
             // 
             this.layoutControlItem35.Control = this.button35;
-            this.layoutControlItem35.Location = new System.Drawing.Point(738, 0);
+            this.layoutControlItem35.Location = new System.Drawing.Point(521, 0);
             this.layoutControlItem35.Name = "layoutControlItem35";
-            this.layoutControlItem35.Size = new System.Drawing.Size(103, 93);
+            this.layoutControlItem35.Size = new System.Drawing.Size(68, 52);
             this.layoutControlItem35.TextVisible = false;
             // 
             // emptySpaceItem3
             // 
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 103);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 62);
             this.emptySpaceItem3.MaxSize = new System.Drawing.Size(35, 0);
             this.emptySpaceItem3.MinSize = new System.Drawing.Size(35, 10);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(35, 88);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(35, 48);
             this.emptySpaceItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             // 
             // button3
             // 
             this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button3.Location = new System.Drawing.Point(406, 213);
+            this.button3.Location = new System.Drawing.Point(292, 132);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 81);
+            this.button3.Size = new System.Drawing.Size(77, 39);
             this.button3.TabIndex = 39;
-            this.button3.Text = "button3";
+            this.button3.Text = "V";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.button3;
-            this.layoutControlItem3.Location = new System.Drawing.Point(394, 201);
+            this.layoutControlItem3.Location = new System.Drawing.Point(280, 120);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(120, 85);
+            this.layoutControlItem3.Size = new System.Drawing.Size(81, 43);
             this.layoutControlItem3.TextVisible = false;
             // 
             // emptySpaceItem4
             // 
-            this.emptySpaceItem4.Location = new System.Drawing.Point(0, 191);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(0, 110);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(1234, 10);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(847, 10);
             // 
             // emptySpaceItem5
             // 
-            this.emptySpaceItem5.Location = new System.Drawing.Point(0, 93);
+            this.emptySpaceItem5.Location = new System.Drawing.Point(0, 52);
             this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(1234, 10);
+            this.emptySpaceItem5.Size = new System.Drawing.Size(847, 10);
             // 
             // emptySpaceItem6
             // 
-            this.emptySpaceItem6.Location = new System.Drawing.Point(0, 286);
+            this.emptySpaceItem6.Location = new System.Drawing.Point(0, 163);
             this.emptySpaceItem6.Name = "emptySpaceItem6";
-            this.emptySpaceItem6.Size = new System.Drawing.Size(1234, 10);
+            this.emptySpaceItem6.Size = new System.Drawing.Size(847, 10);
             // 
             // emptySpaceItem7
             // 
-            this.emptySpaceItem7.Location = new System.Drawing.Point(154, 103);
+            this.emptySpaceItem7.Location = new System.Drawing.Point(116, 62);
             this.emptySpaceItem7.Name = "emptySpaceItem7";
-            this.emptySpaceItem7.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem7.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem8
             // 
-            this.emptySpaceItem8.Location = new System.Drawing.Point(289, 103);
+            this.emptySpaceItem8.Location = new System.Drawing.Point(210, 62);
             this.emptySpaceItem8.Name = "emptySpaceItem8";
-            this.emptySpaceItem8.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem8.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem9
             // 
-            this.emptySpaceItem9.Location = new System.Drawing.Point(422, 103);
+            this.emptySpaceItem9.Location = new System.Drawing.Point(303, 62);
             this.emptySpaceItem9.Name = "emptySpaceItem9";
-            this.emptySpaceItem9.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem9.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem10
             // 
-            this.emptySpaceItem10.Location = new System.Drawing.Point(548, 103);
+            this.emptySpaceItem10.Location = new System.Drawing.Point(390, 62);
             this.emptySpaceItem10.Name = "emptySpaceItem10";
-            this.emptySpaceItem10.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem10.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem11
             // 
-            this.emptySpaceItem11.Location = new System.Drawing.Point(669, 103);
+            this.emptySpaceItem11.Location = new System.Drawing.Point(474, 62);
             this.emptySpaceItem11.Name = "emptySpaceItem11";
-            this.emptySpaceItem11.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem11.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem12
             // 
-            this.emptySpaceItem12.Location = new System.Drawing.Point(91, 0);
+            this.emptySpaceItem12.Location = new System.Drawing.Point(62, 0);
             this.emptySpaceItem12.Name = "emptySpaceItem12";
-            this.emptySpaceItem12.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem12.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem13
             // 
-            this.emptySpaceItem13.Location = new System.Drawing.Point(123, 201);
+            this.emptySpaceItem13.Location = new System.Drawing.Point(85, 120);
             this.emptySpaceItem13.Name = "emptySpaceItem13";
-            this.emptySpaceItem13.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem13.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem14
             // 
-            this.emptySpaceItem14.Location = new System.Drawing.Point(254, 201);
+            this.emptySpaceItem14.Location = new System.Drawing.Point(178, 120);
             this.emptySpaceItem14.Name = "emptySpaceItem14";
-            this.emptySpaceItem14.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem14.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem15
             // 
-            this.emptySpaceItem15.Location = new System.Drawing.Point(204, 0);
+            this.emptySpaceItem15.Location = new System.Drawing.Point(143, 0);
             this.emptySpaceItem15.Name = "emptySpaceItem15";
-            this.emptySpaceItem15.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem15.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem16
             // 
-            this.emptySpaceItem16.Location = new System.Drawing.Point(302, 0);
+            this.emptySpaceItem16.Location = new System.Drawing.Point(213, 0);
             this.emptySpaceItem16.Name = "emptySpaceItem16";
-            this.emptySpaceItem16.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem16.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem17
             // 
-            this.emptySpaceItem17.Location = new System.Drawing.Point(402, 0);
+            this.emptySpaceItem17.Location = new System.Drawing.Point(284, 0);
             this.emptySpaceItem17.Name = "emptySpaceItem17";
-            this.emptySpaceItem17.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem17.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem18
             // 
-            this.emptySpaceItem18.Location = new System.Drawing.Point(510, 0);
+            this.emptySpaceItem18.Location = new System.Drawing.Point(360, 0);
             this.emptySpaceItem18.Name = "emptySpaceItem18";
-            this.emptySpaceItem18.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem18.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem19
             // 
-            this.emptySpaceItem19.Location = new System.Drawing.Point(619, 0);
+            this.emptySpaceItem19.Location = new System.Drawing.Point(436, 0);
             this.emptySpaceItem19.Name = "emptySpaceItem19";
-            this.emptySpaceItem19.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem19.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem20
             // 
-            this.emptySpaceItem20.Location = new System.Drawing.Point(728, 0);
+            this.emptySpaceItem20.Location = new System.Drawing.Point(511, 0);
             this.emptySpaceItem20.Name = "emptySpaceItem20";
-            this.emptySpaceItem20.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem20.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem21
             // 
-            this.emptySpaceItem21.Location = new System.Drawing.Point(384, 201);
+            this.emptySpaceItem21.Location = new System.Drawing.Point(270, 120);
             this.emptySpaceItem21.Name = "emptySpaceItem21";
-            this.emptySpaceItem21.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem21.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem22
             // 
-            this.emptySpaceItem22.Location = new System.Drawing.Point(514, 201);
+            this.emptySpaceItem22.Location = new System.Drawing.Point(361, 120);
             this.emptySpaceItem22.Name = "emptySpaceItem22";
-            this.emptySpaceItem22.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem22.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem23
             // 
-            this.emptySpaceItem23.Location = new System.Drawing.Point(641, 201);
+            this.emptySpaceItem23.Location = new System.Drawing.Point(450, 120);
             this.emptySpaceItem23.Name = "emptySpaceItem23";
-            this.emptySpaceItem23.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem23.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem24
             // 
-            this.emptySpaceItem24.Location = new System.Drawing.Point(767, 201);
+            this.emptySpaceItem24.Location = new System.Drawing.Point(537, 120);
             this.emptySpaceItem24.Name = "emptySpaceItem24";
-            this.emptySpaceItem24.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem24.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem25
             // 
-            this.emptySpaceItem25.Location = new System.Drawing.Point(890, 201);
+            this.emptySpaceItem25.Location = new System.Drawing.Point(621, 120);
             this.emptySpaceItem25.Name = "emptySpaceItem25";
-            this.emptySpaceItem25.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem25.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem26
             // 
-            this.emptySpaceItem26.Location = new System.Drawing.Point(784, 103);
+            this.emptySpaceItem26.Location = new System.Drawing.Point(552, 62);
             this.emptySpaceItem26.Name = "emptySpaceItem26";
-            this.emptySpaceItem26.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem26.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem27
             // 
-            this.emptySpaceItem27.Location = new System.Drawing.Point(891, 103);
+            this.emptySpaceItem27.Location = new System.Drawing.Point(625, 62);
             this.emptySpaceItem27.Name = "emptySpaceItem27";
-            this.emptySpaceItem27.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem27.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem28
             // 
-            this.emptySpaceItem28.Location = new System.Drawing.Point(841, 0);
+            this.emptySpaceItem28.Location = new System.Drawing.Point(589, 0);
             this.emptySpaceItem28.Name = "emptySpaceItem28";
-            this.emptySpaceItem28.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem28.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem29
             // 
-            this.emptySpaceItem29.Location = new System.Drawing.Point(956, 0);
+            this.emptySpaceItem29.Location = new System.Drawing.Point(667, 0);
             this.emptySpaceItem29.Name = "emptySpaceItem29";
-            this.emptySpaceItem29.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem29.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem30
             // 
-            this.emptySpaceItem30.Location = new System.Drawing.Point(1066, 0);
+            this.emptySpaceItem30.Location = new System.Drawing.Point(740, 0);
             this.emptySpaceItem30.Name = "emptySpaceItem30";
-            this.emptySpaceItem30.Size = new System.Drawing.Size(10, 93);
+            this.emptySpaceItem30.Size = new System.Drawing.Size(10, 52);
             // 
             // emptySpaceItem31
             // 
-            this.emptySpaceItem31.Location = new System.Drawing.Point(996, 103);
+            this.emptySpaceItem31.Location = new System.Drawing.Point(696, 62);
             this.emptySpaceItem31.Name = "emptySpaceItem31";
-            this.emptySpaceItem31.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem31.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem32
             // 
-            this.emptySpaceItem32.Location = new System.Drawing.Point(1011, 201);
+            this.emptySpaceItem32.Location = new System.Drawing.Point(703, 120);
             this.emptySpaceItem32.Name = "emptySpaceItem32";
-            this.emptySpaceItem32.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem32.Size = new System.Drawing.Size(10, 43);
             // 
             // emptySpaceItem33
             // 
-            this.emptySpaceItem33.Location = new System.Drawing.Point(1097, 103);
+            this.emptySpaceItem33.Location = new System.Drawing.Point(762, 62);
             this.emptySpaceItem33.Name = "emptySpaceItem33";
-            this.emptySpaceItem33.Size = new System.Drawing.Size(10, 88);
+            this.emptySpaceItem33.Size = new System.Drawing.Size(10, 48);
             // 
             // emptySpaceItem34
             // 
-            this.emptySpaceItem34.Location = new System.Drawing.Point(1127, 201);
+            this.emptySpaceItem34.Location = new System.Drawing.Point(780, 120);
             this.emptySpaceItem34.Name = "emptySpaceItem34";
-            this.emptySpaceItem34.Size = new System.Drawing.Size(10, 85);
+            this.emptySpaceItem34.Size = new System.Drawing.Size(10, 43);
             // 
             // XtraForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1254, 393);
+            this.ClientSize = new System.Drawing.Size(867, 228);
             this.Controls.Add(this.layoutControl1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "XtraForm1";
-            this.Text = "XtraForm1";
+            this.Text = "Klaviatura";
+            this.Load += new System.EventHandler(this.XtraForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
