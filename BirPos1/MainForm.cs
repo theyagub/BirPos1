@@ -170,7 +170,22 @@ namespace BirPos1
 
         private void windowsUIButtonPanel1_Click(object sender, EventArgs e)
         {
-            XtraForm1 x = new XtraForm1(CurrentTextBox);
+            //Klaviatura x = new Klaviatura(CurrentTextBox);
+            //x.ShowDialog();
+
+            Klaviatura x = new Klaviatura(CurrentTextBox);
+
+            x.FormBorderStyle = FormBorderStyle.FixedDialog;
+            x.MaximizeBox = false;
+            x.MinimizeBox = false;
+            x.StartPosition = FormStartPosition.Manual;
+
+            int screenWidth = Screen.PrimaryScreen.WorkingArea.Width;
+            int screenHeight = Screen.PrimaryScreen.WorkingArea.Height;
+
+            x.Left = (screenWidth - x.Width) / 2;
+            x.Top = screenHeight - x.Height;
+
             x.ShowDialog();
         }
     }
