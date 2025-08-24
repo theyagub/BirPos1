@@ -188,5 +188,10 @@ namespace BirPos1
 
             x.ShowDialog();
         }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

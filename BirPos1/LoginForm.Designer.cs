@@ -98,6 +98,8 @@ namespace BirPos1
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.alertControl1 = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
+            this.toastNotificationsManager1 = new DevExpress.XtraBars.ToastNotifications.ToastNotificationsManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -149,6 +151,7 @@ namespace BirPos1
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
             this.splitContainer3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toastNotificationsManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -867,6 +870,13 @@ namespace BirPos1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // toastNotificationsManager1
+            // 
+            this.toastNotificationsManager1.ApplicationId = "33db72bd-8c9d-45fb-b8e6-fc8d9d58471d";
+            this.toastNotificationsManager1.Notifications.AddRange(new DevExpress.XtraBars.ToastNotifications.IToastNotificationProperties[] {
+            new DevExpress.XtraBars.ToastNotifications.ToastNotification("4e0aada3-1b3f-4671-b16d-a6ca59c3dc88", null, "Ugurlu", "Giris ugurlu oldu", "", DevExpress.XtraBars.ToastNotifications.ToastNotificationSound.Mail, DevExpress.XtraBars.ToastNotifications.ToastNotificationDuration.Default, DevExpress.XtraBars.ToastNotifications.ToastNotificationTemplate.Text01),
+            new DevExpress.XtraBars.ToastNotifications.ToastNotification("169dbbd4-29ab-4fe3-9973-fd05a3bcaed7", null, "Ugurlu", "Qeydiyyat forma giris ugurlu oldu", "", DevExpress.XtraBars.ToastNotifications.ToastNotificationSound.Mail, DevExpress.XtraBars.ToastNotifications.ToastNotificationDuration.Default, DevExpress.XtraBars.ToastNotifications.ToastNotificationTemplate.Text01)});
+            // 
             // LoginForm
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -929,6 +939,7 @@ namespace BirPos1
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toastNotificationsManager1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1002,5 +1013,7 @@ namespace BirPos1
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem21;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem22;
         private System.Windows.Forms.Timer timer1;
+        private DevExpress.XtraBars.Alerter.AlertControl alertControl1;
+        private DevExpress.XtraBars.ToastNotifications.ToastNotificationsManager toastNotificationsManager1;
     }
 }

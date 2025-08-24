@@ -741,7 +741,6 @@
             this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem9);
             this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem10);
             this.ribbonPageGroup6.ItemLinks.Add(this.barSubItem1);
-            this.ribbonPageGroup6.ItemLinks.Add(this.barSubItem4);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "Əməliyyatlar";
             // 
@@ -1137,6 +1136,7 @@
             this.btnEnter.TabIndex = 17;
             this.btnEnter.Text = "Enter";
             this.btnEnter.UseVisualStyleBackColor = false;
+            this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // btnDelete
             // 
@@ -2547,7 +2547,9 @@
             // 
             this.toastNotificationsManager1.ApplicationId = "d04c9c09-e399-489a-8ef8-988ba3d97905";
             this.toastNotificationsManager1.Notifications.AddRange(new DevExpress.XtraBars.ToastNotifications.IToastNotificationProperties[] {
-            new DevExpress.XtraBars.ToastNotifications.ToastNotification("62080403-ce84-4a14-bf2d-c7927322ff01", ((System.Drawing.Image)(resources.GetObject("toastNotificationsManager1.Notifications"))), "header hissesi", "body hissesi", "body2 hissesi", DevExpress.XtraBars.ToastNotifications.ToastNotificationTemplate.Text01)});
+            new DevExpress.XtraBars.ToastNotifications.ToastNotification("62080403-ce84-4a14-bf2d-c7927322ff01", ((System.Drawing.Image)(resources.GetObject("toastNotificationsManager1.Notifications"))), "birinci header hisse", "birinci body hisse", "birinci body2 hisse", DevExpress.XtraBars.ToastNotifications.ToastNotificationTemplate.Text01),
+            new DevExpress.XtraBars.ToastNotifications.ToastNotification("81aadd57-81f1-4d17-b6e6-354213a93889", null, "ikinci header hisse", "ikinci body hisse", "ikinci body2 hisse", DevExpress.XtraBars.ToastNotifications.ToastNotificationTemplate.Text01),
+            new DevExpress.XtraBars.ToastNotifications.ToastNotification("31249d9b-c623-4a8c-8ea0-540830a511df", null, "ucuncu header hisse", "ucuncu body hisse", "ucuncu body2 hisse", DevExpress.XtraBars.ToastNotifications.ToastNotificationTemplate.Text01)});
             // 
             // MainForm
             // 

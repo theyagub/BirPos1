@@ -143,6 +143,8 @@ namespace BirPos1
                 this.DialogResult = DialogResult.OK;
                 MainForm mainForm = new MainForm();
                 mainForm.Show();
+                //alertControl1.Show(this, "Məlumat", "Siz Yaqub adi ile daxil oldunuz", true);
+                toastNotificationsManager1.ShowNotification(toastNotificationsManager1.Notifications[0]);
                 services.HideSplashScreen(splashScreen);
                 this.Hide();
             }
@@ -150,13 +152,19 @@ namespace BirPos1
             {
                 CreatePOS createPOS = new CreatePOS();
                 createPOS.Show();
+                //alertControl1.Show(this, "Məlumat", "Siz kassa qeydiyyat formuna daxil oldunuz", true);
+                toastNotificationsManager1.ShowNotification(toastNotificationsManager1.Notifications[1]);
+                alertControl1.Show(this, "Məlumat", "Siz Yaqub adi ile daxil oldunuz", true);
                 services.HideSplashScreen(splashScreen);
                 this.Hide();
             }
             else
             {
                 services.HideSplashScreen(splashScreen);
-                XtraMessageBox.Show("İstifadəçi adı və ya şifrə yanlışdır.", "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //alertControl1.Show(this, "Məlumat", "Yanlis parol", true);
+                toastNotificationsManager1.ShowNotification(toastNotificationsManager1.Notifications[2]);
+
+                //XtraMessageBox.Show("İstifadəçi adı və ya şifrə yanlışdır.", "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         
         }
