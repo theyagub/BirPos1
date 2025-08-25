@@ -1,5 +1,4 @@
-﻿using BirPos1.DbModelEF;
-using DevExpress.XtraEditors;
+﻿using DevExpress.XtraEditors;
 using DevExpress.XtraSplashScreen;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -138,7 +137,7 @@ namespace BirPos1
         private void button1_Click(object sender, EventArgs e)
         {
             services.ShowSplashScreen(splashScreen);
-            if (txtSifre.Text == "Yaqub" && txtNo.Text == "1234")
+            if (txtSifre.Text == "2" && txtNo.Text == "2")
             {
                 this.DialogResult = DialogResult.OK;
                 MainForm mainForm = new MainForm();
@@ -177,6 +176,11 @@ namespace BirPos1
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblLoginDate.Text = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

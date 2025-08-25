@@ -74,5 +74,10 @@ namespace BirPos1
             }
             btnUp.BackColor = btnUp.BackColor == Color.Gray ? Color.GhostWhite : Color.Gray;
         }
+
+        private void button371_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

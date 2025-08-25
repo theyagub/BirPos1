@@ -55,9 +55,30 @@ namespace BirPos1
         //}
 
 
+
+       
+        int a = 1;       //Aldadici yollllllllnabsdfkjasbfj
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            if (a == 1)
+            {
+                var result = MessageBox.Show("Proqramdan çıxmaq istədiyinizə əminsiniz?", "Təsdiq", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    a = 2;
+
+                    Application.Exit();
+                }
+                else
+                {
+                    e.Cancel = true;
+                }
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
         private void button12_Click(object sender, EventArgs e)
         {

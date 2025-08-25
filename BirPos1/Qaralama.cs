@@ -1,13 +1,16 @@
-﻿using DevExpress.XtraEditors;
+﻿using BirPos1.DBModelEF_Main;
+using DevExpress.XtraEditors;
 using DevExpress.XtraSplashScreen;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Migrations;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BirPos1
@@ -167,6 +170,44 @@ namespace BirPos1
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+        
+
+        private string CustomDecrypt(string encodedString)
+        {
+            // Base64 decode
+            byte[] data = Convert.FromBase64String(encodedString);
+            // Simple XOR decryption with a key (for demonstration purposes)
+            byte key = 0x5A; // Example key
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] ^= key;
+            }
+            return Encoding.UTF8.GetString(data);
+        }
+
+        private async void button22_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var context = new DataContext())
+                {
+                    var configuration = new Migrations.Configuration
+                    {
+                        AutomaticMigrationsEnabled = true,
+                        AutomaticMigrationDataLossAllowed = true
+                    };
+                    var migrator = new DbMigrator(configuration);
+
+                    await Task.Run(() => migrator.Update());
+                    MessageBox.Show("Database ugurla yaradildi.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                MessageBox.Show("Database yaradilmadi.");
+            }
         }
     }
 }

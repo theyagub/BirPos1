@@ -31,31 +31,40 @@ namespace BirPos1
         {
             this.progressPanel1 = new DevExpress.XtraWaitForm.ProgressPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // progressPanel1
             // 
-            this.progressPanel1.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.progressPanel1.Appearance.Font = new System.Drawing.Font("Tahoma", 20F);
-            this.progressPanel1.Appearance.ForeColor = System.Drawing.Color.Purple;
+            this.progressPanel1.AllowHtmlTextInToolTip = DevExpress.Utils.DefaultBoolean.True;
+            this.progressPanel1.Appearance.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.progressPanel1.Appearance.Font = new System.Drawing.Font("Tahoma", 30F, System.Drawing.FontStyle.Bold);
+            this.progressPanel1.Appearance.ForeColor = System.Drawing.Color.Navy;
             this.progressPanel1.Appearance.Options.UseBackColor = true;
             this.progressPanel1.Appearance.Options.UseFont = true;
             this.progressPanel1.Appearance.Options.UseForeColor = true;
-            this.progressPanel1.AppearanceCaption.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.progressPanel1.AppearanceCaption.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.progressPanel1.AppearanceCaption.Options.UseFont = true;
-            this.progressPanel1.AppearanceDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.progressPanel1.AppearanceCaption.Options.UseTextOptions = true;
+            this.progressPanel1.AppearanceCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.progressPanel1.AppearanceCaption.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.progressPanel1.AppearanceDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.progressPanel1.AppearanceDescription.Options.UseFont = true;
+            this.progressPanel1.AppearanceDescription.Options.UseTextOptions = true;
+            this.progressPanel1.AppearanceDescription.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.progressPanel1.AppearanceDescription.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.progressPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.progressPanel1.Caption = "Zəhmət olmasa gözləyin";
-            this.progressPanel1.Description = "Yüklənir";
-            this.progressPanel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.progressPanel1.ContentAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.progressPanel1.Description = "İcra edilir";
+            this.progressPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressPanel1.ImageHorzOffset = 20;
-            this.progressPanel1.Location = new System.Drawing.Point(108, 0);
+            this.progressPanel1.Location = new System.Drawing.Point(0, 0);
             this.progressPanel1.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.progressPanel1.Name = "progressPanel1";
-            this.progressPanel1.Size = new System.Drawing.Size(465, 287);
+            this.progressPanel1.Size = new System.Drawing.Size(741, 227);
             this.progressPanel1.TabIndex = 0;
             this.progressPanel1.Text = "progressPanel1";
+            this.progressPanel1.WaitAnimationType = DevExpress.Utils.Animation.WaitingAnimatorType.Line;
             this.progressPanel1.Click += new System.EventHandler(this.progressPanel1_Click);
             // 
             // tableLayoutPanel1
@@ -73,24 +82,13 @@ namespace BirPos1
             this.tableLayoutPanel1.Size = new System.Drawing.Size(0, 28);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(248, 251);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Cari pəncərəni bağla";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // WaitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(573, 287);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(741, 227);
             this.Controls.Add(this.progressPanel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
@@ -107,6 +105,5 @@ namespace BirPos1
 
         private DevExpress.XtraWaitForm.ProgressPanel progressPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
     }
 }

@@ -18,10 +18,5 @@ namespace BirPos1
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
         }
-
-        private void CreatePOS_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

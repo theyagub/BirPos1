@@ -29,6 +29,14 @@
         private void InitializeComponent()
         {
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
@@ -58,6 +66,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button371 = new System.Windows.Forms.Button();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -73,7 +82,6 @@
             this.layoutControlItem20 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem19 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem17 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem21 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem23 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem22 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem25 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -90,17 +98,11 @@
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button6 = new System.Windows.Forms.Button();
             this.layoutControlItem24 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button24 = new System.Windows.Forms.Button();
             this.layoutControlItem32 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button32 = new System.Windows.Forms.Button();
-            this.layoutControlItem36 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button36 = new System.Windows.Forms.Button();
             this.layoutControlItem37 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button37 = new System.Windows.Forms.Button();
+            this.layoutControlItem36 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem38 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button371 = new System.Windows.Forms.Button();
             this.layoutControlItem39 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem35 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
@@ -113,6 +115,7 @@
             this.emptySpaceItem10 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem11 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem12 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.layoutControlItem21 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem13 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem14 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem15 = new DevExpress.XtraLayout.EmptySpaceItem();
@@ -126,11 +129,8 @@
             this.emptySpaceItem23 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem24 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem25 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.button5 = new System.Windows.Forms.Button();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button10 = new System.Windows.Forms.Button();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.button12 = new System.Windows.Forms.Button();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem26 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem27 = new DevExpress.XtraLayout.EmptySpaceItem();
@@ -163,7 +163,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem25)).BeginInit();
@@ -182,8 +181,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem39)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem35)).BeginInit();
@@ -197,6 +196,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem15)).BeginInit();
@@ -277,6 +277,86 @@
             this.layoutControl1.Size = new System.Drawing.Size(1044, 291);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // button12
+            // 
+            this.button12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button12.Location = new System.Drawing.Point(107, 151);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(79, 52);
+            this.button12.TabIndex = 48;
+            this.button12.Text = "x";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button10.Location = new System.Drawing.Point(725, 83);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(63, 54);
+            this.button10.TabIndex = 47;
+            this.button10.Text = "l";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button5.Location = new System.Drawing.Point(749, 151);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(65, 52);
+            this.button5.TabIndex = 46;
+            this.button5.Text = "ş";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button37
+            // 
+            this.button37.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button37.Location = new System.Drawing.Point(12, 151);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(81, 52);
+            this.button37.TabIndex = 45;
+            this.button37.Text = "z";
+            this.button37.UseVisualStyleBackColor = true;
+            // 
+            // button36
+            // 
+            this.button36.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button36.Location = new System.Drawing.Point(133, 83);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(74, 54);
+            this.button36.TabIndex = 44;
+            this.button36.Text = "s";
+            this.button36.UseVisualStyleBackColor = true;
+            // 
+            // button32
+            // 
+            this.button32.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button32.Location = new System.Drawing.Point(221, 83);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(72, 54);
+            this.button32.TabIndex = 43;
+            this.button32.Text = "d";
+            this.button32.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button24.Location = new System.Drawing.Point(168, 12);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(58, 57);
+            this.button24.TabIndex = 42;
+            this.button24.Text = "e";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button6.Location = new System.Drawing.Point(88, 12);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(66, 57);
+            this.button6.TabIndex = 41;
+            this.button6.Text = "ü";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -571,6 +651,17 @@
             this.button1.Text = "r";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // button371
+            // 
+            this.button371.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button371.Location = new System.Drawing.Point(906, 151);
+            this.button371.Name = "button371";
+            this.button371.Size = new System.Drawing.Size(63, 52);
+            this.button371.TabIndex = 45;
+            this.button371.Text = ":";
+            this.button371.UseVisualStyleBackColor = true;
+            this.button371.Click += new System.EventHandler(this.button371_Click);
+            // 
             // Root
             // 
             this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
@@ -770,14 +861,6 @@
             this.layoutControlItem17.Size = new System.Drawing.Size(76, 58);
             this.layoutControlItem17.TextVisible = false;
             // 
-            // layoutControlItem21
-            // 
-            this.layoutControlItem21.Control = this.button21;
-            this.layoutControlItem21.Location = new System.Drawing.Point(382, 0);
-            this.layoutControlItem21.Name = "layoutControlItem21";
-            this.layoutControlItem21.Size = new System.Drawing.Size(73, 61);
-            this.layoutControlItem21.TextVisible = false;
-            // 
             // layoutControlItem23
             // 
             this.layoutControlItem23.Control = this.button23;
@@ -905,16 +988,6 @@
             this.layoutControlItem3.Size = new System.Drawing.Size(80, 56);
             this.layoutControlItem3.TextVisible = false;
             // 
-            // button6
-            // 
-            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button6.Location = new System.Drawing.Point(88, 12);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(66, 57);
-            this.button6.TabIndex = 41;
-            this.button6.Text = "ü";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
             // layoutControlItem24
             // 
             this.layoutControlItem24.Control = this.button6;
@@ -922,16 +995,6 @@
             this.layoutControlItem24.Name = "layoutControlItem24";
             this.layoutControlItem24.Size = new System.Drawing.Size(70, 61);
             this.layoutControlItem24.TextVisible = false;
-            // 
-            // button24
-            // 
-            this.button24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button24.Location = new System.Drawing.Point(168, 12);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(58, 57);
-            this.button24.TabIndex = 42;
-            this.button24.Text = "e";
-            this.button24.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem32
             // 
@@ -941,15 +1004,13 @@
             this.layoutControlItem32.Size = new System.Drawing.Size(62, 61);
             this.layoutControlItem32.TextVisible = false;
             // 
-            // button32
+            // layoutControlItem37
             // 
-            this.button32.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button32.Location = new System.Drawing.Point(221, 83);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(72, 54);
-            this.button32.TabIndex = 43;
-            this.button32.Text = "d";
-            this.button32.UseVisualStyleBackColor = true;
+            this.layoutControlItem37.Control = this.button36;
+            this.layoutControlItem37.Location = new System.Drawing.Point(121, 71);
+            this.layoutControlItem37.Name = "layoutControlItem37";
+            this.layoutControlItem37.Size = new System.Drawing.Size(78, 58);
+            this.layoutControlItem37.TextVisible = false;
             // 
             // layoutControlItem36
             // 
@@ -959,34 +1020,6 @@
             this.layoutControlItem36.Size = new System.Drawing.Size(76, 58);
             this.layoutControlItem36.TextVisible = false;
             // 
-            // button36
-            // 
-            this.button36.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button36.Location = new System.Drawing.Point(133, 83);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(74, 54);
-            this.button36.TabIndex = 44;
-            this.button36.Text = "s";
-            this.button36.UseVisualStyleBackColor = true;
-            // 
-            // layoutControlItem37
-            // 
-            this.layoutControlItem37.Control = this.button36;
-            this.layoutControlItem37.Location = new System.Drawing.Point(121, 71);
-            this.layoutControlItem37.Name = "layoutControlItem37";
-            this.layoutControlItem37.Size = new System.Drawing.Size(78, 58);
-            this.layoutControlItem37.TextVisible = false;
-            // 
-            // button37
-            // 
-            this.button37.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button37.Location = new System.Drawing.Point(12, 151);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(81, 52);
-            this.button37.TabIndex = 45;
-            this.button37.Text = "z";
-            this.button37.UseVisualStyleBackColor = true;
-            // 
             // layoutControlItem38
             // 
             this.layoutControlItem38.Control = this.button37;
@@ -994,16 +1027,6 @@
             this.layoutControlItem38.Name = "layoutControlItem38";
             this.layoutControlItem38.Size = new System.Drawing.Size(85, 56);
             this.layoutControlItem38.TextVisible = false;
-            // 
-            // button371
-            // 
-            this.button371.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button371.Location = new System.Drawing.Point(906, 151);
-            this.button371.Name = "button371";
-            this.button371.Size = new System.Drawing.Size(63, 52);
-            this.button371.TabIndex = 45;
-            this.button371.Text = ":";
-            this.button371.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem39
             // 
@@ -1081,6 +1104,14 @@
             this.emptySpaceItem12.Location = new System.Drawing.Point(372, 0);
             this.emptySpaceItem12.Name = "emptySpaceItem12";
             this.emptySpaceItem12.Size = new System.Drawing.Size(10, 61);
+            // 
+            // layoutControlItem21
+            // 
+            this.layoutControlItem21.Control = this.button21;
+            this.layoutControlItem21.Location = new System.Drawing.Point(382, 0);
+            this.layoutControlItem21.Name = "layoutControlItem21";
+            this.layoutControlItem21.Size = new System.Drawing.Size(73, 61);
+            this.layoutControlItem21.TextVisible = false;
             // 
             // emptySpaceItem13
             // 
@@ -1160,16 +1191,6 @@
             this.emptySpaceItem25.Name = "emptySpaceItem25";
             this.emptySpaceItem25.Size = new System.Drawing.Size(10, 58);
             // 
-            // button5
-            // 
-            this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button5.Location = new System.Drawing.Point(749, 151);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(65, 52);
-            this.button5.TabIndex = 46;
-            this.button5.Text = "ş";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.button5;
@@ -1178,16 +1199,6 @@
             this.layoutControlItem5.Size = new System.Drawing.Size(69, 56);
             this.layoutControlItem5.TextVisible = false;
             // 
-            // button10
-            // 
-            this.button10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button10.Location = new System.Drawing.Point(725, 83);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(63, 54);
-            this.button10.TabIndex = 47;
-            this.button10.Text = "l";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.button10;
@@ -1195,16 +1206,6 @@
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(67, 58);
             this.layoutControlItem6.TextVisible = false;
-            // 
-            // button12
-            // 
-            this.button12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button12.Location = new System.Drawing.Point(107, 151);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(79, 52);
-            this.button12.TabIndex = 48;
-            this.button12.Text = "x";
-            this.button12.UseVisualStyleBackColor = true;
             // 
             // layoutControlItem10
             // 
@@ -1326,7 +1327,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem25)).EndInit();
@@ -1345,8 +1345,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem39)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem35)).EndInit();
@@ -1360,6 +1360,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem15)).EndInit();

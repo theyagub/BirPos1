@@ -37,34 +37,34 @@
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtDeviceID = new System.Windows.Forms.TextBox();
+            this.textBox91 = new System.Windows.Forms.TextBox();
+            this.textBox101 = new System.Windows.Forms.TextBox();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.layoutControlItem17 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.layoutControlItem18 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox91 = new System.Windows.Forms.TextBox();
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox101 = new System.Windows.Forms.TextBox();
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem17 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem18 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem19 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
@@ -72,6 +72,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
@@ -79,10 +83,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,12 +171,89 @@
             this.layoutControl1.TabIndex = 1;
             this.layoutControl1.Text = "layoutControl1";
             // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(686, 160);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(448, 20);
+            this.textBox10.TabIndex = 22;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(686, 112);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(448, 20);
+            this.textBox9.TabIndex = 21;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(106, 256);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(470, 20);
+            this.textBox8.TabIndex = 20;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(106, 232);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(470, 20);
+            this.textBox7.TabIndex = 19;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(106, 208);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(470, 20);
+            this.textBox6.TabIndex = 18;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(106, 184);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(470, 20);
+            this.textBox5.TabIndex = 17;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(106, 160);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(470, 20);
+            this.textBox4.TabIndex = 16;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(106, 136);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(470, 20);
+            this.textBox3.TabIndex = 15;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(106, 112);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(470, 20);
+            this.textBox1.TabIndex = 14;
+            // 
             // txtDeviceID
             // 
             this.txtDeviceID.Location = new System.Drawing.Point(106, 44);
             this.txtDeviceID.Name = "txtDeviceID";
             this.txtDeviceID.Size = new System.Drawing.Size(1028, 20);
             this.txtDeviceID.TabIndex = 0;
+            // 
+            // textBox91
+            // 
+            this.textBox91.Location = new System.Drawing.Point(686, 136);
+            this.textBox91.Name = "textBox91";
+            this.textBox91.Size = new System.Drawing.Size(448, 20);
+            this.textBox91.TabIndex = 21;
+            // 
+            // textBox101
+            // 
+            this.textBox101.Location = new System.Drawing.Point(686, 184);
+            this.textBox101.Name = "textBox101";
+            this.textBox101.Size = new System.Drawing.Size(448, 20);
+            this.textBox101.TabIndex = 22;
             // 
             // Root
             // 
@@ -220,6 +297,46 @@
             this.layoutControlGroup2.Size = new System.Drawing.Size(558, 435);
             this.layoutControlGroup2.Text = "Baza bağlantıları";
             // 
+            // layoutControlItem6
+            // 
+            this.layoutControlItem6.Control = this.textBox9;
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem6.Name = "layoutControlItem6";
+            this.layoutControlItem6.Size = new System.Drawing.Size(534, 24);
+            this.layoutControlItem6.Text = "HOST adı:";
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(70, 13);
+            // 
+            // layoutControlItem7
+            // 
+            this.layoutControlItem7.Control = this.textBox91;
+            this.layoutControlItem7.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.layoutControlItem7.CustomizationFormText = "layoutControlItem6";
+            this.layoutControlItem7.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem7.Name = "layoutControlItem7";
+            this.layoutControlItem7.Size = new System.Drawing.Size(534, 24);
+            this.layoutControlItem7.Text = "İstifadəçi adı:";
+            this.layoutControlItem7.TextSize = new System.Drawing.Size(70, 13);
+            // 
+            // layoutControlItem8
+            // 
+            this.layoutControlItem8.Control = this.textBox10;
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 48);
+            this.layoutControlItem8.Name = "layoutControlItem8";
+            this.layoutControlItem8.Size = new System.Drawing.Size(534, 24);
+            this.layoutControlItem8.Text = "Şifrə:";
+            this.layoutControlItem8.TextSize = new System.Drawing.Size(70, 13);
+            // 
+            // layoutControlItem9
+            // 
+            this.layoutControlItem9.Control = this.textBox101;
+            this.layoutControlItem9.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.layoutControlItem9.CustomizationFormText = "layoutControlItem8";
+            this.layoutControlItem9.Location = new System.Drawing.Point(0, 72);
+            this.layoutControlItem9.Name = "layoutControlItem9";
+            this.layoutControlItem9.Size = new System.Drawing.Size(534, 319);
+            this.layoutControlItem9.Text = "POS baza adı:";
+            this.layoutControlItem9.TextSize = new System.Drawing.Size(70, 13);
+            // 
             // layoutControlGroup3
             // 
             this.layoutControlGroup3.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
@@ -235,13 +352,6 @@
             this.layoutControlGroup3.Size = new System.Drawing.Size(580, 435);
             this.layoutControlGroup3.Text = "Cihaz məlumatları";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(106, 112);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(470, 20);
-            this.textBox1.TabIndex = 14;
-            // 
             // layoutControlItem12
             // 
             this.layoutControlItem12.Control = this.textBox1;
@@ -250,13 +360,6 @@
             this.layoutControlItem12.Size = new System.Drawing.Size(556, 24);
             this.layoutControlItem12.Text = "Cihaz nömrəsi:";
             this.layoutControlItem12.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(106, 136);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(470, 20);
-            this.textBox3.TabIndex = 15;
             // 
             // layoutControlItem14
             // 
@@ -267,13 +370,6 @@
             this.layoutControlItem14.Text = "Kassa adı:";
             this.layoutControlItem14.TextSize = new System.Drawing.Size(70, 13);
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(106, 160);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(470, 20);
-            this.textBox4.TabIndex = 16;
-            // 
             // layoutControlItem15
             // 
             this.layoutControlItem15.Control = this.textBox4;
@@ -282,13 +378,6 @@
             this.layoutControlItem15.Size = new System.Drawing.Size(556, 24);
             this.layoutControlItem15.Text = "Şöbə №:";
             this.layoutControlItem15.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(106, 184);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(470, 20);
-            this.textBox5.TabIndex = 17;
             // 
             // layoutControlItem16
             // 
@@ -299,13 +388,6 @@
             this.layoutControlItem16.Text = "Şöbə adı";
             this.layoutControlItem16.TextSize = new System.Drawing.Size(70, 13);
             // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(106, 208);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(470, 20);
-            this.textBox6.TabIndex = 18;
-            // 
             // layoutControlItem17
             // 
             this.layoutControlItem17.Control = this.textBox6;
@@ -314,13 +396,6 @@
             this.layoutControlItem17.Size = new System.Drawing.Size(556, 24);
             this.layoutControlItem17.Text = "Şirkət adı:";
             this.layoutControlItem17.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(106, 232);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(470, 20);
-            this.textBox7.TabIndex = 19;
             // 
             // layoutControlItem18
             // 
@@ -331,74 +406,6 @@
             this.layoutControlItem18.Text = "Şirkət VÖEN-i:";
             this.layoutControlItem18.TextSize = new System.Drawing.Size(70, 13);
             // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(686, 112);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(448, 20);
-            this.textBox9.TabIndex = 21;
-            // 
-            // layoutControlItem6
-            // 
-            this.layoutControlItem6.Control = this.textBox9;
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(534, 24);
-            this.layoutControlItem6.Text = "HOST adı:";
-            this.layoutControlItem6.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // textBox91
-            // 
-            this.textBox91.Location = new System.Drawing.Point(686, 136);
-            this.textBox91.Name = "textBox91";
-            this.textBox91.Size = new System.Drawing.Size(448, 20);
-            this.textBox91.TabIndex = 21;
-            // 
-            // layoutControlItem7
-            // 
-            this.layoutControlItem7.Control = this.textBox91;
-            this.layoutControlItem7.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.layoutControlItem7.CustomizationFormText = "layoutControlItem6";
-            this.layoutControlItem7.Location = new System.Drawing.Point(0, 24);
-            this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(534, 24);
-            this.layoutControlItem7.Text = "İstifadəçi adı:";
-            this.layoutControlItem7.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(686, 160);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(448, 20);
-            this.textBox10.TabIndex = 22;
-            // 
-            // layoutControlItem8
-            // 
-            this.layoutControlItem8.Control = this.textBox10;
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 48);
-            this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(534, 24);
-            this.layoutControlItem8.Text = "Şifrə:";
-            this.layoutControlItem8.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // textBox101
-            // 
-            this.textBox101.Location = new System.Drawing.Point(686, 184);
-            this.textBox101.Name = "textBox101";
-            this.textBox101.Size = new System.Drawing.Size(448, 20);
-            this.textBox101.TabIndex = 22;
-            // 
-            // layoutControlItem9
-            // 
-            this.layoutControlItem9.Control = this.textBox101;
-            this.layoutControlItem9.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.layoutControlItem9.CustomizationFormText = "layoutControlItem8";
-            this.layoutControlItem9.Location = new System.Drawing.Point(0, 72);
-            this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(534, 319);
-            this.layoutControlItem9.Text = "POS baza adı:";
-            this.layoutControlItem9.TextSize = new System.Drawing.Size(70, 13);
-            // 
             // layoutControlItem19
             // 
             this.layoutControlItem19.Control = this.textBox8;
@@ -407,13 +414,6 @@
             this.layoutControlItem19.Size = new System.Drawing.Size(556, 247);
             this.layoutControlItem19.Text = "ERP bazası:";
             this.layoutControlItem19.TextSize = new System.Drawing.Size(70, 13);
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(106, 256);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(470, 20);
-            this.textBox8.TabIndex = 20;
             // 
             // CreatePOS
             // 
@@ -426,7 +426,6 @@
             this.Name = "CreatePOS";
             this.Ribbon = this.ribbon;
             this.Text = "Kassa avadanlıq qeydiyyatı";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CreatePOS_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
@@ -434,6 +433,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
@@ -441,10 +444,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

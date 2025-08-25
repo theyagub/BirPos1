@@ -888,6 +888,7 @@ namespace BirPos1
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("LoginForm.IconOptions.Image")));
             this.Name = "LoginForm";
             this.Text = "Giriş pəncərəsi";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
