@@ -41,13 +41,13 @@
     <Reference Include="DevExpress.Data.v25.1" />
     <Reference Include="DevExpress.Utils.v25.1" />
     <Reference Include="DevExpress.Sparkline.v25.1.Core" />
-    <Reference Include="DevExpress.XtraBars.v25.1, Version=25.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v25.1" />
     <Reference Include="DevExpress.Printing.v25.1.Core" />
     <Reference Include="DevExpress.Drawing.v25.1" />
-    <Reference Include="DevExpress.XtraGrid.v25.1, Version=25.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v25.1, Version=25.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraPrinting.v25.1, Version=25.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -143,38 +143,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbModelEF\BaseObject.cs" />
-    <Compile Include="DbModelEF\Customer.cs" />
-    <Compile Include="DbModelEF\DataContext.cs" />
-    <Compile Include="DbModelEF\Discount.cs" />
-    <Compile Include="DbModelEF\Enums.cs" />
-    <Compile Include="DbModelEF\Payment.cs" />
-    <Compile Include="DbModelEF\Permission.cs" />
-    <Compile Include="DbModelEF\ProductStock.cs" />
-    <Compile Include="DbModelEF\Return.cs" />
-    <Compile Include="DbModelEF\Role.cs" />
-    <Compile Include="DbModelEF\RolePermission.cs" />
-    <Compile Include="DbModelEF\Sale.cs" />
-    <Compile Include="DbModelEF\ProductCategory.cs" />
-    <Compile Include="DbModelEF\Product.cs" />
-    <Compile Include="DbModelEF\SaleItem.cs" />
-    <Compile Include="DbModelEF\Seller.cs" />
-    <Compile Include="DbModelEF\Settings.cs" />
-    <Compile Include="DbModelEF\User.cs" />
-    <Compile Include="DbModelEF\UserRole.cs" />
+    <Compile Include="DBModelEF_Main\ApplicationVersion.cs" />
+    <Compile Include="DBModelEF_Main\BaseObject.cs" />
+    <Compile Include="DBModelEF_Main\Campaign.cs" />
+    <Compile Include="DBModelEF_Main\CampaignContragent.cs" />
+    <Compile Include="DBModelEF_Main\CampaignNoList.cs" />
+    <Compile Include="DBModelEF_Main\Cashier.cs" />
+    <Compile Include="DBModelEF_Main\CashierPermission.cs" />
+    <Compile Include="DBModelEF_Main\CashLoginHistory.cs" />
+    <Compile Include="DBModelEF_Main\Contragent.cs" />
+    <Compile Include="DBModelEF_Main\DataContext.cs" />
+    <Compile Include="DBModelEF_Main\DisplayDocument.cs" />
+    <Compile Include="DBModelEF_Main\DocumentAuthorizedHistory.cs" />
+    <Compile Include="DBModelEF_Main\DocumentBase.cs" />
+    <Compile Include="DBModelEF_Main\DocumentDetail.cs" />
+    <Compile Include="DBModelEF_Main\DocumentGifHistory.cs" />
+    <Compile Include="DBModelEF_Main\OtpHistory.cs" />
+    <Compile Include="DBModelEF_Main\PriceType.cs" />
+    <Compile Include="DBModelEF_Main\Product.cs" />
+    <Compile Include="DBModelEF_Main\ProductBarcode.cs" />
+    <Compile Include="DBModelEF_Main\ProductCustomPrice.cs" />
+    <Compile Include="DBModelEF_Main\ProductExtraCode.cs" />
+    <Compile Include="DBModelEF_Main\ProductPrice.cs" />
+    <Compile Include="DBModelEF_Main\ReportData.cs" />
+    <Compile Include="DBModelEF_Main\Seller.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="CreatePOS.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CreatePOS.Designer.cs">
       <DependentUpon>CreatePOS.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202508251022300_PendingChanges.cs" />
+    <Compile Include="Migrations\202508251022300_PendingChanges.Designer.cs">
+      <DependentUpon>202508251022300_PendingChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="services.cs" />
     <Compile Include="Qaralama.cs">
       <SubType>Form</SubType>
@@ -196,12 +205,15 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="XtraForm1.cs">
+    <Compile Include="Klaviatura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XtraForm1.Designer.cs">
-      <DependentUpon>XtraForm1.cs</DependentUpon>
+    <Compile Include="Klaviatura.Designer.cs">
+      <DependentUpon>Klaviatura.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Migrations\202508251022300_PendingChanges.resx">
+      <DependentUpon>202508251022300_PendingChanges.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Qaralama.resx">
       <DependentUpon>Qaralama.cs</DependentUpon>
     </EmbeddedResource>
@@ -227,8 +239,8 @@
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XtraForm1.resx">
-      <DependentUpon>XtraForm1.cs</DependentUpon>
+    <EmbeddedResource Include="Klaviatura.resx">
+      <DependentUpon>Klaviatura.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="packages.config" />

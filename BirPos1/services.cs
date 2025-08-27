@@ -115,11 +115,156 @@ namespace BirPos1
         }
         public enum DocumentType
         {
+            [Display(Name = "Satış")]
             Sale = 1,
-            Return = 2,
-            HF = 3,
-            Queue = 4,
-            Cancelled = 5
+            [Display(Name = "Qaytarma")]
+            Return,
+            [Display(Name = "Növbədə olan çek")]
+            Queue,
+            [Display(Name = "Hesab faktura")]
+            HF,
+            [Display(Name = "Qiymət razılaşma")]
+            QRP,
+            [Display(Name = "Ləğv olunmuş sənəd")]
+            Cancel,
+            [Display(Name = "X çapı")]
+            x,
+            [Display(Name = "Daxili istifadə aktı")]
+            InternalUse
+        }
+        public enum EnumCashierPermission
+        {
+            [Display(Name = "Satış sənədin təsdiq edə bilər")]
+            Sale = 1, //Satis ede biler
+            [Display(Name = "Qaytarma sənədi yaza bilər")]
+            Return, //Qayarma ede biler
+            [Display(Name = "Sənədi növbəyə əlavə edə bilər")]
+            AddQueue, //Novbeye elave ede biler
+            [Display(Name = "Sənədi növbədən geri yükləyə bilər")]
+            RestoreQueue, //Novbeden geri yukleye ede biler
+            [Display(Name = "Müştəri seçimi edə bilər")]
+            SelectContragent, //Musteri secimi ede biler
+            [Display(Name = "Satıcı seçimi edə bilər")]
+            SelectSeller, //Satici secimi ede biler
+            [Display(Name = "Sətir silə bilər")]
+            DeleteRow, //Setir sile ede biler
+            [Display(Name = "Miqdar dəyişikliyi edə bilər")]
+            ChangeQuntity, //Miqdar deyise ede biler
+            [Display(Name = "Qiymət endirimi edə bilər")]
+            PlusPrice, //Qiymet artimi ede biler
+            [Display(Name = "Qiymət artımı edə bilər")]
+            MinusPrice, //Qiymet Endirimi ede biler
+            [Display(Name = "Məhsul axtarışı edə bilər")]
+            SearchProduct, //Mehsul atarisi ede biler
+            [Display(Name = "Tarixcəyə baxa bilər")]
+            ViewHistory, //Tarixceye baxa bilsin
+            [Display(Name = "Hesab fakturanı satışa edə bilər")]
+            ConvertHfToSale, //HF satisa cevir
+            [Display(Name = "Hesab fakturan çap edə bilər")]
+            PrintHF, //HF satisa cevir
+            [Display(Name = "Qiymət razılaşma çap edə bilər")]
+            PrintQRP, //HF satisa cevir
+            [Display(Name = "X çap edə bilər")]
+            PrintX, //HF satisa cevir,
+            [Display(Name = "Satışdan əvvəl müştəri borcu yoxlanmasın")]
+            NotSaleBeforeContragentDebtRefresh, //Satisdan evvel borcu yoxla
+            [Display(Name = "Sənədi ləğv edə bilər")]
+            CancelDocument, //Cek legv ede biler
+            [Display(Name = "Məhsul axtardan satışa məhsul əlavə edə bilsin")]
+            AddProductToProductSearch
+        }
+
+        public enum UpdateDataType
+        {
+            [Display(Name = "Müştərilər")]
+            Contragent,
+            [Display(Name = "Məhsullar")]
+            Product,
+            [Display(Name = "Barkodlar")]
+            Barcode,
+            [Display(Name = "Satış qiymətləri")]
+            Price,
+            [Display(Name = "Satıcılar")]
+            Seller,
+            [Display(Name = "Kampaniyalar")]
+            Campaign,
+            [Display(Name = "Xüsusi satış qiymətləri")]
+            CustomPrice,
+            [Display(Name = "Kassirlər")]
+            Cashier,
+            [Display(Name = "Çap formaları")]
+            ReportData,
+            [Display(Name = "Proqamı yenilə")]
+            UpdateApplication
+        }
+
+        public enum AppType
+        {
+            API,
+            POS,
+            MASTER
+        }
+
+        public enum UpdateType
+        {
+            [Display(Name = "Ofisdən yenilənmə edilib")]
+            BackOfiss,
+            [Display(Name = "Kassa özün avto yeniləyib")]
+            CashAutoRefresh
+        }
+
+
+
+        public enum CampaignApplyContragentType
+        {
+            [Display(Name = "Bütün müştərilər")]
+            All = 1,
+
+            [Display(Name = "Yalnız seçilmiş müştərilər")]
+            SelectedContragent,
+
+            [Display(Name = "Seçilmişlərdə olan müştərilərdən başqa")]
+            NonSelectedContragent
+        }
+
+        public enum CampaignApplyDocumentTotalAmount
+        {
+            [Display(Name = "Nəzərə alınsın")]
+            Consider = 1,
+
+            [Display(Name = "Nəzərə alınmasın")]
+            Disregard
+        }
+
+        public enum CampaignCriteriaType
+        {
+            [Display(Name = "Məhsul kodu")]
+            ProductCode = 1,
+            [Display(Name = "Məhsul marka kodu")]
+            ProductBrandCode,
+            [Display(Name = "Məhsul barkodu")]
+            Barcode,
+            [Display(Name = "Məhsul xüsusi kodu")]
+            ExtraCode
+        }
+
+
+        public enum CampaignGifType
+        {
+            [Display(Name = "% - ilə")]
+            Percentage = 1,
+
+            [Display(Name = "Məbləğ ilə")]
+            Amount
+        }
+
+
+        public enum CashLoginType
+        {
+            [Display(Name = "Daxil oldu")]
+            Login = 1,
+            [Display(Name = "Çıxış etdi")]
+            Logout = 2
         }
         public enum LoginType
         {
